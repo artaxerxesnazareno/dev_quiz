@@ -1,0 +1,6107 @@
+A CIDADE NO BRASIL
+A CIDADE NO BRASIL
+Agora a gente vai começar a NLW com um nome bem diferente
+NLW Together
+Uma edição totalmente especial para vocês
+Com altas coisas acontecendo no meio do processo
+Com várias novidades
+Então bora lá entender o que a gente vai estar fazendo aqui dentro do Flutter
+Antes de mais nada
+Uma coisa importante
+Dar as boas-vindas
+A todos vocês
+Que estão chegando aqui na NLW
+Eu estou muito feliz de estar aqui
+Produzindo mais uma NLW
+Para vocês
+A gente vai criar um conteúdo incrível aqui
+Utilizando essa toolkit
+Incrível
+Que é o Flutter
+Seguinte
+É legal né
+A gente
+Já está na segunda NLW de Flutter
+Então para quem está chegando agora
+Vai ser muito legal né
+Conhecer
+E para quem está chegando agora no Flutter
+Vai ter uma semana
+Para conhecer o Flutter
+Vai ser muito legal
+E para quem já fez a NLW passada
+Vai perceber que a gente está
+Com add-ons
+Nessa NLW
+Utilizando coisas a mais
+Aqui no nosso processo
+Para ser aquele processo de aprendizado contínuo né
+Então
+Entrou mais uma NLW
+Não vou fazer
+Porque eu vou aprender alguma coisa
+Que não tinha na NLW passado
+E a gente vai fazer isso aqui
+Uma coisa ilegal
+É o que?
+Overview da trilha
+Ó
+Eu tenho uns checkzinhos aqui
+Porque eu vou mostrar para vocês
+Deixa eu só mostrar para vocês
+Eu tenho um checkzinho aqui
+Das coisas da NLW
+Né
+Então finalmente chegou o momento
+Boas-vindas
+E aqui a gente vai falar um pouquinho
+Do overview da trilha
+O seguinte
+É
+Essa trilha
+Teve um conteúdo
+Votado
+Por vocês
+E esse conteúdo
+Teve como foco
+É
+Da gente
+Utilizar um recurso
+Muito
+Legal
+Dentro do Flutter
+Que eu tenho certeza
+Que vocês
+São apaixonados
+Por utilizar
+Qual recurso que é esse?
+O recurso
+Se chama
+Animações
+Pera aí
+Vou repetir de novo para vocês
+Animações
+Exatamente
+O foco da NLW
+É a gente aprender
+A criar
+Animações
+Só que a gente nunca vai aprender
+Só criar animações
+Ah vamos colocar um container ali
+Vamos colocar alguma coisa assim
+Vamos colocar um quadrado
+Na tela rodando
+Não
+A gente vai aprender
+A aplicar animações
+Em uma aplicação real
+Para mostrar para vocês
+O quão
+Importante
+É a gente
+Colocar animações
+Que vai entregar
+Uma experiência
+Para o usuário
+Sabe aquela experiência
+Daqueles apps
+Muito bem construídos
+Que você abre
+E fica com vontade
+De utilizar
+Todos os dias
+Exatamente isso
+Que vai acontecer
+Aqui
+A gente vai
+Aprender a criar
+Animações
+Incríveis
+Que vão dar
+Aquele toquinho
+De sutileza
+No seu app
+E dar aquela experiência
+Para o usuário
+Que é algo muito importante
+Para a gente
+Que é do rumo
+Do ramo mobile
+Principalmente
+Para a galera do mobile
+Que entregar
+A experiência
+Do usuário
+É muito importante
+E isso faz com que
+O seu app
+Ganhe uma larga escala
+Comece a um monte
+De gente utilizar
+E começar
+Aqueles negócios
+Bombásticos
+Você começa a ter
+Um milhão de usuários
+Do nada
+No seu aplicativo
+E cai o servidor
+Cai tudo
+Porque não tinha
+Você não estava preparado
+Estava esperando
+Acontecer aquela loucura
+Isso normalmente
+Dependendo aí
+Do projeto
+Dependendo das coisas
+Já deve ter acontecido
+Por aí
+Aí já aconteceu
+Em projetos
+Que eu já
+Vivenciei
+Já me contaram
+Que do nada
+Deu um boom
+Não do nada
+Teve marketing
+Teve as coisas
+Deu um boom gigantesco
+No app lá
+E deu uns probleminhas
+No servidor
+Animações
+É um assunto
+Muito legal
+E a gente vai ver
+Dentro aqui da trilha
+O quanto que
+Ter animações
+No nosso app
+É importante
+Mas aí
+Vamos lá
+O foco
+É animações
+É
+Mas eu sei
+Que vocês não estão aqui
+Só para aprender animações
+Vocês estão aqui
+Para aprender
+A criar mais uma aplicação
+Tenho certeza disso
+Então a gente vai
+Aplicar animações
+Em um projeto real
+Que a gente vai construir
+Nesses 5 dias
+De NLW
+Então beleza
+Olha
+Overview
+Da trilha
+No jeito
+Deixa eu colocar
+Aqui para vocês
+Para ficar mais fácil
+Então a gente já tem
+Aqui o overview
+Agora a gente tem aqui
+O que faremos
+Nessa aula
+Essa aula
+É uma aula
+Que está
+Qual é o título
+O título
+Primeiros passos
+Com Dart
+E Flutter
+Então é uma aula
+Especificamente
+Para a gente
+Aprender
+A dar
+Os primeiros passos
+Então é uma aula
+Totalmente
+Introdutória
+Então o que a gente vai aprender
+A gente vai olhar
+Para a documentação
+Do Flutter
+A gente vai ver
+A gente vai ver lá
+Os processos
+De instalar
+Os seus aplicativos
+Instalar o SDK
+Do Flutter
+Instalar o SDK
+Do Dart
+A gente vai aprender
+A criar
+O primeiro arquivo
+Em Dart
+A primeira função
+A primeira classe
+E aí a gente vai
+Entrar
+Depois que a gente
+Aprender isso
+A gente começa
+A utilizar o toolkit
+Que é o Flutter
+Então o Dart
+É a linguagem
+E o toolkit
+É o Flutter
+Ou seja
+É um conjunto
+De ferramentas
+Para a gente criar
+Aplicações
+Multiplataformas
+Agora a gente nem fala
+Mais de Flutter
+Falando de mobile
+Porque agora
+Tem desktop
+Na stable
+Tem
+Web
+Na stable
+Mobile
+Então assim
+Não faz nem sentido
+A gente só falar
+Que o Flutter
+Agora é só mobile
+A gente tem que falar
+Que o Flutter
+É sim
+Uma tecnologia
+Multiplataforma
+E é por isso
+Que esse nome
+É muito interessante
+Google UI Toolkit
+Se você abriu
+A documentação do Flutter
+Você vai ver lá
+Que está falando
+Google UI Toolkit
+Porque ele é
+Uma ferramenta
+Incrível
+Para a gente entregar
+Essas user interfaces
+As interfaces
+De usuário
+Para os nossos usuários
+Beleza
+Então
+O que faremos
+Nessa trilha
+Deixa eu voltar
+Vou botar aqui na tela
+Para dar o check
+Também que é importante
+Falar que sou eu
+Até agora
+Não me apresentei
+Para vocês
+Para quem não me conhece
+Prazer
+Gabudev
+E eu quero contar
+Um pouquinho
+Da minha história
+Com o Flutter
+Para vocês
+Eu comecei com o Flutter
+Lá em 2018
+Na primeira versão beta
+Lançou a primeira versão
+Do Flutter beta
+Ali
+Eu estava
+Num estágio
+Tive a possibilidade
+Dentro desse estágio
+De escolher
+Alguma tecnologia
+Multiplataforma
+Conheci o Flutter
+Pesquisando
+No Google
+Sobre coisas
+Apareceu um anúncio
+Do Google
+Falando sobre Flutter
+E aí eu cliquei
+Nesse anúncio
+E aí eu comecei
+Desde então
+Foi em fevereiro
+De 2018
+Desde lá
+Todos os dias
+Da minha vida
+É Flutter
+E aí
+No meio desse processo
+Todo
+Brincando com o Flutter
+Conheci com outras galeras
+Fundamos ali
+A Flutterando
+A maior comunidade
+De Flutter
+Da América Latina
+E aí
+Da Flutterando
+As coisas foram
+Crescendo
+Estratosfericamente
+Gigantescos
+A gente está gigante
+Hoje a comunidade
+Gigantesca
+E no meio disso
+Já trabalhei com
+Projetos de seguradora
+Projetos de banco
+Projetos de financeiras
+Então trabalhei com
+Várias coisas
+Tenho projetos pessoais
+Também
+Já rodando em produção
+Eu sou uma pessoa
+Totalmente focada
+Em Flutter
+E como que eu iniciei
+Às vezes na programação
+Que é interessante
+A gente contar também
+Eu sempre fui uma pessoa
+Que gostava
+De entender de computador
+Então o meu primeiro código
+Que eu fiz na minha vida
+Foi um servidor de GTA San Andreas
+Então não sei se vocês
+Já jogaram GTA San Andreas
+Foi meu primeiro código ali
+Servidor
+Aí comecei a criar
+Servidor de chip
+Servidor de tudo
+Qualquer jogo online
+Eu queria criar
+Para codar
+E ver aqueles processos
+E no meio disso
+Entrei na faculdade
+De engenharia de computação
+E lá na faculdade
+Eu fiz uma disciplina
+Dispositivos móveis
+E aí nessa disciplina
+Com o professor Walter Nagai
+Eu tive a introdução
+Ao mobile
+E ali foi onde
+Foi minha paixão
+De primeira vista
+Então desde lá
+Flutter
+O mobile para mim
+É a minha paixão
+É a minha tecnologia
+É o meu ramo
+Que eu gosto de atacar
+Que eu gosto de utilizar
+Todos os dias
+E aí por conta disso
+Entre vários motivos
+Conheci o Flutter
+E estudei muito
+Foquei muito no Flutter
+E agora estou aqui
+Compartilhando o conteúdo
+Com vocês
+Porque o Flutter
+Está, vamos dizer assim
+Correndo nas minhas veias
+Desde então
+Então todos os dias
+Eu trabalho
+E também produzo
+O conteúdo para vocês
+Com o Flutter
+A tecnologia é o que eu gosto
+Então beleza
+Eu me apresentei aqui
+Para vocês
+É uma apresentação
+Bem rápida
+Vamos lá
+Vamos dar uma olhada
+Aqui
+Numas coisas bem interessantes
+Seguinte
+Deixa eu voltar aqui
+A tela
+Isso
+A gente tem algumas dicas
+Aqui muito importantes
+Para passar para vocês
+Que é o seguinte
+A gente está
+Numa semana
+A gente vai entrar
+Numa semana
+Que é a primeira aula
+Dessa semana
+Onde nessa semana
+Vamos ter cinco dias
+De conteúdo
+Normalmente esses conteúdos
+São os conteúdos ali
+Mais extensos
+Então a gente tem que estar
+Com algumas dicas aqui
+Para passar para vocês
+Chegarem até o final
+Dessa semana
+Com esse desafio cumprido
+E com uma coisa
+Muito importante
+Que eu vou citar para vocês
+Dicas para chegar
+Até o fim
+A nossa comunidade
+No Discord
+Então é o seguinte
+Primeira coisa
+Está aqui na aula
+Pausa a aula
+E vai lá
+Agora
+Já entra no Discord
+Da comunidade
+Da Rocket City
+E aí a gente já vai estar
+Na comunidade
+Lá
+Com milhares de pessoas
+Para auxiliar
+Na NLW
+Isso é muito legal
+Então a gente vai estar
+Na comunidade
+Como tirar dúvidas técnicas
+E uma coisa
+Duas coisas
+Que está escrito aqui
+Que é muito importante
+Para quem está
+Na carreira tech
+Se conecte
+Com mais devs
+Se apresente
+No network
+Porque esse canal
+É um canal
+Que você vai ter a possibilidade
+De se apresentar
+Falar o que você está
+O que você faz
+Essas coisas
+O que você gosta de fazer
+Porque nesse canal
+Tem
+Sabe aquele negócio
+No futebol
+Que falam de olheiros
+Então
+Nesse canal
+É onde você começa
+A se apresentar
+Para várias pessoas
+Se conectarem com você
+E aí nesse processo
+De conexão
+Você pode
+Arrumar um trabalho
+Você pode
+Arrumar um frila
+Você pode
+Arrumar amizade
+Conhecer outras pessoas
+Então
+Participar
+Do canal
+No Discord
+Para tirar
+As dúvidas técnicas
+Se conectar
+Com mais devs
+Se apresente
+No canal
+De network
+E aí
+A gente tem
+Algumas coisas
+Aqui muito importantes
+Para a gente
+Terminar de falar
+Antes
+Porque eu sei
+Que vocês
+Estão aqui
+Com o propósito
+Mais importante
+Da sala de hoje
+É apresentar
+Para vocês o projeto
+Porque eu já recebi direct
+Já recebi mensagem
+No LinkedIn
+Já recebi
+Mensagem no Discord
+Perguntando
+O que vai ter
+Na CLW
+O que vai ter
+Mas eu segurei
+A surpresa
+Para falar
+Daqui a pouquinho
+Faltam uns minutinhos
+Só aguarde
+Faz o seguinte
+Vamos fazer uma pausa
+Beber uma água
+Se hidratar
+E aí a gente
+Continua agora
+Desafios
+Com prêmios exclusivos
+Do evento
+Então
+Como que funciona isso
+Toda aula
+A gente vai
+No final dessa aula
+Vai ter um código
+Que eu vou dizer
+Para vocês
+E aí esse código
+Vocês vão pegar
+Sei lá
+Pega um post-it
+Tira uma print
+Salva esse código
+De algum lugar
+Porque você vai utilizar
+Esse código
+Na nossa plataforma
+Para fazer os processos
+De desafios
+Para no final
+Desse evento
+Você vai concluir
+Esse evento
+E vai ter
+Vai ter prêmios
+Exclusivos
+Um código
+Em cada aula
+E até o fim
+Ficar atentos
+Aos e-mails
+Da comunidade
+Isso que é muito importante
+Porque é o seguinte
+A gente vai mandar
+Manda muita coisa
+Para vocês
+Muita coisa assim
+Coisas importantes
+No seu e-mail
+Então sempre
+Está com o seu e-mail
+Ali
+Direitinho
+Com as notificações
+Funcionando
+Para você não perder
+Nada nessa semana
+É muito importante
+Se preparar
+Por isso que o evento
+É divulgado
+Com antecessência
+Para vocês se prepararem
+Para o horário do evento
+Para ficar tudo no jeito
+Para a gente
+Ir juntos
+Para o próximo nível
+Então beleza
+Um código em cada aula
+E até o fim
+Aí vocês podem estar
+Se perguntando
+Mas o que é o prêmio
+Galera
+Eu também estou muito ansioso
+Para saber qual é o prêmio
+Então
+Fique aí no ar
+Então provavelmente
+No meio dos processos
+Vocês vão saber
+Qual é o prêmio
+Que vocês vão ter direito
+Ou quais prêmios
+Que estão
+Na disputa
+Da NLW
+Beleza
+Agora
+A gente vai entrar no que?
+No tão esperado
+Momento
+Da NLW
+De Flutter
+Qual o aplicativo
+Que vamos fazer
+Gabul
+Agora eu digo para vocês
+Qual o aplicativo
+Que a gente vai fazer
+Então vamos lá
+Ó
+Tantantantã
+Estamos abrindo aqui
+O Figma
+Ó
+Abriu
+Um appzinho
+Aqui bacana
+Né
+Vocês estão vendo
+Que tem algumas coisas
+Aqui bem legais
+Da gente fazer
+Então vamos lá
+Vamos dar um zoom
+Aqui
+Para a gente começar
+Ó
+Olá Dev
+Bem-vindo ao projeto
+Payflow
+Olha o nome
+Legal né
+E aí
+Quem orquestrou
+Esse Figma
+Maravilhoso
+Foi nada mais
+Nada que
+O Thiago
+Tiago está aí
+Sempre nos ajudando
+Criando interfaces
+Incríveis
+Nos desafiando
+Criando essas interfaces
+Incríveis
+Falando assim
+Hum
+Será que dá para fazer
+Isso aí no Flutter
+Vamos mostrar para ele
+Nesses 5 dias
+Que a gente consegue
+Então vamos lá
+Ó
+Aqui
+A gente vai ter
+O nosso app
+Onde a gente vai ter
+Uma tela bem simples
+A gente vai ter a splash
+Do nosso aplicativo
+Deixa eu colocar um zoom
+Aqui
+Para ficar melhor
+A gente vai ter a splash
+Da splash
+Vai vir para cá
+E olha que legal
+O nosso aplicativo
+Vai ter login
+Google
+O que a gente está
+A gente está indo
+Muito para esse lado
+De login Google
+Porque olha
+Olha quantos apps
+Hoje
+Que vocês
+Utilizam
+Apps
+Tira app bancário
+Tá
+Outros apps aí
+Que você precisa
+Ficar criando
+E-mail e senha
+A maioria
+Utiliza o que
+Login social
+Então o que a gente
+Vai aprender
+A gente aprende o que
+Coisas de mercado
+Então o que a gente
+Vai aprender
+A fazer o login social
+Vamos aqui
+Criar
+A nossa home
+Fez o login
+Deu tudo certo
+A gente vai vir para cá
+Porque o login social
+É uma coisa importante
+A gente consegue
+Pegar o nome
+Do usuário
+E a gente também
+Consegue pegar
+A foto
+De perfil do usuário
+Então a gente vai ter
+Essas informações aqui
+Só com o login social
+Aí aqui ó
+A gente vai ter
+A home do nosso aplicativo
+Agora eu quero explicar
+Para vocês
+O que é o Payflow
+Tá
+O Payflow
+É um aplicativo
+Na real
+Tá até falando aqui né
+É um aplicativo
+Para organizar
+Seus boletos
+Em um só lugar
+Porque normalmente
+Pensa né
+Tá na sua casa
+A vida de adulto
+É o seguinte
+Boleto né
+Então sempre
+Todo dia chega boleto
+Enquanto você não espera
+Tem boleto
+E aí o que a gente pensou
+Às vezes acontece
+Da gente perder esse boleto
+A gente esquece
+De pagar esse boleto
+E aí
+Vamos resolver um problema
+Né
+Porque o objetivo
+De um aplicativo
+Na maioria das vezes
+É resolver um problema
+Não só ser
+Mas o aplicativo
+Então a gente vai criar
+Juntos
+Um aplicativo
+Para gerenciar
+Os boletos
+Da vida adulta
+É
+E aí
+Bateu
+Sabe quando bate
+Aquele negócio
+Que você não queria lembrar
+Que é a parte dos boletos
+Que eu acabei de lembrar
+Aí dá aquela
+Bugada no cérebro
+Então beleza
+Aí aqui
+É um app bem simples
+Mas com várias funcionalidades
+Aí a gente vai ter
+A home
+Onde a gente vai falar
+Para a gente
+Que bem explicitamente
+Bem explícito
+Você tem 14 boletos
+Fica esperto hein
+E aqui a gente vai ter
+Todos os boletos
+Que a gente quer pagar
+Quando a gente clica
+Nesse boleto
+A gente vai falar
+Se a gente pagou
+Esse boleto
+Ou não
+Controle simples
+Mas
+Muito útil
+Por isso que eu falo
+A aplicação é uma coisa
+Muito interessante né
+Porque as vezes
+A gente pensa assim
+Nossa eu tenho que fazer
+Um app que faz um monte de coisa
+Que tem um microondas
+Que faz café
+Que faz um monte de coisa
+Mas espera aí
+Será que ele só
+Gerenciar o meu boleto
+Já me dar a data de vencimento
+Falar quantos boletos
+Que eu tenho que pagar
+Já não resolve o meu problema
+Vai ter aqui
+A questão do boleto
+Normal
+Igual eu tinha comentado
+E aqui a gente vai ter
+Os extratos
+Dos boletos
+Então por exemplo
+Aqui sempre aparecem
+Os boletos principais
+E tudo
+E aqui aparece
+Uma informação de extrato
+Para você ter
+A informação mais clara
+E ter mais espaço de tela
+Porque no extrato
+Não aparece isso aqui
+E a gente não perde
+Tamanho de tela
+Então a gente ganha mais tela
+Para ver mais processos
+E aqui claro né
+Que vai ficar um desafio
+Para vocês
+Porque provavelmente
+Vocês podem estar pensando
+O seguinte
+Mas eu posso melhorar
+Essa utilidade
+Desse extrato
+Como que a gente poderia
+Uma funcionalidade
+Simples
+Que eu deixo como desafio
+Para vocês
+No final da semana
+Na hora que a gente terminar
+O app
+De implementar
+Coloque um filtro mensal
+Aqui
+Por exemplo
+Coloque um filtro
+Aqui para filtrar
+Entre a mês
+Só isso
+Eu quero só ver
+Os boletos do mês
+De julho
+Pronto
+Viu?
+Já estamos aqui
+Apresentando na primeira aula
+Já passando o desafio
+Para vocês
+Fazer no final da semana
+Depois dos cinco dias
+Agora
+Aqui tem a cereja do bolo
+Que eu tenho certeza
+Que vocês devem
+Estar se pensando
+Hum
+O que é
+Essa próxima tela?
+Nada mais
+Nada menos
+Que a famosa
+Tela dos aplicativos
+Bancários
+Que é o leitor
+De boletos bancários
+A gente vai criar
+Um leitor
+De boletos bancários
+Sim
+Aqui na NLW
+A gente vai aprender
+A também
+A manipular
+Uma câmera
+Ler aquela imagem
+E pegar o código de barra
+Viu que massa, né?
+Então assim
+Eu estou falando com vocês
+Galera
+A gente
+Esse NLW
+Aqui está muito top
+Então beleza
+E aqui
+Onde você coloca
+O boleto
+Se você não conseguir
+Ler o boleto
+Se der alguma coisa errada
+Você pode digitar
+O código diretamente
+E aí quando a gente
+Ler e pegar o código certo
+A gente já vai inserir
+Aqui
+No nosso text field
+Então aqui
+Você diz qual que é
+O nome desse boleto
+Apelido
+Alguma coisa assim
+A data que esse boleto
+Vai vencer
+O valor desse boleto
+E o código de barra
+E a gente cadastra
+Depois que a gente cadastrar
+Ele vai ficar aqui
+Na nossa home
+Então assim
+Olha que legal, galera
+A gente vai criar
+Um aplicativo
+Para ajudar você
+A gerenciar os seus boletos
+Ou se você não gerencia
+Se é outra pessoa
+Você pode
+Olha
+Fiz esse app aqui
+Tomei para você gerenciar
+Os seus boletos
+Todo mês
+Olha que massa, galera
+Não, pode falar
+Esse aplicativo
+Ficou maravilhoso
+E aí a gente vai pegar
+Esse aplicativo aqui
+E vamos codificá-lo juntos
+Na UI Toolkit do Google
+Que se chama
+Flutter
+Então, bora lá
+A gente foi esse
+Todo esse overview aqui
+A gente viu
+O que a gente tem que fazer
+E bora voltar lá
+Para o Notion
+Para a gente ver
+Os nossos next steps
+Apresentação do projeto
+Agora aqui
+É onde
+O negócio
+Começa a funcionar
+É porque
+Beleza
+A gente falou do Flutter
+Falou de algumas coisas aqui
+Mas ainda
+Eu não sei
+Como é que
+Eu consigo ter acesso
+A esse Flutter
+Como é que eu começo
+A instalar essas coisas
+Então, vamos lá
+Primeira coisa
+Configurando o ambiente
+De desenvolvimento
+Então, para isso
+A gente vai vir aqui
+E vai abrir
+Vai escrever
+Flutter.dev
+Olha isso aqui
+Só a animação
+Da página
+De fundo
+Do Flutter
+Já fala assim
+É
+Esse negócio
+Não é brinquedo não
+Então, beleza
+Quando você abrir
+A tela do Flutter
+Ele vai ter várias
+Coisas interessantes
+Aqui
+Porque essa tela aqui
+Esse site
+Ele também
+Nos fornece
+A documentação do Flutter
+Se a gente clicar
+Aqui no cantinho
+Docs
+Ele vai nos dar
+Um milhão
+De coisas
+Para a gente fazer
+Aqui
+Ele fala
+User interface
+Data back-end
+Acessibilidade
+Plataforma
+Packages
+ADD Flutter
+To Exist App
+Tools
+Features
+Migration Nodes
+Então assim
+A documentação
+Do Flutter
+É maravilhoso
+Tem tudo
+Que a gente precisa
+E aqui
+Tem uma coisa
+Que a gente precisa
+Que é o que
+Get started
+Então a gente clica
+Aqui
+Não
+Olha como
+Que a interface
+Do Flutter
+Não
+O site
+É maravilhoso
+É muito direto
+Instal
+Windows
+MacOS
+Linux
+E olha
+Que legal
+Olha
+Aonde você consegue
+Buildar o Flutter
+Você consegue
+Buildar o Flutter
+Em um Chrome OS
+O negócio
+Está a outro nível
+Sabe aqueles
+Chrome OS
+Aqueles netbookzinhos
+Lá
+E tals
+Que a gente compra
+Aqueles pequenininhos
+Bem portátis
+Para a gente utilizar
+Você pode
+Rodar o Chrome
+Você pode
+Buildar o Flutter
+Dentro de um Chrome OS
+Olha que massa
+Então aqui
+Você vai escolher
+O seu sistema operacional
+O sistema operacional
+Que nós vamos utilizar
+Aqui
+Para gravar
+É um Mac OS
+Então se eu fosse
+Instalar
+Eu ia clicar
+Aqui em Mac OS
+Aqui ele faz
+Todo o processo
+De instalação
+Aí está falando
+A questão dos
+Chips M1
+O que você tem
+Que fazer
+E tals
+Aqui ele ensina
+Tudo o que precisa
+Fazer
+O outro passo
+É
+Se você estiver
+No Windows
+Você pode instalar
+Também
+Seguindo todos
+Esses passos
+Aqui
+Que está dentro
+Do nosso conteúdo
+Então aqui ele explica
+Como que pode fazer
+E tals
+Para facilitar
+Você pode
+Por exemplo
+No Windows
+Tem o
+Flutter
+Install
+Windows
+Choco
+Que é aqui
+Chocolate software
+Aqui é só
+Você vai instalar
+O processo
+Do Flutter
+Você vai instalar
+O Choco
+No seu Windows
+No início
+Você vai rodar
+Esse comando
+Aqui
+E ele já vai
+Instalar o Flutter
+Uma outra
+Opção também
+Para quem
+Utiliza o Mac OS
+É o
+Brawl
+Install
+Flutter
+Então como a gente
+Tem o chocolate
+A gente também
+Tem o processo
+De instalar
+O Flutter
+Via
+Home Brawl
+Aqui também
+Então olha
+Tem muitas
+Ferramentas
+Que vai
+Nos ajudar
+E tem
+O Snap
+Install
+Flutter
+Se eu não me engano
+Também
+Aqui ó
+Install Flutter
+On Linux
+Então a gente tem
+Tanto o Snap
+Como o Chocolater
+Né
+E temos também
+O Brawl
+Então se ninguém
+Quiser fazer
+Esse processo
+De baixar
+E fazer as coisas
+Na mão
+Utiliza um desses
+Três recursos
+Para a sua
+Plataforma
+E pronto
+Vai estar o Flutter
+Já instalado
+Beleza
+Então aqui a gente
+Falou
+Na instalação
+Do Flutter
+Aí tem duas
+Coisas
+Quando a gente
+Instala o Flutter
+Já instala o SDK
+Ali do Dart
+Mas você também
+Pode
+Instalar o SDK
+Link
+Dart
+SDK
+Install
+Instalar
+O SDK
+Do Dart
+Totalmente
+Separado
+Se você quiser
+Criar um projeto
+Só em Dart
+E tudo
+Também quando você
+Baixa o Flutter
+Ele já inclui
+O SDK
+Do Dart
+Mas você quiser
+Só instalar o Dart
+Separadamente
+Você também
+Pode ter a opção
+Também que ele
+Utiliza tanto o Choco
+Quanto o sudo apt-get
+Quanto o macOS
+Com o Braille
+Também para instalar o Dart
+É importante
+É importante
+Falar
+Porque o Flutter
+É o Toolkit
+Mas se você quiser
+Utilizar só o Dart
+Para fazer qualquer coisa
+Você pode instalar
+Só o Dart
+Não precisa ter o Flutter
+Instalado
+Mas quando você
+Instala o Flutter
+Já tem o Dart
+Beleza
+Então primeiro
+Dart SDK
+O TSDK
+Introduzimos aqui
+A questão do Flutter
+Como que funciona
+Como que é
+Os processos
+E aí agora
+A gente vai
+Aprender
+A criar
+A primeira linha
+Com o nosso Dart
+Criando o primeiro
+Arquivo em Dart
+Então para isso
+A gente vai vir aqui
+O nosso VS Code
+Por exemplo
+Eu tenho uma parte
+Chamada nlw-together
+No meu terminal
+Isso aqui fica
+A critério
+Para cada um
+Então eu tenho
+Essa pasta
+Né
+Escrita nlw-together
+E eu vou criar
+Uma pasta nova
+Mkd
+Né
+E aí eu vou criar
+Uma pasta aqui
+Exemplo
+Exemplo Dart
+Então eu vou criar
+O exemplo Dart
+E vou dar um code
+Eu já dei um code
+Sem querer
+É tão automático
+O que é o code
+É para ele abrir
+Aqui o VS Code
+Então com o VS Code
+Aberto
+A gente já está
+Dentro da pasta
+Exemplo Dart
+Aí que a gente vai fazer
+Algumas coisas
+Né
+Está vendo que aqui
+A gente tem
+O nosso projeto
+A gente pode criar
+Uma pastinha aqui
+Ponto VS Code
+Para a gente colocar
+As configurações
+Do VS Code
+O que a gente vai fazer
+É aumentar a fonte
+Do nosso projeto
+Settings.json
+E a gente vai colocar
+Aqui um font
+Size
+16
+Pronto
+Para facilitar
+Para a gente
+Escrever o código
+Tá
+Aí agora
+A gente vai fazer o seguinte
+A gente vai criar
+O nosso primeiro arquivo
+Vindart
+Então a gente vai criar
+Aqui ó
+Clicar
+Se tiver no VS Code
+Né
+Você pode clicar aqui
+Eu utilizo o VS Code
+Né
+Isso é legal falar
+Porque vai ter gente
+Que vai querer utilizar
+O Android Studio
+Utilizar o
+Qualquer outra plataforma
+Não importa
+Né
+Mas o que eu gosto
+De utilizar no meu dia a dia
+Que resolve
+Tudo que eu preciso
+É o VS Code
+Então eu recomendo
+Para quem quiser
+Também utilizar o VS Code
+Mas
+Se vocês acham
+Que já está familiarizado
+Com algum outro editor
+Beleza
+Vai funcionar
+Da mesma forma
+As coisas
+Então a gente vai criar
+Aqui agora
+O primeiro arquivo
+Então vamos criar
+Um arquivo aqui ó
+Main.dart
+Porque main
+Sempre é a função
+Principal né
+Beleza
+Então agora
+A gente tem
+O nosso primeiro arquivo
+Aqui
+Do Dart
+E aí
+Como é que a gente
+Roda um arquivo em Dart
+Né
+Você pode vir aqui
+No terminal
+E aí você pode escrever
+Dart
+E colocar o nome do arquivo
+Main.dart
+Como o nosso
+Arquivo não tem nada
+Não vai rodar
+E aí ó
+Olha o que ele falou
+O programa
+Ele não contém
+A main
+O que é main?
+Main é uma função
+E todo projeto
+Do Dart
+Ele sempre vai iniciar
+A partir dessa função main
+A função principal
+Então a gente vai ter que criar
+Uma função aqui ó
+Main
+Porque a gente criou
+A nossa função main
+Então quando eu criar
+A função main
+Eu posso rodar aqui ó
+Ele vai rodar
+Não vai dar nenhum erro
+Então
+Toda vez que a gente for
+Criar o nosso projeto
+A gente vai ter que criar
+Uma função main
+Então como é que
+Aqui a gente
+Até foi um pouquinho além né
+A gente já criou
+Uma função
+Então vamos lá
+A gente criou
+A nossa função main
+A main é uma função né
+Então o que é uma função
+No Dart
+Uma função ela vai ter
+Ó
+Vou escrever a sintaxe
+Ela vai ter um tipo antes
+Vai ter o nome da função
+Vai ter os parênteses aqui
+Que você pode passar
+Os parâmetros
+E aí você vai abrir
+E fechar as chaves
+Isso aqui é a declaração
+De uma função em Dart
+E então a gente vai criar
+Uma função main
+A função main
+Como é a primeira
+Ela sempre vai ser
+Uma função void
+Então void main
+E a gente vai ter
+A nossa função main aqui
+Então isso aqui
+É o nosso primeiro arquivo né
+Rodando o nosso Dart
+Agora
+A gente pode utilizar
+Pode ir lá no
+Ó
+A gente vai vir aqui ó
+Criando o primeiro arquivo em Dart
+Só que agora
+A gente
+Já tem o nosso projeto aqui
+Em Dart
+Nosso primeiro arquivo
+Né
+Aí a gente vai aprender agora
+Simplesmente a
+Falar assim
+Sabe aquele start da programação
+Que é o que
+O print
+E a gente vai formar o
+Hello
+World
+E aí com o print
+Hello World
+A gente vai rodar
+O famoso
+Hello World
+Aqui no Dart
+E a gente vai
+Agora sim galera
+Agora a gente tá
+No
+Pique
+Pra começar
+A criar
+Nossa aplicação
+Né
+Então agora a gente já fez
+O Hello World
+Já entendemos
+O contexto
+Pra
+Começar
+A mágica da coisa
+Então beleza
+Criamos aqui
+O main.dart
+A gente tem
+O nosso projetinho aqui
+Exemplo.dart
+Só que aqui
+A gente vai fazer
+Algumas coisas antes
+A gente vai pular
+Essa parte
+De criar o primeiro
+Projeto em Flutter
+E a gente vai
+Aprender
+A fazer
+Esses processos
+Aqui do Dart
+Deixa eu só mover
+Isso aqui
+Então agora a gente
+Criou o nosso
+Hello World
+Em Dart
+E agora a gente vai
+Criar
+Uma função
+A gente já até falou
+Na declaração da função
+Mas vamos criar
+Uma função nova
+Função
+Void
+Print
+Hello
+World
+Então
+Eu declarei
+O tipo
+Void
+Ela não vai retornar
+Nenhum tipo
+E agora eu posso
+Chamar o
+Hello World
+Aqui dentro
+Faço isso
+A gente criou
+Mais uma função
+Agora a gente pode
+Chamar essa função
+Dentro da nossa função
+Main
+Então a gente pode
+Vim aqui e chamar
+Print
+Hello World
+No Dart
+Sempre a gente tem
+Que terminar
+Com um ponto e vírgula
+Senão ele vai reclamar
+A gente sempre tem
+Que ter esse
+Contejo de sintaxe
+Então a gente
+Criou uma função
+Ela vai estar funcionando
+Da mesma forma
+Então uma função
+Sempre vai ter um tipo
+Vai ter um nome
+E sempre vai ter um parênteses
+Se a gente não colocar parênteses
+Vai quebrar
+A gente precisa colocar um parênteses
+Porque aqui a gente pode passar
+A gente pode passar uma variável
+Por exemplo
+Variável
+Name
+Mensagem
+VAR
+Mensagem
+E a gente vai passar a mensagem
+Para cá
+Mensagem
+Deu certo
+E a gente pode vir aqui
+Chamar o print
+Então além da gente
+Já ter aprendido
+A criar
+Uma função
+A gente também
+Aprendeu
+Já a criar uma função
+Que pode
+Passar parâmetros
+E aí
+Tem uma coisa muito legal
+Dentro do Dart
+Que além de passar parâmetros
+A gente pode fazer parâmetros
+Do tipo
+Nomeado
+Que é você colocar
+Dar um print
+VAR
+Só que a gente vai colocar isso
+Dentro de
+Dentro de chaves
+E aí quando a gente faz isso
+Esses parâmetros
+Começam a ser nomeados
+O que é parâmetros nomeados
+É quando você chama a função
+Você escreve aqui
+Message
+Dois pontos
+E coloca o valor
+Então quando a gente faz isso
+A gente força
+A gente sabe
+O que a gente está passando
+Então a gente está passando
+Para a variável mensagem
+O deu certo
+Porque às vezes
+Você tem a mensagem
+Você tem o VAR A
+O VAR B
+E aí fica mais fácil
+Sabe quando aquele momento
+Você não sabe
+O que você está passando
+Porque por exemplo
+Eu posso passar B aqui
+A aqui
+Não importa
+Você pode passar a ordem
+Que você quiser
+Mas quando ele chegar
+Lá na função
+Ele vai pegar
+Vai instanciar na A
+Na B
+E na mensagem certinho
+Isso aqui é muito legal
+Porque quando essa função
+Começa a ter mais de um atributo
+Já fica até difícil
+Saber o que ela recebe
+Aí às vezes tem que ficar lá
+Lá na função
+A função recebe uma mensagem
+Um tipo A
+Recebe um A e um B
+Porque se a gente colocar assim
+Olha como é que fica estranho
+É VAR
+Olha como é que você vai passar aqui
+Deu certo
+Aí você vai passar aqui
+Alguma coisa
+E aqui
+Alguma coisa
+E além disso
+Além só disso
+Que eu falei
+Tem um fator muito importante
+Que às vezes você quer criar uma função
+Que você não quer passar todos os parâmetros
+Naquela chamada
+Por exemplo
+Nessa chamada eu quero passar
+Só o primeiro parâmetro
+Só que aqui você não consegue
+Aí qual que vai ser o seu recurso?
+Passar NULL
+Aí as pessoas ficam com aquele monte de NULL
+Fica aquele negócio muito horrível
+De se ler
+E a gente utiliza esse recurso aqui
+Do Dart
+De trabalhar nomeado
+Para também fazer isso
+Porque por exemplo
+Quando eu coloco nomeado
+Olha que legal
+Se eu colocar nomeado
+Eu posso passar a mensagem
+Posso passar o A
+Se eu não quiser passar o A
+Vai estar funcionando
+O link não vai quebrar
+E a gente vai estar funcionando
+Da mesma forma
+Então isso aqui
+É muito legal
+Da gente fazer
+E aí aproveitando a deixa
+É importante também
+A gente sempre trabalhar
+Com o tipo
+Nas variáveis
+Por mais que o Dart
+Tenha a variável par
+Não é legal
+A gente ficar colocando
+A função recebendo o VAR
+Porque a gente pode passar
+Por qualquer coisa
+Por exemplo
+A gente pode passar
+Tanto isso aqui
+Quanto isso aqui
+Pode virar uma array
+E vai estar funcionando
+Do mesmo jeito
+Só que isso
+Para uma função print
+Não tem problema
+E se a gente estivesse
+Por exemplo
+Fazendo algum processo
+De replace aqui
+Porque isso aqui
+É uma função
+Trocando
+O
+O deu
+Por
+Não deu
+A gente está achando
+Que é uma string
+Mas se eu rodar
+Olha vai dar aí
+Porque o replace
+Só existe
+É na string
+Então por isso que é legal
+A gente sempre trabalhar
+Com o tipo
+Então a mensagem
+Eu sei que ela é uma string
+Então eu vou colocar o tipo
+String
+Só que o replace
+Olha nem existe
+Em string
+Qual que é o que
+É o replace
+All
+E aí a gente não vai conseguir
+Mais passar isso aqui
+Então isso é muito legal
+Da gente não trabalhar
+Com o tipo A
+E sempre trabalhar
+Com o tipo específico
+Para a gente não
+É para a gente evitar
+Tipo de erros
+Do tipo
+Ah eu chamei uma função
+Achando que era aquilo
+Mas quebrou
+E aí
+Quando a gente coloca aqui
+VoidPrint
+Hello World
+Ele vai estar
+Ele vai estar
+Falando uma mensagem
+Que essa string
+Ela pode receber
+O valor de nu
+Da forma que está aqui
+A gente consegue
+Passar por exemplo
+Aqui
+Passar nu
+Ele não vai aceitar
+Porque ele está esperando
+O string
+Mas eu posso
+Simplesmente fazer isso aqui
+E a função vai funcionar
+Eu não passei nenhum parâmetro
+Então ele não vai reclamar
+Aí a gente entra aqui
+No conceito
+Do no safety
+Então a gente já vai trabalhar
+Na NNW
+Sempre com o no safety
+Então o que é o no safety
+Ele está me dizendo
+Que a variar
+A string
+Ela pode
+É a mensagem
+Do tipo string
+Pode receber um valor nulo
+Só que a gente não pode
+Receber esse valor nulo
+A gente não quer que isso aconteça
+Ou a gente pode dizer
+Que pode receber
+Colocando aqui
+Só que está vendo
+Que aqui a mensagem
+Vai quebrar
+Porque agora você vai ter que
+Ou verificar
+Do tipo
+If message
+É diferente de nu
+E aí tu vai fazer o processo
+Né
+Message é diferente de nu
+Então por exemplo
+Quando o message é diferente de nu
+Não vai exibir
+Então eu posso passar a mensagem
+Né
+Test
+E aí vai exibir
+A mensagem em teste
+Só que a gente pode também
+Utilizar um outro recurso
+Dentro do Dart
+Que ao invés de
+Ficar trabalhando com esses
+If else
+Essas coisas dentro da função
+A gente pode utilizar
+Um atributo
+Que é o seguinte
+Olha
+Eu quero
+É requerido
+A gente vai utilizar
+O operador required
+Ou seja
+É obrigatório
+Toda vez que você
+Chamar essa função
+Você chamar a mensagem
+E passar o parâmetro
+Deu
+Certo
+E aí ele vai também
+Fazer o processo
+De replace
+Então isso é muito legal
+Né
+A questão do
+No safety
+Tanto da gente
+Colocar a interrogação
+Né
+Quanto da gente
+Ter que verificar
+A gente também
+Deixa o código
+Mais limpo
+Também que agora
+Eu simplesmente
+Coloquei o required
+Agora
+Todo lugar
+Que chamar essa função
+Vai ter que passar
+O valor required
+E aí
+Agora
+Se eu passar null
+Ele também não deixa
+Porque a string
+Não pode receber null
+A string
+Tem que receber
+O tipo string
+Então por isso
+Que o no safety
+É muito legal
+No dart
+Que ele não deixa
+A gente passar null
+Agora
+A gente não consegue
+Só se a gente deixar
+Explicitamente
+Que essa mensagem
+Pode receber o parâmetro null
+Aí
+Quando faz isso
+A gente vai ter que fazer
+Aquele tratamento
+Então por isso
+Que não é legal
+Então é legal
+A gente sempre trabalhar
+Com required
+Porque um dos maiores
+Problemas do flutter
+É receber null pointer
+Então dá aquela tela vermelha
+E a galera do
+Do Google
+Tentou resolver
+Resolver
+Boa parte desses erros
+Já trabalhando
+Com o do safe
+Então aqui
+A gente aprendeu agora
+Também
+A criar uma função
+E agora
+A gente vai aprender
+Também a como
+Que cria uma classe
+Porque a
+Dart é uma linguagem
+Fortemente tipada
+Por mais que tenha
+O var e tudo
+Mas a gente pode
+Utilizar todos os conceitos
+De decoração de tipo
+E a gente pode também
+Aprender a declarar uma classe
+Então vamos aprender agora
+A declarar a nossa primeira classe
+Deixa eu só diminuir
+Isso aqui um pouquinho
+Então para criar uma classe
+A escrita é normal
+Você vai colocar
+Class
+Minúsculo
+Vai colocar
+Primeira letra
+Sempre maiúscula
+Da função
+Nome
+Da função
+Então a gente sempre vai trabalhar
+Com esse esquema aqui
+O primeiro
+O N maiúsculo
+Se tem outro nome
+Maiúsculo
+Primeira letra maiúsculo
+Primeira letra maiúsculo
+E pronto
+Essa aqui é a declaração
+De uma função
+Então pode criar aqui
+Class
+Minha
+Nome da classe
+Que função
+Nome da classe
+Minha classe
+Pronto
+Então aqui a gente tem
+Já criado
+A nossa primeira classe
+E aí Gabu
+Como que a gente pode
+Acessar
+Instanciar
+Essa primeira classe
+Então a gente pode criar
+Um tipo var
+Minha classe
+Minha classe
+Recebe
+Minha classe
+Mas Gabu
+Normalmente a gente utiliza
+O operador new
+Beleza
+Você pode utilizar
+Pode
+Só que o operador new
+Já não é mais utilizado
+Já no dart
+Ele já é
+Quando você só
+Implicemente declara
+Minha classe
+Ele já entende
+Que você está declarando
+Uma nova instância
+Então a gente não precisa
+Fazer a questão do new
+Quando a gente vai
+Instanciar uma nova classe
+E aí aqui
+A gente já instanciou
+A nossa classe
+A gente pode utilizar
+Essa classe
+Onde a gente quiser
+Minha classe
+Então aqui eu posso
+Pegar a minha classe
+E colocar aqui dentro
+Minha classe
+Só que se eu fizer isso
+O minha classe
+Ele tem que ser uma mensagem
+Do jeito que está aqui
+Não vai funcionar
+Então a gente pode criar
+Um atributo
+Dentro da minha classe
+O var
+Mensagem
+E colocar aqui
+Deu
+Certo
+Então agora a gente pode
+Acessar a minha classe
+E acessar o atributo
+Mensagem
+Então a gente
+Viu como cria uma classe
+E como também
+A gente pode criar
+Um atributo
+Dentro dessa classe
+Para a gente utilizar
+Então se a gente rodar aqui
+A gente vai ver que
+Não deu certo
+Fala que não deu certo
+Mas é porque deu certo
+A mensagem que
+Estava trocada ali
+Então o print
+Vai estar funcionando também
+Da mesma forma
+Então
+A gente
+Viu aqui
+A criar a função main
+Então a gente sempre tem
+Que ter a função main
+Em qualquer projeto
+Dart
+A gente sempre vai
+Aprender a utilizar
+A função
+Utilizando required
+E agora a gente aprendeu
+A criar nossa classe
+E dentro da nossa classe
+A gente aprendeu também
+A instanciar uma variável
+E também a gente consegue
+Acessar essa variável
+A partir da instância
+Da nossa classe
+Então como criaram
+Uma classe
+Já está tudo aqui
+No jeito
+E agora a gente pode
+Ir agora para o
+Próximo estágio
+Que é começar
+A criar
+O conteúdo
+A gente viu
+Toda essa introdução
+Do Dart
+De tipos
+E tudo
+Fundamentos básicos
+Ali do Dart
+E agora a gente vai
+Entrar também
+No Flutter
+Então agora
+O que a gente vai
+Precisar de fazer
+A gente vai precisar
+De abrir
+Um terminal
+No PC
+Então vocês podem
+Abrir um terminal
+No PC
+Porque com o terminal
+É sempre mais fácil
+Trabalhar com essas coisas
+Pronto
+O meu terminal
+Está aqui na pastinha certa
+E agora
+A gente pode
+Utilizá-lo
+Para criar
+Nossa aplicação
+Então
+A primeira coisa
+Que você tem que fazer
+É dar um Flutter Doctor
+No seu projeto
+Para ver se está
+Tudo instalado
+Está tudo no jeito
+Então vocês fizeram
+Aqueles passos
+Usar de utilizar
+O Braille
+Para fazer tudo aquilo
+Na hora que vocês
+Fazem isso
+Vocês vão dar
+Um Flutter Doctor
+Para verificar
+A versão
+Que está
+O seu Flutter
+E ele vai fazer
+Um check
+Está tudo certo
+O meu Flutter
+Está na versão
+2.2.0
+O Android
+Está o kit
+Aqui
+Está certo
+O Xcode
+Está certo
+O Chrome
+Está no jeito
+O Android Studio
+Está no jeito
+O Xcode
+E a gente tem
+Dois dispositivos
+Conectados aqui
+Para a gente fazer
+O nosso processo
+De emulação
+Então é muito legal
+Na hora que vocês
+Fizeram aquela instalação
+Com aqueles três comandos
+O Chocolatery
+O Snap
+Do Linux
+Ou
+O Braille
+Do MacOS
+Vocês depois vão rodar
+O comando
+Flutter Doctor
+E aí
+Vai dar tudo certo
+Às vezes o Android
+Ele reclama aqui
+Do processo
+De instalação
+Então às vezes
+A gente precisa
+Rodar um comando
+Ele fala até o comando
+Que é
+Flutter
+Android
+License
+Aí simplesmente
+Rodar
+É copiar
+O que aparecer aqui
+Rodar o comando
+E pronto
+E a segunda coisa
+No Android
+É muito importante
+Vocês instalarem
+O Android Studio
+Então vocês
+Toda vez que
+Depois que instalou
+O Flutter
+Instalou as coisas ali
+Também instalar
+O Android Studio
+Do seu projeto
+Então você vai
+Abrir o site
+Do Android Studio
+Download Android Studio
+Seguir os passos
+E instalar
+Na sua plataforma ali
+E pronto
+Na hora que rodar
+O Flutter Doctor
+Ele vai encontrar
+O Android Studio
+E aí vai funcionar
+Às vezes no Windows
+Vocês podem ter
+Algum problema
+Com o Path
+E aí
+Podem às vezes
+Colocar o Path
+Na mão
+Ou dar
+Uma ou duas pesquisas
+Uma pesquisa
+No Google
+Que o Stack Overflow
+Vai ter alguém
+Com uma solução
+Ali bem clara
+Do negócio
+Só que a gente
+Também tem
+O nosso guia
+De instalação
+Que já fala
+Vários passos
+Para vocês fazerem
+Então
+Seguindo os passos
+Vocês não vão ter
+Problema nenhum
+Para rodar
+O seu projeto
+E aí
+Se tiver
+Algum problema
+Já sabem
+Onde procurar
+Que é o que?
+O Discord
+Da Rocket City
+Que está lá
+Para ajudar
+Todo mundo
+A ir juntos
+Para o próximo nível
+Beleza
+Colocamos aqui
+E agora a gente vai criar
+O nosso primeiro projeto
+Em Flutter
+Vamos lá
+A gente vai
+Deixa eu fechar
+Esse VS Code
+Aqui
+Deixa eu
+Eu não sei onde
+Que eu deixei
+Meu emulado
+Ó
+Deixei meu emulado
+Aqui
+Agora a gente vai fazer
+Uma coisa muito legal
+Que é o que?
+A gente vai dar
+O nosso
+Start
+No nosso projeto
+Flutter
+Então a gente vai dar
+Flutter
+Create
+A gente vai dar aqui
+Flutter Create
+E aí a gente vai dar
+O nome do nosso aplicativo
+O nosso aplicativo
+Que vamos criar
+Na nossa primeira aula
+É o aplicativo o que?
+Um contador
+Vocês podem falar
+Mas Gabul
+Por que você faz
+Um computador
+A gente já podia fazer
+Um aplicativo
+Super gigantesco
+Aqui na nossa aplicação
+Fazer um milhão de coisas
+Não
+É eu sei que esse não
+Dói um pouquinho
+Mas é o seguinte
+A gente vai aprender
+Step by step
+Ao longo da semana
+Então o que a gente vai aprender
+Só
+Sabe aquele gostinho
+Do Flutter
+Aquela
+Empolgação
+Eu vou dar pra vocês hoje
+Pra na aula de amanhã
+Você já tá assim
+Tô raibado
+Bora criar conteúdo
+Bora fazer as coisas
+Exatamente
+Então
+Assim
+Eu sempre gosto
+De utilizar essa pronúncia
+Step by step
+Anota no post-it
+Coloca na frente
+Do monitor
+Coloca na frente
+Do monitor
+Step by step
+Pra minhas coisas
+Não só pro Flutter
+Pra tudo na vida
+Step by step
+A gente consegue
+Conquistar as coisas
+A gente consegue
+Chegar no próximo nível
+Não só na questão
+Do conhecimento
+Nas coisas que a gente
+Almeja
+Então é muito importante
+A gente ir
+Step by step
+Então vamos lá
+Step by step
+Agora a gente vai aprender
+A dar o primeiro comando
+Flutter
+Flutter drop
+Mas se a gente rodar aqui
+Flutter
+Só Flutter
+Vai aparecer vários comandos
+Que você pode utilizar
+No Flutter
+Então ele vai explicando
+Aqui tudo que tu pode fazer
+Ele explica várias coisas
+Mas o que a gente precisa
+É do create
+Ele tá explicando
+Create a new project Flutter
+Então a gente vai dar
+Flutter
+Create
+Qual que é o nome?
+Count
+App
+Pronto
+Counter
+App
+Flutter create
+Só dá o clique ali
+Pronto
+Só que aqui tem uma questão
+Muito legal
+Que é o seguinte
+Pra quem já tá na versão
+Pra quem tá na versão
+Um pouquinho antiga
+Do 2.2
+Vai aparecer aqui
+No
+No VS Code
+Pra você rodar o comando
+De migração
+Pro no safety
+Então uma recomendação é
+Pra quem não tá
+Com o projeto atualizado
+Dá um Flutter
+Upgrade
+E roda na versão
+2.2
+Pra cima
+Qualquer coisa
+2.2
+Mas esteja na 2.2
+Pra cima
+Porque aí
+Ele já cria o projeto
+Com o no safety
+Configurado
+Então você não precisa
+Fazer aquele
+Dart migrate
+Mais
+Pra quem participou
+Da anidade passada
+Fez
+Aqui a gente não precisa
+O projeto já
+Deu Flutter create
+Vai estar no jeito
+Aí agora
+A gente fez isso
+A gente vai utilizar
+O code ponto
+Aí vocês podem estar falando
+Ah mas acabou
+Instalei o meu VS Code
+Meu VS Code
+Eu dou o code ponto
+Não funciona
+Por que?
+Não vai funcionar
+Porque quando a gente
+Olha
+Toda vez que a gente abre
+O VS Code de novo
+Agora ele tá
+Pedindo pra gente
+Dar permissão
+No
+No
+Trash
+Eu acho que eu abri
+O VS Code errado
+Eu dei só o code ponto
+Tem que dar
+Code nome da pasta
+Contra
+Isso
+Pra vocês terem o VS Code
+Funcionando dessa forma
+Também
+Vocês podem vir aqui
+Dar
+Comand
+P
+Ou
+Control
+P
+Apertar
+A setinha pro lado
+E colocar
+Code
+Shell
+Comand
+Install
+Code
+Comand
+Path
+Pra quem tá no Windows
+Se eu não me engano
+Esse já é
+Default
+Por causa do VS Code
+Microsoft
+Tal
+Eu acho que já é
+Default ali
+O que eu falo aqui
+Eu acho que já é
+Porque tem muito tempo
+Que eu não uso o Windows
+Eu uso o MacOS
+E Linux
+Há muito tempo
+Então o Windows
+Eu usava só pra jogar
+Eu uso pra jogar ainda
+Mas não uso pra programar
+Então normalmente
+Eu não sei algumas coisas
+Do Windows
+Mas é isso
+Vida que segue
+Vamos lá pro nosso Notion
+Porque o Notion
+Tá aqui pra nos auxiliar
+E a gente saber tudo
+Que a gente tem que passar
+Pra vocês
+Ó
+Vamos lá
+Criamos o primeiro projeto
+É
+Fizemos o
+Flutter Create
+Era pra chamar primeiro app
+Mas eu coloquei
+Counter App
+É o seguinte
+É aquela coisa né
+A gente tem liberdade
+Pra colocar o nome
+Que a gente quiser
+No nosso app
+Então é isso
+Vamos lá
+Ó
+Aqui
+A gente vai fazer o seguinte
+Vai abrir aqui
+Vai pegar
+Vai deletar
+Ah não Gabu
+Você acabou de deletar
+O negócio tava pronto
+Deletei
+A gente vai fazer as coisas
+Do zero
+Step by step
+A gente não vai usar essas coisas prontas
+Que já vem ali
+Não vamos
+Não vamos pegar atalhos
+Vamos pegar o caminho tortuoso
+Pra chegar lá
+Beleza
+Então aqui
+A gente tem a estrutura
+Do nosso projeto do Flutter
+Mas Gabu
+Quando você cria lá
+Ele já cria esse tanto de coisa
+Já
+Mas Gabu
+E esse tanto de pasta aí
+Vamos lá
+Vamos entender
+Cada pasta
+Essas duas pastas aqui
+São pastas de configuração
+Do Dart
+E outras coisas
+Também que essas pastas
+Que tá com um ponto
+Passas com um ponto
+São pastas que
+É complicado
+Falar isso
+Mas
+São pastas que podem ser ignoradas
+Porque são pastas
+Pro SDK configurar
+São pastas que a gente não vai mexer
+Nunca
+Isso aqui a gente esquece
+Isso aqui a gente nem olha
+Essas duas pastas
+Agora a gente vai olhar
+As pastas que não tem esses pontos
+Que as pastas pra baixo
+Que é a pasta do Android
+A pasta do iOS
+A pasta do macOS
+E a pasta do web
+Como o meu sistema operacional
+É o que?
+É macOS
+Então ele vai
+Eu configurei
+Já deu o Flutter
+Nable desktop lá
+MacOS
+Pra ele rodar o macOS
+Mas aí se você tiver no Windows
+Você manda pra buildar
+O Windows OS
+E se você tiver no Linux
+Manda lá pra buildar o macOS
+Ah Gabu
+O que é esse manda buildar?
+É o seguinte
+Você vai vir aqui ó
+Flutter
+Desktop
+Enable
+Desktop
+Support pro Flutter
+Ó
+Aí aqui ele tá falando
+O que que a gente precisa fazer
+Você vai dar um Flutter
+Config
+E vai colocar
+Qual a plataforma
+Você vai ativar
+A plataforma do
+Windows desktop
+MacOS desktop
+E Linux desktop
+E pronto
+E aí você faz
+Essa configuração
+Na interface aí
+Que você tá utilizando
+E tem esse Windows aqui
+O WP também
+Que pode utilizar
+Tá no canal
+Dev
+Pra quem quiser utilizar
+O Flutter desktop
+Porque a gente tá falando
+Do que?
+De uma
+Toolkit
+Google
+Que é multi
+Multiplataforma
+Exatamente
+Então vamos lá
+Ó
+Olha que legal
+Já tá até selecionando
+Ah
+Peraí
+Eu falo que legal né
+Mas eu tô na frente
+Pra vocês me
+Proverem o que eu quero falar
+Aqui no cantinho da minha tela
+Tá escrito
+MacOS
+Então se eu fazer o build
+Desprojetar agora
+Ele já ia buildar em macOS
+Só que
+Como é que a gente faz o build
+Se a gente apagou tudo?
+Não tem como
+Né
+Não tem como a gente fazer o build
+Se a gente apagou tudo
+Então vamos lá
+E aí agora a gente vai
+Olhar pras nossas pastinhas
+Então
+Pastinha do Android
+Primeiro momento
+Nem mexe
+Pastinha do iOS
+Nem mexe
+Pastinha do macOS
+Nem mexe
+Pastinha do web
+Nem mexe
+Ah mas Gabu
+Por que não mexe?
+Galera
+Step by step
+Tá
+Mas eu vou
+Vou falar
+Por que a gente não mexe
+Porque isso aqui
+São arquivos de configuração
+Pra você buildar no Android
+No iOS
+No macOS
+Web
+Isso aí o Flutter
+Já configurou tudo do jeito
+A gente nem precisa mexer
+É só
+Escrever os arquivos aonde
+Qual que é a pasta
+Que nos importa
+Pra criar a nossa aplicação
+É a pastinha lib
+Dentro da pasta lib
+É onde a gente vai colocar
+Todas as nossas horas de código
+Todos os nossos códigos do Flutter
+Tudo que a gente fizer
+Do Flutter
+Fica nessa pasta
+E aí
+A gente vai ter essas pastinhas
+Aqui pra baixo
+Tem outras coisas
+Que é o Readman
+O que é o Readman?
+Você pode colocar
+Informações do projeto
+Né?
+Aí vai aquela dica
+Né?
+Gabu
+Tô fazendo esse projetinho aqui
+Do contador
+Minha primeira é o projeto
+Aqui do GitHub
+O que eu faço?
+Coloque aqui
+Que é o projetinho
+De quarter app
+E tal
+Que tu fez a NW6
+E tudo
+E sobe lá no seu GitHub
+E aí isso já serve
+Com um portfólio
+Pra você
+Importante também
+Falar aqui
+Que pra você que tá
+Entrando no mundo
+Da tecnologia
+Portfólio galera
+Portfólio
+Eu sou uma pessoa
+Também que faz
+Processo de recrutamento
+Né?
+Então quando
+É uma pessoa
+Que tem o GitHub
+Preenchido bonitinho ali
+É muito mais simples
+Eu bato
+Vejo lá
+O que ele tá fazendo
+E tal
+É mais fácil
+Agora
+Se você pega uma pessoa
+Que não tem o GitHub
+Aí eu tenho que passar
+Um desafio pra pessoa
+Pra pessoa
+Fazer
+Pra entregar o feedback
+Então é importante
+A gente fazer
+O conteúdo
+Lá no GitHub
+Preencher o nosso GitHub
+Preencher o nosso LinkedIn
+Pra ter essas informações
+E aí você sai da NLW
+Produz esse tanto de conteúdo
+Vai continuar estudando Flutter
+Aí daqui a pouco
+Fala
+Você é um agabouco
+Conseguiu um emprego lá
+Por causa do feedback
+Que você falou
+LinkedIn movimentado
+Né?
+E GitHub
+E aí LinkedIn movimentado
+É você fazer postagem
+Fazer artigos
+Pra você conseguir
+Uma flagzinha
+Lá no que a gente chama
+Perfil campeão
+Isso é muito importante
+Na hora que você tem
+Esse perfil campeão
+O seu perfil aparece
+Prioritário
+Na pesquisa dos recrutadores
+Então aumenta a sua chance
+Aí de conseguir
+Conquistar aquela vaga
+É conquistar
+Porque
+Conquistar a vaga
+É isso aqui
+Que a gente tá fazendo
+Que é o que?
+Sentar na cadeira
+E estudar
+E aí
+Estudar, estudar, estudar, estudar
+Que o fruto
+A recompensa
+As coisas vêm
+É aquela famosa
+A gente planta
+O que a gente planta
+A gente colhe
+Então
+Se você plantou
+Dedicação
+Plantou estudo
+Plantou tudo aquilo
+Lá na frente
+Vocês vão conseguir
+Ó
+Vamos aqui na lib
+E aqui
+Agora a gente vai começar
+A criar mágica
+Então aqui a gente tem
+O nosso
+O nosso projeto
+A gente tem
+Chamando o Flutter
+No Dart
+RunApp
+E aqui a gente vai criar
+Os nossos processos
+Como a gente
+Criou lá
+O ReloWord
+Vamos recriar
+O ReloWord
+Aqui agora
+Dentro do Flutter
+Então a gente vai criar
+Todo o projeto
+No Flutter
+Ele sempre
+Starta onde?
+Main
+Ponto
+O que?
+Dart
+Ponto Dart
+Você nem vai falar
+Mais ponto Dart
+Por exemplo
+Às vezes eu estou codando
+Em TypeScript
+Do nada eu dou um ponto Dart
+Lá
+Aí às vezes eu estou codando
+Em Dart
+Eu dou um ponto TS
+Então
+A terminação
+Vocês vão perceber
+Que é tão comum
+Que você já sabe
+Até o seu dedo
+Ele já trava
+Tudo que ele tem que fazer
+Para dar o ponto Dart
+Aí você vai dar o ponto Dart
+Em alguns milésimos de segundo
+Então vamos lá
+Vamos criar aqui
+A nossa função Main
+Novamente
+Função VoidMain
+E aí vamos colocar aqui
+O Print
+Hello
+Word
+E aí agora
+Vamos dar um Run
+Aqui
+Para ver o que vai acontecer
+Então cliquei em Run aqui
+Sem esperança
+Vamos ver o que vai acontecer
+No nosso projeto
+Olha
+Ele está fazendo
+Uns negócios aqui
+Estou usando galera
+Ele está
+Ele está baixando
+Os negócios aqui
+Do
+Do macOS
+Para fazer o build
+Da nossa aplicação
+MacOS
+Tá
+E aí ele vai fazer
+O build aqui
+Para a gente
+E a gente vai ser feliz
+Vendo o resultado
+Da nossa aplicação
+Então
+Aqui ó
+Nossa aplicação está rodando
+Qualter App
+Não tem nada
+Porque a gente
+Não inicializou nada
+Mas
+Tem o nosso
+Hello Word
+Acontecendo aqui embaixo
+Então vamos deixar
+Essa aplicação aqui
+Em uma nova aba
+Para a gente utilizar
+Depois
+Beleza
+Vamos lá no
+Fechar esse terminal aqui
+Vamos lá no
+Nosso Noche
+Nosso Noche
+Fala para a gente
+Chamar o Flutter
+No Dart
+No Dart
+Chamar a função
+No Dart
+E tudo
+O que é
+Esse chamando
+Flutter no Dart
+Então aqui a gente
+Só fez o Hello Word
+E não aconteceu nada
+Nessa tela
+Só criou uma tela
+Do macOS
+Mas a gente não
+Startou o Flutter
+Não tem nada
+Do Flutter rodando aqui ainda
+Então por isso
+A gente vai precisar
+De fazer o seguinte
+A gente vai chamar
+A gente vai dar um import
+Aqui no nosso projeto
+Import
+Package
+Barra
+Flutter
+Barra
+Material
+.dart
+Esse é o package
+Do Flutter
+Por que a gente
+Já tem o package
+Do Flutter
+Porque a gente
+Já instalou SDK
+E aqui ele já
+Configurou
+Ele já sabe
+Que a gente tem
+O package
+Do Flutter
+E aqui a gente
+Vai ter que chamar
+A primeira
+Função do Flutter
+Então para você
+Instanciar
+Falar assim
+Agora eu estou
+Rodando o Flutter
+Na minha aplicação
+Dart
+A gente precisa
+Chamar uma função
+Chamar run
+App
+Que não é legal
+Run App
+Fica bem claro
+Run App
+Rodar a minha
+Aplicação
+Então aqui a gente
+Vai ter o Run App
+Para estartar
+A nossa aplicação
+Mas
+Tem uma coisa
+Que eu sei de fazer
+Que é o que
+A gente
+Criar uma pastinha
+Aqui
+.vscode
+E aumentar
+A fonte
+Porque a fonte
+Está muito pequena
+Então
+Settings.json
+Então a gente
+Vai colocar aqui
+Fonte
+Size
+16
+Pronto
+Agora ficou
+Top
+Agora ficou
+Top
+Então aqui a gente
+Criou a nossa função
+Whatman
+Como a gente
+Fez anteriormente
+Colocamos o
+Run App
+E aqui ele pediu
+Para colocar
+O
+Ponto e vírgula
+E aí
+Beleza
+Então
+Vamos lá
+Vamos dar o check
+Aqui
+Vamos dar o check
+Do Run App
+E a gente vai entrar
+Em alguns contextos
+Aqui
+Para entender
+O que que é
+O
+O que que ele recebe
+Esse Run App
+Colocando o mouse
+Aqui
+Em cima
+Do Run App
+A gente vai perceber
+O que que
+O Run App
+Recebe
+Vamos entender
+Agora
+O que que
+Que esse Run App
+Recebe
+Deixa eu tirar
+Esse fone
+Aqui
+É o seguinte
+Então vamos lá
+Quando a gente
+Coloca o mouse
+Aqui
+O mal
+Toda vez que a gente
+Coloca o mouse
+Numa função
+Dart
+Uma classe
+Qualquer coisa
+No Dart
+Dart é muito bem
+Documentado
+Toda vez que você
+Coloca o mouse
+Ele vai te entregar
+A documentação
+Do que aquilo faz
+Então aqui ele está
+Simples
+A gente não precisa
+Ler isso aqui tudo
+A gente não precisa
+Traduzir tudo
+Que está escrito
+Mas a gente só
+Precisa ler
+Isso aqui
+Ele recebe
+Um Widget
+Um Widget
+O que que é isso
+Cabo
+O Widget
+Vamos lá
+Por partes
+Então é o seguinte
+É uma coisa muito legal
+No Dart
+Quando a gente fala
+De o que que é
+O Widget
+Que é o seguinte
+O Widget
+É tudo aquilo
+Que você vê
+Vamos dizer assim
+Numa linguagem
+Mais direta
+Seria isso
+Não quer dizer
+Que
+Deixa eu pegar aqui
+Tem um whisky aqui
+Do Payful
+E disso aqui
+Olha
+Isso aqui é o wireframe
+Que a gente chama
+Eu desenhei esse wireframe
+Aqui e o Thiago
+Foi lá
+E produziu
+Essa obra de arte
+Aqui pra gente
+Ó
+Vamos lá
+Justo pra explicar pra vocês
+O que que é o conceito
+O que que é
+O Widget
+Vamos pegar aqui
+Um
+Uma
+Uma tela
+Né
+De um iPhone
+Certo
+Então aqui a gente tem
+Uma tela de um iPhone
+O Widget
+Por exemplo
+Se a gente adicionar
+Um botão aqui
+Isso aqui
+Já é
+Um Widget
+Então a gente está
+Visualizando
+Então o Widget
+A gente pode entender
+Que é tudo aquilo
+Que a gente vê
+Na nossa tela
+Mas
+Widgets
+Que a gente utiliza
+Que eles vão ser
+Widgets
+É base
+Que é tipo
+Widgets pra posicionar
+As coisas
+E tudo
+Então a gente
+A gente não vê
+O Widget em si
+Ele recebe várias coisas
+Dentro dele
+Pra montar
+Um ecossistema
+Pra gente
+Mas o primeiro momento
+É isso aqui
+Então toda vez que
+Alguém falar
+Widget
+Widget
+Quando a gente fala
+Widget
+Vamos pensar no conceito
+Sim
+Widget
+Um botão
+Tá
+Falou Widget
+A gente vai ter
+Um botão
+Na nossa tela
+Certo
+Então
+Falou Widget
+Ah
+É um botão
+Mas aí o Widget
+Ele pode ser
+Qualquer coisa
+Que a gente vê
+Mas no primeiro momento
+Vai ser um botão
+Tá
+Aí
+Beleza
+Só que no Flutter
+A gente tem
+Um componente
+Que é muito legal
+Pra gente utilizar
+Pra representar
+Como o que
+Nosso primeiro Widget
+Esse componente
+A gente chama
+Esse componente
+De container
+O nome desse Widget
+Que a gente vai utilizar
+O nosso primeiro Widget
+É o container
+O container
+É lá
+Se eu não me engano
+No web
+Eu acho que chama
+Div
+Aquele componente
+Que recebe
+Que com ele
+Você consegue fazer
+Praticamente
+A maioria das coisas
+No Flutter
+Ou seja
+Criar um botão
+Criar um app bar
+Criar um círculo
+Criar um triângulo
+O container
+É a base
+Então ele vai ser
+O primeiro componente
+O primeiro
+Widget
+Que vai utilizar
+Então é o seguinte
+Então a gente vai ter
+Um Widget
+Na nossa tela
+Pra
+O Widget
+É tudo que a gente vê
+Então a gente tem
+Um Widget
+Que chama container
+E aí quando a gente
+Olha o nosso código
+A gente vê
+Que o runapp
+Recebe um Widget
+Então qual Widget
+Que a gente vai colocar aqui
+Pra gente ter
+O nosso primeiro Build
+A gente vai colocar o que?
+A gente vai colocar o container
+Então a gente
+Tudo o Widget
+Aqui no Flutter
+Ele é baseado
+No conceito de classe
+Então classe
+É sempre distanciado
+No Dart
+Com uma letra maiúscula
+Então a gente vai chamar aqui
+Container
+Pronto
+E aí a gente
+Pra distanciar a classe
+A gente faz isso aqui
+Abre parênteses
+Fecha parênteses
+A gente pode colocar
+O operador new
+Operador new
+New
+Pode
+Vai funcionar?
+Vai
+Mas você lembra
+Aquilo que eu comentei
+Com vocês?
+Ele já infere
+Que quando você coloca
+A classe daquela forma
+Ele já sabe
+Que é um new
+Então não precisa
+Lá na
+Quando começou a versão
+Beta do Flutter
+Era obrigado
+A gente colocar o new
+Então o código
+Ficava muito feio
+Porque ficava new
+New container
+New container
+Aquele monte de new
+E o código
+Ficava muito feio
+Aí eles
+Ficavam
+Não, peraí
+A gente está trabalhando
+Com a interface de UI
+É um toolkit UI
+Vamos simplificar
+Vamos tirar o new
+Se você quiser colocar
+Vai funcionar
+Mas se você tirar
+Também vai funcionar
+Então foi exatamente isso
+E aí agora
+A gente não precisa mais
+Colocar o new
+A gente pode só colocar
+O container
+Porque na hora
+Que a sua aplicação
+Começa a ficar
+Hiper complexa
+Aquele monte de coisa
+Você começa a ver
+Aquele tanto de new
+Você fala
+Nossa
+Não aguento mais
+Ver isso no código
+E aí a galera
+Falou
+Peraí
+Vamos dar
+Então esse aqui
+É o legal
+Do Dart
+É que o Dart
+Ele evoluiu muito
+Com o Flutter
+Então o Dart
+Ele tem muitos processos
+Que vão acontecendo
+A modificação da linguagem
+Baseado no toolkit
+Da Google
+Então quando a gente
+Vai mexendo
+Nessas coisas
+A gente começa
+A olhar
+Então vamos tirar o new
+Para fazer tal coisa
+Vamos adicionar o new
+Safety
+Porque está quebrando
+Um monte de coisa
+Então a linguagem
+Ela também vai evoluindo
+Com a toolkit
+Isso é muito interessante
+Porque às vezes
+A gente pega
+Linguagens legadas
+Que não evoluem mais
+Com a framework
+Daquela linguagem
+Então a framework
+Vai evoluindo
+Mas a linguagem não
+Então a framework
+Às vezes chega no limite
+Aqui não
+A linguagem
+Ela vai evoluindo
+Baseado também
+Na evolução do Flutter
+Então isso é muito legal
+Da tecnologia
+Então ó
+Beleza
+A gente vai colocar o container
+Agora a gente vai dar
+O run aqui ó
+A gente vai dar um build
+A gente vai dar um restart
+Aqui
+Para a gente buildar
+A nossa aplicar a construção
+Com o container
+Mudou alguma coisa?
+Não
+Mudou nada
+Ficou a mesma coisa
+Não aconteceu nada
+Olha
+Então vamos lá no nojo
+A gente explicou
+O conceito do que é o widget
+O widget é tudo
+Que a gente vê
+É assim
+Eu vou falar tudo
+Que a gente vê
+Porque a gente pode ter widgets
+Que a gente não vê
+Mas
+Vamos
+Nesse momento da aula
+Nessa primeira aula
+Vamos colocar aqui o widget
+Aquilo que a gente está vendo
+Tá
+Vamos deixar
+Abrir esse parênteses
+Aquilo que a gente está vendo
+É o widget
+E na evolução
+Da semana
+A gente vai ir vendo
+Que tem coisas
+Que são widgets
+Mas a gente nem vê
+A gente não consegue visualizar
+Na tela
+Mas é um widget
+Tá
+Beleza
+Então vamos lá
+Ó
+A gente vai criar
+A gente criou o nosso primeiro widget
+Né
+E aqui a gente está pedindo
+Para fazer o primeiro build
+Em Android
+A gente fez o primeiro build
+Já
+No
+No macOS
+Mas aí vamos
+Vamos só trocar aqui
+A posição
+Para a gente trocar
+A cor do widget primeiro
+Só para a gente ver
+E salientar
+Que realmente está acontecendo
+O build
+E aí depois a gente faz
+O build no Android
+Por que Gabu
+Você está fazendo
+O build no Android
+Por que?
+Para buildar um iPhone
+Precisa de ter um sistema macOS
+E a gente sabe
+Que
+Sistema macOS
+É preciso de que é o que?
+Ter um Mac
+Então tem algumas barreiras ali
+Para ter o Mac
+Para buildar o iPhone
+Então eu prefiro da gente
+Trabalhar
+Ou com o sistema operacional
+A gente fazer o build
+Do sistema operacional
+A gente pode fazer
+O build aqui também
+Do Flutter Web
+Para mostrar para vocês
+Que também funciona
+E fazer o build do Android
+Que o Android roda
+Em todas as plataformas
+No Linux
+Mac
+E
+Então a gente vai utilizar
+Sempre o Android
+Como referência
+Mas
+Se você tem a possibilidade
+De rodar o iPhone
+Vai lá
+Build o iPhone tranquilo
+Aí quando eu falo
+A possibilidade
+É
+Você precisa ter um sistema macOS
+Aí
+Tem um Mac
+Um iMac
+Um Hackintosh
+Você precisa de fazer
+Algum processo
+Para ter um sistema macOS
+Para você rodar
+Aí tem um sistema macOS
+Beleza
+Aí você pode ir lá
+E rodar a sua aplicação
+Agora a gente vai fazer o seguinte
+A gente vai
+Trocar a cor
+Do nosso primeiro widget
+Vamos lá
+Para trocar a cor
+A gente tem o nosso container
+Aqui
+A gente tem o nosso container
+Certo
+Esse container
+Ele tem várias propriedades dentro
+Como é que a gente descobre a propriedade
+A gente coloca o mouse
+Ó
+Ele vai ter uma propriedade
+De uma key
+De um alinhamento
+De um pad
+De uma cor
+De um decoration
+A gente tem o for
+Egal de decoration
+Widget e Iget
+Constraints
+Margin
+Transform
+Transform alignment
+Shield
+Clip behavior
+E uma coisa muito interessante
+Aqui
+Tá vendo que essa classe
+Ela não é declarada também
+Com as chaves
+Para ser nomeada
+Para a gente não ser obrigado
+A passar todos esses parâmetros
+E a segunda coisa
+É que esses parâmetros
+Todos podem ser nullables
+Tá vendo
+Então eles nem precisam
+Colocar o required
+Então isso também que é legal
+Porque às vezes
+A gente
+Mas você pode criar um componente
+Que ele pode ser nulo
+Por exemplo
+A gente não passou nada
+E o container renderizou
+A gente não viu nenhuma cor
+Mas ele tá renderizado
+Na nossa tela
+E a gente pode agora
+Colocar uma cor
+Cor
+Como é que a gente
+Passa uma cor?
+Uma cor também
+No Flutter
+É uma cor
+Ela segue o padrão
+Hexadecimal
+Ou a gente pode trabalhar
+Com o padrão
+ARGB
+E o RGBO
+Porque aí você pode
+Trabalhar com esses dois parâmetros
+Ali para fazer
+A renderização da cor
+Só que aqui a gente vai utilizar
+Uma função que já tem dentro
+Uma classe que já tem dentro
+Do Material
+Então quando a gente importou
+Material aqui em cima
+A gente tem uma opção
+De chamar Colors
+E aí o Flutter já tem
+Várias cores
+Que a gente pode utilizar
+E todas essas cores
+Já existem no Material Design
+Que o Material Design
+É o design da Google
+Então vamos colocar aqui
+Vamos renderizar
+Uma cor purple
+E vamos rodar
+A nossa aplicação
+Fazer o build aqui
+E vamos ver
+Boa!
+Olha a nossa aplicação
+Já rodando em macOS
+Se você não estiver no Windows
+Você pode fazer o build no Windows
+Igual a gente ensinou
+No início da aula
+De ativar o Windows
+E vai aparecer a opção do Windows
+Se você estiver no Mac
+No Linux
+Você fazer isso
+Ah!
+Salientar uma coisa
+Se você
+Criou o projeto já
+E não apareceu
+Você pode rodar um comando
+Dentro da pasta mesmo
+Aqui do projeto
+No terminal
+Flutter
+Create
+Ponto
+Porque aí ele vai
+Ele vai
+Criar as plataformas
+Que você acabou de ativar
+Por exemplo
+Se você acabou de ativar o Windows
+Ele vai criar a pastinha do Windows também
+Então esse Flutter Create
+Que também salva às vezes
+Quando o seu projeto do Android
+Você fez algumas modificações
+E ele quebrou
+Aí você pode apagar a pasta do Android
+A pasta do iOS
+E dar o Flutter Create
+Que ele vai criar essas pastas de novo
+Então o Flutter Create
+Ponto
+É para voltar o estágio inicial
+Das configurações das plataformas
+Então ele também é muito útil
+Às vezes quando a gente quebra a aplicação
+Porque faz parte do nosso desenvolvimento
+A gente quebra a nossa aplicação
+E às vezes a gente precisa
+De alguma forma rápida de resolver
+Ou você resolve pelo Git
+Dando o Git lá
+Voltando
+Mas às vezes tem gente
+Que nem ainda aprendeu o Git
+E às vezes vai fazer direto
+Então às vezes pode fazer
+Esse conceito
+De apagar
+E dar o Flutter Create de novo
+Então aqui a gente criou
+A nossa aplicação com o Build no macOS
+Vamos agora
+Estartar o Build no
+Android
+Para a gente fazer
+A nossa aplicação também
+Então a gente fez o Build no Android
+Então para trocar o Build
+A gente clica aqui
+Seleciona qual sistema operacional
+Que a gente quer
+E aí agora
+Deixa eu só pegar o emulador
+Que ele foi para a outra tela aqui
+Deixa eu trazer o emulador aqui
+Coloca ele junto com o macOS aqui
+Para a gente fazer o Build
+Para mostrar o Build
+Ah
+Sabe qual é o mais legal
+Do
+Do desktop?
+É isso aqui
+Você pode mudar o tamanho da janela
+Do jeito que você quiser
+Então isso aqui é muito bom
+Para você testar
+As renderizações
+Tipo
+Ah se diminuir a tela
+Que acontece
+Se diminuir aqui a altura
+Vai ficar
+Vai dar scroll
+O que vai acontecer
+Com a nossa tela
+Então o desktop
+Ele também é muito bom
+Para nos ajudar nisso
+E agora a gente vai
+A gente vai fazer o Build
+Aqui no Pixel
+Então a gente vai tirar
+Selecionou o Pixel 2 aqui
+Que é o Android
+E vamos dar
+E vamos clicar aqui no Run
+No nosso próprio main.dart
+A gente vai clicar no Run
+A gente vai esperar uns minutinhos aqui
+Não sei se vai ser tantos minutos assim
+É bem rápido normalmente
+O primeiro Build que demora mais
+O primeiro Build porque
+Se a gente olhar aqui
+Ele vai estar fazendo os processos de configuração
+E tudo para o dispositivo
+Por exemplo
+O MacOS demorou um pouquinho
+Porque ele estava baixando
+O Android também
+Mas depois que você tem
+O primeiro Build
+É tipo assim
+Você clicou
+E dois tapos assim
+Já está buildado
+A sua aplicação
+É bem de boa
+Mas vale salientar
+Que o Build
+Vai depender do
+Setup da máquina também
+Então isso é muito importante
+Porque às vezes
+A gente compara
+Tipo
+Ah o Build de alguém lá
+Um pouco segundo
+Mas a pessoa
+Sei lá
+Está usando um M1
+Então tipo
+É diferente
+Sabe
+Se eu estou usando um M9
+Um negócio lá
+Então vai demorar mais
+E
+Ou vai ser mais rápido
+Com os processadores
+Mais high-end
+Isso aí é
+É normal
+Já fez o Build aqui
+Já está aparecendo
+A nossa tela roxa
+Aqui para a gente
+Então olha
+A gente já fez o Build
+A gente já trocou
+A cor do componente
+Trocou a cor do componente
+E já fizemos
+O primeiro Build
+Da nossa aplicação
+E agora
+A gente vai
+Conhecer
+Outros widgets
+Qual que é o objetivo
+Dessa aula
+A gente vai
+A gente fez a introdução
+Do Dart
+A gente está fazendo
+A introdução do Flutter
+E o resultado final
+É a gente chegar
+No contador do Flutter
+Só que a gente vai chegar
+Explicando o Step by Step
+E evoluindo
+Juntos
+Para o próximo nível
+Step by Step
+Então olha
+Então agora a gente fez
+O Voidman
+Colocamos o Container
+Colocamos o Color.Purple
+Aqui
+Ele é das coisas
+Estão tudo no G
+Agora
+Para a gente continuar
+Antes de mais nada
+Dar uma pausa
+Para que?
+Para a gente se hidratar
+Então beleza
+Aqui olha
+A gente tem um componente
+Que está escrito aqui
+No
+No
+Que chama
+Material App
+Vou explicar o Material App
+Aqui
+No
+No
+No
+No
+No Winscall
+Galera
+Esse
+Esse negócio aqui
+O Winscall
+Isso aqui
+É a melhor maravilha
+Para a gente
+Desenhar ideias
+Desenhar
+Várias coisas
+Tá
+É muito bom
+Eu gosto muito
+De utilizar
+Ah eu posso trocar
+O tipo aqui
+Eu estou aprendendo
+A utilizar o negócio
+Deixa eu trocar aqui
+Para
+Stick
+Node
+To
+Wireframe
+Eu acho que é
+Flowchart
+Isso
+Então vamos lá
+Olha
+Você vai ter
+Vou explicar
+Para vocês
+A gente vai ter
+O RunApp
+A gente tem a nossa função
+RunApp
+Aqui
+E essa função
+Deixa eu
+Deixa eu
+Deixar maior
+RunApp
+Vai ter que receber
+Um widget
+O primeiro widget
+Vamos dizer assim
+O primeiro
+Widget
+Qual que é o conceito
+De primeiro widget
+Que a gente tem no Flutter
+A gente fala assim
+De widget
+Pi
+A gente fala sempre
+Pi
+Como é o
+É o que
+Recebe ali
+É que começa
+As coisas
+Então a gente vai ter
+Widget
+Pi
+Então o RunApp
+Precisa de ter
+O widget
+Pi
+Para a gente
+Conseguir
+Estartar
+O Flutter
+Então vamos lá
+Deixa eu colocar
+Aqui a fonte maior
+Deixa eu colocar
+A fonte maior
+Aqui
+Isso
+Então a gente
+Precisa do RunApp
+O RunApp
+Ele vai receber
+O primeiro widget
+E o RunApp
+É chamado
+Dentro da função
+Main do Dart
+Né
+Main
+Então a função
+Main
+Chama o RunApp
+O RunApp
+Recebe o primeiro widget
+E a gente vai fazer
+O build do Flutter
+Então até agora
+A gente viu que
+Para buildar o Flutter
+É o Main
+RunApp
+E receber o primeiro widget
+Certo?
+A gente já faz
+O build do Flutter
+Só que
+A gente tem
+Um widget
+Que é sempre
+O widget
+Pai de todos
+E esse widget
+Ele se chama
+Ele termina
+Ele finaliza
+Com a terminação
+App
+Ou ele vai se chamar
+MaterialApp
+Ou Cooper
+TeamWeb
+Qual que é a diferença
+Desses dois?
+O material
+O que você fala
+Tanto de material?
+Acabou
+É ó
+Material Design
+Antes de digitar
+Material Design
+Esse aqui vai ser
+O design
+Da Google
+E como
+Né
+O Flutter
+É uma toolkit UI
+Da Google
+Todos os componentes
+Né
+Que tem aqui
+Por exemplo
+O navigation
+Vamos abrir
+Que sei lá
+Formas de navegação
+Não
+Navigation
+Não é tão legal
+Né
+Pode ser também
+Layout
+Aqui ele tá
+O legal
+O legal
+É que ele te explica
+Tudo pra você
+Fazer no padrão
+Então assim
+Às vezes você
+Não tem um designer
+Pra criar sua aplicação
+Você faz o seguinte
+Abre o Material Design
+Aqui ó
+E vai ler
+Cada documentação
+Que ele vai explicar
+Tudo que você precisa fazer
+Pra seguir todo
+O design da Google
+E deixar sua aplicação
+Daquele jeito
+Maravilhoso
+E aí tem também
+Esse aqui
+É o design da Google
+E a gente também tem
+O Cooper
+Tino Design
+Que é o design
+Né
+Da Apple
+Então a gente pode
+Vir aqui na Apple
+Ele vai dar
+Ele vai explicar
+A Guideline
+De tudo que você tem que fazer
+Com o Cupertino
+Então
+Cupertino iOS
+Aqui também
+No próprio documentação
+Do Flutter
+Né
+Ele entrega pra gente
+Por exemplo
+Os widgets aqui ó
+E a gente pode ter os widgets
+Do Cupertino
+E aí com os widgets
+Do Cupertino
+A gente consegue fazer
+Várias coisas
+Por exemplo
+Tem o Cupertino Action City
+Cupertino Alert Dialog
+Então isso aqui é legal
+Por quê?
+Porque às vezes a gente
+Tá trabalhando
+No cross-plataforma
+E fica aquela dúvida
+Ah mas eu sou usuário
+De iPhone
+Eu quero ter o mesmo
+Design do iPhone
+Porque eu gosto
+Beleza
+Você consegue utilizar
+A renderização no Flutter
+Pra renderizar
+As suas componentes
+Do Cupertino
+Aí a segunda coisa é
+A gente também consegue
+Chamar os componentes
+Do Matri
+Então assim
+Você consegue criar
+Uma aplicação
+Sem precisar de um design
+Sem precisar
+De ir pra um
+Próximo nível ali
+De precisar
+De desenhar as telas
+Você pode pegar
+A Guideline
+E criar a sua aplicação
+Por exemplo
+O meu primeiro projeto
+Que eu fiz
+Assim que eu entrei
+Numa empresa
+Em seis meses
+Depois eu comecei a estudar
+A Flutter
+A gente lançou o projeto
+Em seis meses
+A gente fez tudo
+Com o Matri
+Design
+Tudo
+E aí depois
+Que eu fui evoluindo
+Na tecnologia
+Eu fui aprendendo
+A criar
+Os componentes
+Sem ser do Matri
+Design
+Criar um componente do zero
+Que é o que a gente
+Vai aprender aqui
+Que é criar
+O PayFlow
+Aí aqui
+A gente tem o main
+O runapp
+O primeiro widget
+E o flutter
+Aí agora
+O que a gente vai fazer
+A gente tem
+Esse contexto aqui
+E eu disse
+Que o widget
+Pie
+Sempre da sua aplicação
+Vai ser
+Esses dois aqui
+Ou você vai chamar
+O material app
+Ou
+O
+Cupertino app
+Então sempre que for
+Inicializar seu projeto
+Do flutter
+Chama esses componentes
+Aí vocês podem até falar
+Assim
+Ah mas Gabu
+Mas por que eu tenho
+Que chamar esses componentes
+É agora
+Eu vou explicar o porquê
+Para vocês
+Vamos lá
+Então a gente vai ter
+Que chamar
+Sempre vai iniciar
+Nossa aplicação
+A gente vai chamar
+O material app
+Ou o Cupertino app
+Então primeiro
+Vamos para a prática
+E na prática
+A gente vai explicar
+A teoria para vocês
+Ó
+Então a gente vai pegar
+Esse container
+Vamos dar um
+Ctrl C aqui
+No macOS
+É comand V
+E a gente vai chamar
+Aqui o material app
+Beleza
+Chamamos o material app
+Aqui
+E aí vamos rodar
+A aplicação
+Para ver o que acontece
+Chamamos o material app
+Vamos rodar
+Para ver
+Ó
+Ela vai dar um erro
+Que porque a gente
+Precisa passar
+Ela deu um erro
+De
+De
+De
+Null
+Pointer
+Porque a gente
+Precisa passar aqui
+O home
+Do nosso componente
+Então qual que é o home
+Home é o primeiro
+Widget
+Da aplicação
+Então
+O segundo widget
+Da aplicação
+Porque a gente vai ter
+O material app
+E dentro do home
+A gente tem que passar
+O segundo widget
+Na nossa aplicação
+Que é igual
+Ao segundo widget
+É o content
+Então agora a gente
+Fazer a renderização
+Aqui ó
+A gente vai olhar
+Lá para o nosso projeto
+Vai ter renderizado
+Da mesma forma
+Só que perceba
+Que agora apareceu
+Uma flagzinha de debug
+Para dizer que a gente
+Está rodando o aplicativo
+Em modo debug
+Então o material app
+Ele
+Se a gente colocar o mouse
+Aqui ó
+Tá vendo
+O tanto de coisa
+Que ele tem
+E ele já faz
+Todo o processo
+De rotas
+Da nossa aplicação
+Então a gente
+Sempre precisa
+Inicializar aqui
+Com o material app
+Nossa aplicação
+Aqui vai ter
+Sistema de locale
+Sistema de navegação
+A gente vai ter
+Tipo assim
+Configuração de tema
+Tudo a gente tem
+Nesse componente
+No material app
+Então a gente precisa dele
+Para iniciar a nossa aplicação
+Aí você pode falar
+Ah mas acabou
+Mas por que
+A gente utiliza ele
+Por causa disso galera
+Ele já tem
+Ele já é
+O esqueleto
+Para inicializar a nossa aplicação
+O Flutter já nos entregou
+Esse esqueleto
+Então para que a gente
+Vai inventar moda
+A gente vai
+Ah vamos fazer tudo na mão
+Beleza
+Se quiser
+Fica com vontade
+Mas se você
+É aquilo negócio
+Você vai começar
+A reinventar a roda
+Então chega algum momento
+Que a gente não precisa
+Reinventar a roda
+A gente tem que utilizar
+O que está pronto
+E o Flutter
+É uma UI Tool Kit
+Então ele é um kit
+Inteiro de ferramentas
+Para facilitar
+O nosso desenvolvimento
+Então a gente vai utilizar
+Ou o Material
+Ou o Cupertino
+Tá
+O Material é o Material Design
+Da Google
+E o Cupertino
+É o Cupertino
+App do iOS
+Mas
+Você quer saber a verdade?
+A maioria sempre já inicia
+Com o Material App
+E mesmo que você iniciou
+Com o Material App
+Você consegue
+Ter no meio da sua aplicação
+Também o índice do Cupertino
+Tipo assim
+Não precisa ter o Cupertino
+No início
+Para ter lá no final
+Não precisa
+Tá
+E nem a navegação
+Porque o Flutter já
+Já trabalha com fluidez
+Entre Material e Cupertino
+Sem você se preocupar
+Você usou navegação
+Default do Flutter
+No iOS
+Que você vai ter
+O efeito de navegação
+Diferente
+E na hora que você tiver
+No Android
+Você vai ter o sistema
+De navegação
+Totalmente diferente
+Automaticamente
+Você não precisa
+Configurar nada
+Então por isso
+Que a gente sempre
+Utiliza aqui o Material App
+Para ser nosso primeiro app
+Da nossa aplicação
+Então beleza
+A gente colocou aqui
+O Material App
+E aí
+Então a gente introduziu
+Aqui o Material App
+Agora que a gente tem
+O Material App
+A gente tem aquela Home
+Só que
+A gente pode
+Ir evoluindo
+As coisas dentro da Home
+A gente pode ir construindo
+Várias coisas
+E ir evoluindo
+Então a gente tem
+O nosso container
+Só que
+Esse container
+Ele vai ter a possibilidade
+Por exemplo
+De colocar
+Um shield
+Então todo componente
+Do Flutter
+Sempre vai ter um
+Shield
+O que é um shield?
+O shield recebe
+Um novo widget
+Então qual que é a ideia
+Do Flutter?
+O Flutter
+Resumidamente
+Para vocês
+Grava essa frase
+Para o Flutter
+Tudo é widget
+Acabou
+Você está falando
+Para eu gravar
+Uma frase dessa?
+Sim
+Anota no post-it
+Coloca
+Flutter tudo é widget
+Porque toda vez
+Que você chamar
+Um componente
+Chamar um widget
+Ele pode receber
+Outro widget
+Entendeu?
+Então
+Olha que legal
+O container pode receber
+Um novo widget
+Que a gente pode passar
+Aqui
+Eles poderia passar
+Um novo container
+Agora
+Por exemplo
+De uma cor verde
+Colors.green
+Então a gente tem
+O primeiro container
+E o segundo container
+A gente faz isso
+Não vai mudar nada
+A gente pode fazer
+O build aqui
+Ou vai mudar
+Será?
+Tantantantã
+Sim
+Por que?
+A gente colocou
+Um container
+Dentro do outro
+Então o container
+Verde sobrepôs
+Todo o nosso container
+Roxo
+E aí o que a gente pode fazer?
+Para deixar os dois
+Coexistindo
+A gente pode limitar
+Aqui com
+Um tamanho
+Sei lá
+Vamos colocar
+200 pixels nesse
+E 200 pixels
+Nesse aqui também
+2.000 não
+200
+Vamos rodar aqui
+No verdinho
+Olha o Flutter me trolando
+Faz parte
+É porque aqui
+A gente
+Tá colocando
+O nosso container
+E ele não tá definindo
+Os tamanhos
+Ele não tá entendendo
+Os processos
+Que tá acontecendo ainda
+Então mesmo que a gente
+Define o tamanho
+Ele tenta
+Expandir tudo
+Porque ele não tem
+Algo pra limitá-lo
+Do processo
+Que ele tá fazendo
+E aí
+Existe um widget
+Pra isso
+É
+A gente
+Até esqueceu
+De colocar o widget
+Aqui ó
+Que se chama
+Antes da gente
+Criar a home page
+A gente vai
+Aprender
+A gente vai introduzir
+Um widget
+Chamado
+Scaffold
+O Scaffold
+É o esqueleto
+Da nossa aplicação
+Então toda página
+Que a gente for criar
+A gente vai colocar
+Um Scaffold
+É
+Começar a introduzir
+A home page
+A gente vai utilizar
+O Scaffold
+Aqui agora
+Então a gente vai pegar
+Esse container
+E vamos colocar
+Na home
+Um Scaffold
+Então dentro do Scaffold
+Tem a possibilidade
+De a gente colocar o body
+E aí a gente vai colocar
+Esses contextos aqui
+De container
+Roxo
+Com o container verde
+No body
+Da nossa aplicação
+E vamos fazer um build
+Pra gente entender
+O que tá acontecendo agora
+Olha
+Agora
+Quando a gente fez o build
+Aconteceu o processo
+De a gente colocar aqui
+O verde
+Na nossa tela
+E o roxo
+Só que o roxo
+Ele tá limitando
+Pelo tamanho do verde
+Ele não tá pegando
+O tamanho inteiro da tela
+Então a gente pode vir aqui
+E pedir pro roxo
+Pegar, sei lá
+500
+E o verde 500
+Então agora a gente
+Na teoria
+Vai ter os dois containers
+Coexistindo
+O verde
+E o roxo
+Só que toda vez que eu aumento
+O aumento um
+Aumenta o outro
+Aí a gente tá tendo
+Esse problema
+Entre
+Colocar um
+Dentro do outro
+E eles não respeitarem
+O tamanho
+Então por exemplo
+O verde
+Ele tá dentro do shield
+Desse primeiro container aqui
+E aí ele pega
+O tamanho inteiro
+Aí a gente pode
+Fazer alguns
+Alguns processos aqui
+Pra resolver
+A gente colocou o container ali
+Ele
+Ele
+Ele não tá limitando
+Vamos colocar aqui
+Um widget
+Chamado center
+E esse center
+Ele vai tentar centralizar
+Esse container
+Dentro do container roxo
+Pra ver se agora
+Ele começa a respeitar
+E agora
+Ele respeitou
+E aí você pode falar
+Ah mas por que agora
+Tá funcionando
+E antes não tava funcionando
+O que é o seguinte
+O container
+Você lembra que eu falei
+Que ele recebe um shield
+Como a gente não tava
+Passando nenhum shield
+Ele não sabia
+A quem se referenciar
+E por conta disso
+Ele pegava e expandia tudo
+Só que no momento
+Que a gente utilizou
+Esse componente de center
+A gente centralizou
+Ali na tela
+A gente fez
+A gente quer centralizar
+Você dentro do pump
+E você vai agora
+Respeitar o tamanho
+200-200
+Tá
+Beleza
+Então show
+Aí agora
+A gente tem
+Um container roxo
+E um container verde
+Na nossa tela
+Perfeito
+Muito legal
+Agora
+A gente vai começar o que?
+Começar a entender
+O que a gente fez
+A gente colocou o código aqui
+Mas vamos só explicar
+O que a gente fez
+A gente colocou o scaffold
+O scaffold
+Ele é um componente
+Que tem um monte de coisa
+Por exemplo
+Ele tem a possibilidade
+De você colocar uma app bar
+Colocar um body
+Um float action button
+Várias coisas
+Então toda vez
+Que a gente criar uma página
+Por exemplo
+A gente não tá criando a home page
+Toda vez que a gente criar uma página
+A gente vai colocar
+Um scaffold aqui
+Pra gente utilizar ele
+Pra fazer a nossa página
+Então ele tem um body
+O body é todo esse corpo aqui
+Que a gente tá colocando
+Por exemplo
+Vamos tirar o tamanho
+Desse roxo
+E vamos ver o que acontece
+Ó
+Ele pegou o roxo inteiro
+Então quer dizer
+Que o seguinte
+O body é tudo
+Isso aqui ó
+É tudo que a gente tá colocando aqui
+Na nossa tela
+Aí
+Agora a gente vai
+Construir
+A nossa aplicação
+De contador
+Colocando alguns atributos a mais
+Dentro desse scaffold
+Então o nosso scaffold
+A gente tem
+O scaffold
+O container aqui
+Beleza
+Tá no body
+Igual a gente queria
+Só que aqui a gente viu
+A gente comentou
+Sobre uma propriedade nova
+Que é a propriedade do app bar
+O que é app bar?
+App bar
+É aquela propriedade
+Ó
+Deixa eu vir aqui
+Explicar pra vocês
+App bar
+Aqui ó
+Tá vendo que isso aqui não é
+É um app bar
+A gente chama de app bar
+Tudo que fica em cima
+Junto com
+O status bar
+Da nossa aplicação
+Tá vendo que isso aqui
+É o status bar
+941
+Então a gente tem o status bar
+Na nossa aplicação aqui
+E também a gente tem
+A nossa app bar
+Então
+Isso aqui tudo
+É a nossa app bar
+Então o conceito de app bar
+É sempre aquela app
+Que fica lá em cima
+Da nossa aplicação
+Quando a gente tá trabalhando
+Com o mobile
+Então a gente vai criar
+Um app bar aqui também
+Pra nossa aplicação
+Então a gente vai criar
+Aqui um app bar
+Pra aplicação de contador
+A gente vai criar aquela aplicação
+Agora ali do Figma
+A gente vai criar uma aplicação nova
+Utilizando todos os conceitos
+Do material design
+Então aqui
+Quando a gente coloca a app bar
+A gente rodar a nossa aplicação
+Vai não aconteceu nada
+Porque é o seguinte
+Eu dei um command S
+Eu cliquei aqui
+Nessa
+Que a gente chama de hot reload
+Só que da forma que tá
+O nosso colher em
+A gente não consegue ativar
+O hot reload
+Pra funcionar
+Então
+Provavelmente vocês estão alterando
+Aí tá vendo que não tá alterando
+E eu tava apertando o verde
+Mas eu tava deixando
+Pra explicar isso um pouquinho
+Mais pra frente
+Então quando eu dou
+O hot reset
+Ele vai fazer o build
+Ele vai chamar o run app
+Todo de novo
+E aí a gente vai conseguir
+Pegar a alteração
+Olha que legal
+A gente chamou a app bar
+E a app bar já apareceu
+Aqui pra gente
+E aí
+Agora a gente tem a app bar aqui
+Onde a gente pode colocar
+Algumas informações
+Tudo utilizando já
+O conceito do próprio
+Material design
+Então aqui a gente pode agora
+Colocar por exemplo
+Um título
+Título
+Text
+Meu
+Primeiro app
+Mas como que você já sabia
+Que você tinha que utilizar
+Um text aí
+Pra colocar a string
+Então é o seguinte
+Toda vez que a gente tem que colocar
+Um componente
+Que quer colocar uma string
+Pra ser renderizado na tela
+Sempre a gente vai utilizar
+O componente de text
+Então o text
+Ele sempre recebe
+Quando ele chega a ser string
+Ele consegue renderizar
+Na nossa tela
+Então se eu colocar aqui
+Dentro do título
+Meu primeiro app
+E rodar minha aplicação
+Já vai estar escrito lá
+Meu primeiro app
+Acontecendo dentro
+Da nossa aplicação
+Então a gente já criou
+A app bar
+E colocamos aqui
+O primeiro app
+E aí
+Vocês lembram que eu tinha comentado
+Uma coisa muito legal
+Que dentro do material app
+Ele tem uma possibilidade
+De a gente configurar temas
+Configurar várias coisas
+E a gente vai configurar também
+O tema
+Da nossa aplicação
+Vamos chamar aqui
+Teme
+A gente vai chamar o
+Teme data
+Dentro do teme
+Aqui ó
+Teme data
+Isso
+E aqui a gente vai colocar
+Uma propriedade
+Chamada
+Primário swatch
+Dentro desse primário swatch
+A gente vai colocar uma cor aqui ó
+Colors.purple
+Pra gente alterar
+Pra a nossa configuração
+Da nossa app
+Ficar
+Com
+Com
+Com a cor aqui
+Que a gente chama
+Cor
+Cor purple né
+Então se a gente olhar aqui agora
+A nossa app bar
+Já vai ficar com a cor purple
+Então por isso que eu falei
+Que o material app
+É um
+O idade que a gente sempre precisa ter
+Porque se a gente quiser configurar
+O tema da nossa aplicação
+A gente pode configurar aqui
+Tudo
+Dentro do teme data
+Galera
+Eu sei que às vezes
+Pode estar aparecendo um pouquinho
+Ah Gabo
+Você está falando
+Algumas coisas
+Né
+E
+E o desconexo
+Mas é por causa do seguinte
+O objetivo
+É a gente entender
+Os conceitos
+Né
+As bases
+De algumas coisas
+E a gente ir pegando
+Alguns add-ons ali
+Pra deixar a nossa aplicação
+De contador muito legal
+Né
+E aí depois
+Né
+A gente sempre vai aprofundando
+Nos conceitos
+Nas próximas aulas
+Né
+Como na próxima aula
+A gente vai começar ali
+A criar nossa aplicação
+E a gente vai
+Entendendo mais as coisas
+Né
+Do tema
+Porque o tema
+É um assunto muito complexo
+O tema é uma coisa
+Que ele tem um milhão
+De possibilidades
+Pra gente configurar
+Pra configurar o tema
+Da aplicação inteiro
+Através do tema e data
+Então ele é
+Uma opção também
+De estudo
+Assim que acabar
+Né
+Aí os cinco dias
+Pra você também pegar
+E dar uma estudada
+Bem forte no tema e data
+Pra ver tudo
+Que ele pode fazer
+Porque ele tem
+Um milhão
+De possibilidades
+Pra gente utilizar
+Beleza
+Configuramos aqui
+A app bar
+Configuramos aqui
+O nosso body
+E aí agora
+A gente vai criar
+Uma opção de contador
+Qual que é a ideia?
+É a gente imaginar
+Agora a gente não
+Tá utilizando o Figma
+Porque também
+Eu quero criar o senso
+Da gente conseguir imaginar
+Ó
+Vamos imaginar
+Que a gente vai colocar
+Essa app bar
+Dizendo que é
+O nosso primeiro app
+Certo?
+E aí a gente vai fazer o seguinte
+Ó
+Vamos lá no
+No Playful
+Aqui
+E vamos criar um
+Wireframe aqui
+Wireframe
+A gente vai colocar aqui
+Um iPhone
+Então a gente vai ter
+A possibilidade aqui
+De ter
+A app bar
+Igual a gente já colocou
+Então a gente vai ter
+A app bar aqui
+Que agora
+Ela tem a cor
+Vai ter essa cor roxa
+A app bar
+Aí a gente vai colocar aqui
+Um botão aqui embaixo
+Na nossa aplicação
+Pra simbolizar
+O que a gente chama
+Um botão de ação
+E aqui
+A gente vai colocar
+Contador
+Zero
+Então a gente vai fazer
+Essa aplicação aqui
+Simples
+Que é ter um app bar
+Que a gente já colocou
+Lá app bar
+Vai ter aqui
+Centralizado
+Um texto
+Contador
+E vai ter aqui embaixo
+Um botão
+Que a gente vai utilizar
+Esse botão
+No Flutter
+A gente já tem
+Esse botão pronto
+A gente chama ele de
+Floating
+Action
+Button
+Vai ter o float
+Action button
+Aqui
+E aí o float
+Action button
+A gente vai utilizar
+Pra gente criar
+A nossa aplicação
+Esse outro componente
+Que a gente já
+Utilizou
+Que é o text
+A gente utilizou
+Esse componente
+Text
+E aqui em cima
+A gente já utilizou
+Esse outro componente
+Que a gente chama de
+App bar
+E aí
+Qual que é o componente
+Que engloba
+Tudo isso
+Que a gente pega
+Pra conseguir colocar
+Todas as opções
+A gente chamou de
+Scaffold
+A gente chamou não
+A gente chamou
+O Scaffold
+Que ele representa
+A aplicação inteira
+Deixa eu colocar
+Até do set aqui
+Pra falar que ele representa
+O contexto
+Da nossa aplicação inteira
+É o Scaffold
+O Scaffold
+Ele tem a possibilidade
+De a gente colocar
+Uma app bar
+De a gente colocar
+Um text aqui
+E onde que vai ficar
+Esse text
+A gente já viu
+Que os containers
+Eles estão aonde
+Eles estão no body
+Então a gente vai ter aqui
+O nosso body
+Vai receber
+Vai receber
+Esse componente
+A app bar
+E a gente colocou
+O flat action button
+Aqui porque o próprio
+Scaffold
+Também tem o float action button
+Pra gente utilizar
+Então volta lá
+Pro nosso código
+Então agora a gente vai
+Colocar os contextos
+Primeiro vamos colocar aqui
+O
+Vamos tirar esse container roxo
+E vamos colocar aqui
+O text
+Representando o contador
+Então
+Contador
+Pra gente colocar
+O número embaixo
+A gente pode utilizar
+Aquela manha lá
+A gente coloca um barra N
+A gente coloca o valor aqui
+Contador zero
+Então a gente vai buildar aqui
+Tá ficando
+Nossa aplicação
+Então agora a gente colocou
+O meu primeiro app
+E colocamos o contador aqui zero
+Só que a gente vai colocar
+Esse contador
+Centralizado no meio
+Da nossa tela
+Então a gente pode colocar aqui
+O app
+O just center
+Isso aqui que eu fiz
+É o que?
+Tá vendo que tem
+Uma lupinha aqui
+Quando você coloca o mouse
+E você clica nessa lupa
+Ele já tem várias opções
+E como que você adquire
+Essas opções?
+Você tem que vir aqui
+E instalar o package do
+A extensão do Flutter
+No VS Code
+E aí ele vai te ajudar
+A atender esses snippets
+Para facilitar o nosso processo
+Para facilitar o nosso processo
+De desenvolvimento
+Então aqui a gente tem um body
+Contador
+No jeito
+Aí agora a gente vai centralizar ele
+Para quem está no Mac
+Pode dar comand
+Para ativar a lupinha também
+Ou quem está no Windows e Linux
+Dá um control ponto
+E a gente vai centralizar aqui
+Então a gente vai dar
+Agora a opção do build
+Para a gente ver o resultado final
+Então agora o nosso contador
+Está centralizado
+Com o resultado esperado
+Que a gente estava tendo
+Da nossa aplicação
+Só que o resultado esperado
+É que o símbolo aqui
+Fica no centro
+Então para isso
+A gente pode
+Dentro do text
+Tem um alinhamento
+Text alignment
+Então a gente pode pedir
+O text alignment
+De center aqui
+Para a gente ter
+O efeito que a gente espera
+De centralizar o nosso contador
+Então o contador
+Ficou aqui no zero
+Do jeito
+Olha que legal galera
+O Plutter
+Ele já tem muitas coisinhas
+Que nos facilitam
+O nosso processo
+Não precisa
+A gente ficar criando
+As coisas do zero
+A gente pode utilizar
+Para ter o próprio alinhamento ali
+A gente colocou
+O contador já ficou no meio
+E aí agora
+O que a gente precisa fazer
+A gente tem a app bar
+A gente tem o contador
+E a gente precisa agora
+Colocar o floating action button
+Então aqui
+Dentro do scaffold
+Tem a propriedade
+De chamar o float action button
+É o float action button
+Dentro aqui da propriedade
+É a gente chamar
+Floating action button
+E a gente vai colocar
+Aqui as propriedades
+Ele vai ter
+Um on preced
+On preced
+O que é o on preced
+É a função
+Na hora que a gente
+Clica
+Ele vai chamar
+Essa função
+E dentro da função
+A gente vai ter uma função
+Que vai chamar
+O processo de atualizar
+O contador
+E o float action button
+Também tem um ícone
+E aqui agora
+A gente vai aprender
+A colocar o ícone de add
+Um ícone no float
+A gente tem que chamar
+O widget ícone
+Por isso que eu falei
+Que tudo é o ícone
+É o widget
+Porque o float action button
+O shield do float action button
+Também recebe o widget
+Então tudo no float
+É o widget
+E no float a gente tem
+Uma
+Da mesma forma
+Que a gente tem
+As colors
+A gente tem os icons
+E aqui tem vários ícones prontos
+Para a gente utilizar
+A gente pode colocar o ícone aqui
+De add
+E rodar a nossa aplicação
+Para ver como é que vai ficar
+O resultado final
+Então já colocamos aqui
+O contador roxo
+O contador roxo
+Porque a gente colocou
+Aquele primário swatch
+Então todas as cores
+Essa aplicação
+Vai
+Tudo que a gente utilizar
+Do material design
+Já vai ter esse comportamento roxo
+Aqui na nossa aplicação
+Então a gente colocou
+O meu primeiro app
+Colocamos o contador aqui
+E colocamos
+O nosso botãozinho
+GDB
+Agora a gente vai
+Olha lá
+Para o nosso
+Para o nosso notion
+E ver o que a gente já fez
+Ó
+A gente já introduziu
+O scaffold
+Só que a gente criou
+A nossa homepage
+Criamos né
+Nossa homepage
+Que está funcionando
+Aí agora
+A gente vai fazer o seguinte
+A gente vai criar
+A nossa homepage
+Quando a gente
+Introduz esse conceito
+Criar homepage
+Quer dizer que
+Toda vez que a gente quer
+Criar um componente
+No flood
+A gente tem que criar
+Uma classe
+Tá
+E agora a gente vai entrar
+Nos conceitos de criar
+Uma classe
+A gente aprendeu a criar
+Uma classe já
+A gente já criou
+Uma classe
+Na introdução do Dart
+Que é o que
+Como que a gente criou
+Uma classe
+A gente chama classe
+Como a gente diz lá
+A gente vai criar uma classe
+E a classe sempre é o nome
+Do widget que a gente quer
+Por exemplo
+A gente quer criar
+O widget chamado homepage
+A gente quer criar
+Aqui a gente vai criar
+Nossa classe
+Só que aqui
+A gente está
+Numa classe puramente
+Dart
+Só que a gente não está
+Utilizando
+Deixa eu só beber uma água
+Aqui
+Aqui a gente tem
+A classe homepage
+E na homepage
+E na homepage
+A gente tem o seguinte
+A gente tem que interagir
+Entre o Dart
+E o Flutter
+Como que a gente interage
+Como que o Dart
+Como que o Dart
+Vai entender
+Agora a gente está
+Querendo ir para
+Buildar algo do Flutter
+A gente vai utilizar
+Aquele conceito
+De extend
+A gente vai estender
+A nossa classe
+Para uma classe
+Que tem
+Para duas classes
+Para uma classe
+Que tem no Flutter
+A gente chama de
+Stateless widget
+Então está vendo
+Que o nosso homepage
+Ele tem que estender
+Para stateless widget
+Para agora
+A gente
+Criar um widget
+Então agora a gente está
+Aprendendo a criar
+O nosso widget
+Por mais que a gente
+Chamou de homepage
+Tudo no Flutter
+É um widget
+Então a gente usa
+A nomenclatura homepage
+Para dizer quando é
+Uma página inteira
+Só que aquela página
+Não é uma
+Extend page
+É um Extend
+Stateless widget
+E aí toda vez
+Que você quiser
+Criar um widget
+Você vai dar
+Um Extend
+Extend
+Stateless widget
+Quando a gente coloca
+Aqui
+Quando a gente faz
+Extend
+O VS Code
+Vai ficar reclamando
+Ele vai pedir
+Para a Lupinha
+Um override
+Então vamos clicar
+Aqui para ele criar
+Esse override
+Qual que é o override
+Ele vai nos entregar
+A função
+Que faz a mágica
+Das coisas
+No Flutter
+Vai acontecer
+Que é a função build
+Então através
+Da função build
+A gente vai conseguir
+Renderizar o que a gente quiser
+Então qual que é a ideia
+A gente pegar
+Todo esse scaffold
+Aqui que a gente criou
+Dentro dessa home
+A gente vai copiar
+Esse scaffold
+Aqui e vamos mover
+Ele para dentro
+Da função build
+Então return
+Scaffold
+Então aqui agora
+A gente acabou
+De aprender
+A criar o nosso
+Primeiro componente
+O nosso primeiro
+Componente
+Fora do Flutter
+Porque agora
+A gente não utilizou
+O scaffold
+Utilizamos a app bar
+Tá vendo
+Utilizamos o centro
+Só que a gente nunca
+Criou algo nosso
+Algo próprio
+De própria alteria
+Agora a gente acabou
+De criar
+Que é o que?
+A gente fez o processo
+De estender
+A uma classe
+Stateless widgets
+E aí a gente fez
+O processo
+De dar o override
+Na função build
+Então a gente vai
+Sobre escrever
+A função build
+Do state
+Let's read
+Para ele implementar
+Para ele fazer
+O build
+Do scaffold
+Da nossa página
+Então ao invés
+De a gente chamar
+O scaffold
+Direto
+A gente vai chamar
+Home page
+Olha também
+Como o nosso código
+Já começa a ficar
+Bem mais clean
+O nosso processo
+De desenvolvimento
+Então beleza
+Temos aqui
+A nossa aplicação
+Do jeito
+E aí agora
+A gente já vai
+Ter o nosso scaffold
+E agora a gente vai precisar
+De fazer o seguinte
+A gente já criou
+O nosso home
+A gente já tem
+O nosso home page
+Aqui
+E agora a gente vai
+Criar uma função
+Para fazer o processo
+Do contador
+Então vamos lá
+Ó
+Como é que a gente
+Criou uma função
+Agora a gente está
+Dentro de uma classe
+Dentro de uma classe
+A gente pode criar funções
+Então a gente pode
+Criar uma função
+Aqui
+Vound
+Void counter
+Count
+Vound increment
+É mais fácil
+Só que na programação
+Quando a gente
+In
+Increment
+Increment
+Increment
+Increment
+Isso
+Só que quando a gente
+Está trabalhando
+Na programação
+É normal
+A gente criar o que?
+A gente criar uma variável
+Também para a gente
+Ficar fazendo esse processo
+De counting
+Aqui é o contador
+Simples que você
+Faria
+Numa aplicação normal
+Que é o que?
+Criar uma variável
+Vamos criar uma variável
+Var
+Count
+Inicia com o valor zero
+Sempre o nosso contador
+Vai inicializar
+Com o valor dela
+Toda vez que a gente
+Chamar o increment
+A gente vai dar o count
+Mais mais
+Processo normal
+Que a gente faz
+No desenvolvimento
+E aí dentro daqui
+Da nossa função
+A gente vai chamar
+Né?
+Esse increment
+Então a gente vai rodar
+A nossa aplicação
+E vamos ver
+Se a gente vai
+Vai ver o que vai acontecer
+Ó
+Vamos lá rodar
+A nossa aplicação
+Vamos chamar aqui
+O contador
+Só que a gente
+Não tem
+A gente está contando
+Né?
+Aí para isso
+A gente pode colocar
+Um print
+Count
+E a gente perceber
+Se isso está acontecendo
+Deixa eu focar direto
+Aqui na tela do código
+Que fica mais fácil
+E aí agora
+A gente vai fazer
+O processo do que?
+A gente vai
+Toda vez que a gente
+Chamar aquela função
+Lá
+Clicar no nosso
+Nosso contador
+A gente vai dar o print
+Aqui para pegar
+Do debug
+Para ver se realmente
+Está acontecendo
+O processo de
+De build
+Da nossa aplicação
+Então vamos colocar
+Isso aqui junto
+Um do lado do outro
+Para ficar mais fácil
+Né?
+Colocar o emulador
+Aqui do lado do código
+Para a gente ter
+O
+A interação mais fácil
+Aqui
+Então aqui a gente vai colocar
+Ó
+Vamos clicar
+Toda vez que a gente clica
+A gente está percebendo
+Que está alterando
+Aqui o nosso código
+Só que esse count
+Aqui
+Não está vindo
+Para cá
+A gente não está pegando
+Esse count
+Aqui ainda
+Então a gente precisa
+Colocar esse count
+Dentro da string
+Como é que a gente
+Pode fazer isso?
+Tem alguns efeitos
+A gente pode
+Concartenar a string
+Dar um count
+ToString
+A gente poderia fazer
+Esse efeito
+Colocar o count
+ToString
+Para a gente ver
+Que está funcionando
+A gente pode inicializar
+Por exemplo aqui
+Com 5
+Para ver se a nossa aplicação
+Está colocando o valor
+De 5 ali
+Ó
+Então o nosso
+Ele está pegando
+O valor da variável
+Só que quando a gente
+Começa
+A gente não fica tão bonito
+Ele não fica tão elegante
+Porque fica muita coisa
+Dentro do nosso código
+E aí a gente pode utilizar
+Um efeito
+Que aqui é o seguinte
+Colocar 0
+E a gente
+Colocar essa string
+Essa variável
+Chamar ela dentro da string
+Que é o seguinte
+Para a gente chamar
+Uma variável
+Dentro de uma string
+No Dart
+É muito simples
+A gente utiliza o símbolo
+Do dinheiro
+E a gente chama
+A variável que a gente quer
+Então count
+Então aqui a gente vai perceber
+Que agora a nossa variável
+Ficou bem mais simples
+E bem mais direto
+Count 0
+Aí toda vez que a gente clica
+A gente está alterando
+Aqui o estado
+Só que
+Quando a gente faz isso
+Não está pegando o efeito
+Vamos dar um hot reload
+Aqui para ver se vai atualizar
+O dado na tela
+Ué
+Quando eu fiz isso
+Atualizou
+É porque o seguinte
+Aqui a gente vai entrar
+No conceito
+Muito simples
+Que é o que?
+A gente fez a nossa função
+Do contador
+E agora a gente vai entrar
+No conceito
+De a diferença
+Entre stateless
+E stateful
+Está vendo que a nossa classe
+A gente estendeu essa classe
+Como stateless
+Só que stateless
+Definição de stateless
+É não ter estado
+Ou seja
+Você vai buildar o componente
+E ele vai ficar daquela forma
+Quando a gente chama
+A gente ser hot reload aqui
+Ele chama o build aqui
+Do material app
+Todo de novo
+Ele chama esse build aqui
+Aí por isso
+Que a gente pega a alteração
+Desse contador
+O estado da variável
+Só que a gente não consegue
+Colocar esse contador
+Toda vez que a gente clicar
+A gente atualizar
+E fazer o build
+Só dessa parte aqui
+Do scaffold
+A gente não consegue fazer isso
+Utilizando a classe stateless
+Porque a extensão
+De um stateless
+Ó
+A widget não requer
+É um mutável estado
+Mas a gente sabe
+Que a gente está mudando o estado
+A gente está mudando o estado
+Da variável
+Então para isso
+A gente pode converter agora
+Esse stateless widget
+Em um stateful
+E um jeito muito simples
+De converter
+É a gente dar um command ponto
+E a gente vai converter
+O stateless
+Para um stateful
+Quando a gente clicar aqui
+Ele já vai fazer o processo
+De criar a nossa classe
+Estendendo um stateful
+E aí ele também vai criar
+Para a gente
+Um estado desse stateful
+Qual que é o estado desse stateful?
+É o home page state
+Quando a gente faz isso
+Olha, está vendo que ele para de reclamar
+Como ele estava reclamando antes
+Que a classe tinha que ser imutável
+E aí agora
+A gente vai rodar a nossa aplicação
+Ela vai estar funcionando
+Da mesma forma
+Não vai mudar nada
+Só que mesmo assim
+Não vai estar atualizando
+A nossa tela
+Porque agora a gente vai entrar
+Nesse conceito aqui
+Então a gente viu o conceito
+Qual que é a diferença
+De stateless
+E stateful
+Diferença básica
+Quando você estende
+Para um stateful
+Quer dizer que você vai ter
+Um estado do seu widget
+E aí você consegue alterar
+Esse estado
+Para fazer vários efeitos
+Dentro da sua tela
+Por exemplo
+Aqui qual que é a ideia?
+A gente ativar o computador
+E trocar aqui o count
+Né?
+Tocar o texto
+Só que também a gente pode ter
+O conceito
+Né?
+De quando a gente tem o stateless
+A gente não quer buildar nada
+A gente quer
+Chamou o stateless
+Não quer trocar o estado
+Então se você tem uma variável
+Dentro da sua classe
+E ela é alterada
+Para um input do usuário
+Quer dizer que você tem
+Esse processo de estado
+Então você vai ter que criar
+Um stateful
+Então normalmente as páginas
+As coisas que recebe
+Dados do usuário
+Recebe inputs do usuário
+Sempre vão ser stateful
+E aqueles widgets
+Que a gente só pega
+E renderiza
+Por exemplo
+Se a gente criasse um app bar
+App bar não altera
+Então a gente poderia criar
+Nossa própria app bar
+Né?
+E der um class
+Nossa app bar
+Extend stateless
+E aí a gente colocar aqui
+Mas claro que a gente vai criar
+Nossa app bar
+Criar esses conceitos
+Nas próximas aulas
+Mas aqui a gente está
+Só criando o contador
+E agora o que a gente
+Precisa fazer
+Para avisar o Flutter
+Que a gente atualizou
+Esse contador
+A gente precisa chamar
+Simplesmente uma função
+Chamada setstate
+Quando a gente
+Renderizar aqui agora
+Simplesmente
+Chamando essa função
+Setstate
+Dentro do incremento
+Toda vez que eu incrementei
+Estou dizendo agora
+Ó Flutter
+Atualiza o estado aí
+Toda vez que eu clicar
+Já vai estar funcionando
+A nossa aplicação
+Já vai estar funcionando
+O contador aqui
+Da melhor forma possível
+Tranquilamente
+Para a gente
+É legal né
+A gente utilizar o Flutter
+E o quanto
+Que ele nos entrega
+As coisas
+Muito simples
+Então a gente já
+A gente criou
+A nossa aplicação aqui
+Bonitinha né
+Com
+Todos os step by step
+Criando a nossa
+O nosso primeiro widget
+Que é o home page
+E a gente já está
+Alterando o estado né
+A gente já tem
+O nosso contador
+Então olha
+Que em um processo
+De poucas horas né
+A gente já conseguiu
+Criar a nossa primeira
+Aplicação em Flutter
+Então aqui
+A gente já conclui né
+Utilizando o nosso setstate
+E a gente tem aqui
+Criamos
+Criamos o nosso contador
+Então a gente já tem
+Aquela
+Todo aquele processo
+No jeito né
+Para a gente
+Fazer o
+A nossa aplicação
+E aí agora
+É legal né
+Que a gente
+Falou desse processo
+De criar o nosso contador
+E vamos fazer o overview
+Do que a gente viu na aula
+Então na aula
+A gente falou
+Sobre o que?
+A gente falou sobre o Dart
+A gente falou
+Sobre os processos do Dart
+E a gente construiu
+O nosso contador
+O próprio contador do Flutter
+Step by step
+E até dando
+Uma diferencinha ali
+Colocando uma cor roxa né
+Para dar um efeito mais legal
+E a gente criou
+A gente viu a diferença
+Entre stateless e stateful
+O que é o stateless?
+Ou seja
+Ele não tem estado
+Só que talvez
+Aqui não ficou
+A gente viu
+O problema
+Que a gente não conseguia
+Trocar o estado
+A gente foi
+E transformou
+O nosso home page
+Em um stateful
+E com o stateful
+A gente consegue chamar
+A função setstate
+Porque o setstate
+Está dentro aqui
+Da declaração do estado
+Então quando você
+Estende de estado
+Você consegue chamar
+A função setstate
+Para atualizar
+A nossa tela
+E a gente criou
+O nosso contador
+De forma simples
+Coloca uma variável
+Count
+E fizemos aqui
+O nosso primeiro widget
+Utilizamos o scaffold
+Que é o esquerdo
+Da nossa aplicação
+Que ele tem várias coisas
+Que nos ajudam né
+Que é a appbar
+Que é o body
+E é
+Que é o floating action button
+Então
+O que a gente viu
+Nessa aula
+O que a gente aprendeu
+A gente aprendeu
+Muita coisa legal
+Que é o seguinte
+Que foi todo
+Esse processo
+De
+O que vierem
+O stateless
+O state pool
+Aprendemos a utilizar
+Setstate
+Aprendemos a criar
+O nosso próprio
+Primeiro widget
+Que foi a home page
+Aprendemos a fazer
+Todo um cenário aqui
+Que isso aqui
+Já é
+Muita coisa
+Já
+Numa primeira aula
+A gente já criou
+A nossa primeira aplicação
+Então vamos comemorar
+Porque a gente já criou
+A nossa primeira aplicação
+Que é o computador
+Você pode usar o contador
+Para contar
+E quantas vezes
+Você está bebendo uma água
+Por dia
+Você pode utilizar esse contador
+E pode evoluir ele
+Para outros contextos
+E aí
+O que a gente vai ver
+Na aula de amanhã
+A aula de amanhã
+A gente vai ver
+A parte de
+De entender
+O pay flow
+A gente vai entender
+O pay flow
+E como que a gente
+Vai construir o pay flow
+E a gente vai começar
+A construir algumas telas
+Já
+E esquematizar
+Todo o nosso aplicativo
+E aqui
+Super importante
+De eu passar para vocês
+É o código
+Para participar
+Do desafio
+A gente tem aqui
+O código
+Da nossa aplicação
+Que é o código
+Together
+Que qualquer
+O contexto de tudo aqui
+É o seguinte
+A gente
+Está na missão
+A gente está nessa missão
+Aqui do NLW
+Uma missão junto
+E aí é junto com você
+Que a gente vai construir
+Tudo isso
+Então cada aula
+A gente vai estar evoluindo
+E indo junto
+Para o próximo nível
+Então o NLW
+É um efeito
+Que a gente
+É um evento
+Que a gente faz
+Para a comunidade
+Para a gente
+Fazer esse processo
+De crescimento juntos
+Em um período
+De uma semana
+É para mostrar para você
+O quanto que a gente consegue
+Evoluir em uma semana
+Porque às vezes a gente fica
+Ah, eu não quero aprender
+Aquela tecnologia
+Eu vou gastar um tempão
+Para começar a fazer
+Alguma coisa naquela tecnologia
+E a gente não
+A gente mostra para você
+A gente consegue criar
+Uma aplicação incrível
+Criar muitas coisas legais
+Então a gente
+Mostrando também
+Que não existe limite
+A gente
+Para a gente conseguir chegar
+No próximo nível
+É um processo de evolução
+Step by step
+Que todos os dias
+Você está ali
+Estudando aquela tecnologia
+Pegando
+Produzindo as coisas
+No longo prazo
+Vocês vão perceber
+O tanto que vocês evoluíram
+Então isso é muito legal
+E a gente está junto
+Aqui nessa NLW
+Para a gente construir
+E a gente vai evoluir juntos
+Em cada aula
+E aí
+Uma coisa muito importante
+Também
+É
+Participe da comunidade
+Para tirar suas dúvidas
+E deem feedback
+Sobre a aula
+Eu fico muito feliz
+Quando vocês deem o feedback
+Para a gente melhorar
+Em cada aula
+Revoluir
+Para o próximo nível
+Cada NLW
+Para a gente sempre
+Entregar para vocês
+O melhor conteúdo
+Entregar aquele conteúdo
+Super legal
+Para a gente sempre
+Estar evoluindo
+Cada NLW
+Aprender uma coisinha nova
+Aprender uma coisinha nova
+Porque na hora que você
+Passar aquele ano todo
+Vendo as NLW
+Você pode olhar para trás
+E falar assim
+Nossa
+O tanto de coisa
+Que eu já aprendi
+Com o Flutter aí
+Dentro de uma NLW
+Galerinha
+Espero que vocês tenham gostado
+Foi uma aula muito legal
+Eu curti muito
+Te passar essa introdução
+A gente construiu
+Essas coisas
+Step by step
+E eu tentei
+Tomar menos café
+Dessa NLW
+Eu prometo a vocês
+Que eu vou
+Tomar menos café
+Para construir o conteúdo
+Para vocês
+Para isso
+Puxar
+E tomar mais água
+Valeu galerinha
+Até a próxima aula
+Até a próxima aula
+Legenda por Sônia Ruberti

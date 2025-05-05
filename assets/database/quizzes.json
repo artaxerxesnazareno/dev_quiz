@@ -21,7 +21,45 @@
             "title": "Um framework para desenvolvimento de aplicativos desktop", "isRight": true
           }
         ]
+      },
+      {
+        "title": "Qual linguagem de programação é usada principalmente no Flutter?",
+        "awnsers": [
+          {
+            "title": "JavaScript"
+          },
+          {
+            "title": "Dart",
+            "isRight": true
+          },
+          {
+            "title": "Kotlin"
+          },
+          {
+            "title": "Swift"
+          }
+        ]
+      },
+      {
+        "title": "Qual dessas vantagens é associada ao uso do Flutter?",
+        "awnsers": [
+          {
+            "title": "Compilação apenas para Android"
+          },
+          {
+            "title": "Necessidade de codificar separadamente para cada plataforma"
+          },
+          {
+            "title": "Interface de usuário nativa com uma única base de código",
+            "isRight": true
+          },
+          {
+            "title": "Somente suporte a aplicativos web"
+          }
+        ]
       }
+
+
     ]
   }
 ]

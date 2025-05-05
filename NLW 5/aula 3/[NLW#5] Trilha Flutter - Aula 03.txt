@@ -1,0 +1,5071 @@
+Fala Dev, já chegamos no terceiro dia de NLW
+E eu preciso te dizer o quanto está sendo incrível ter você aqui comigo nessa semana
+Esse é o evento onde o nosso time de educadores da Rocketseat
+Traz o que tem de melhor para toda a comunidade evoluir junto
+E até agora você já deve ter percebido a diferença que faz
+Em estar num ambiente assim como o do NLW
+Onde a educação vai muito além do conteúdo
+Um método de aprendizado eficiente precisa estar em cada detalhe
+Do que a gente entrega por aqui
+Motivação, engajamento, clareza nos objetivos, foco
+Consistência das oportunidades, sincronismo do grupo
+Compartilhamento das experiências, currículo alinhado com o mercado
+E claro, tudo isso na prática
+Esses são alguns dos elementos que fazem diferença na velocidade da sua evolução
+E tão presente aqui no NLW
+Mas deixa eu te contar como que a gente chegou até aqui
+A Rocketseat nasceu em maio de 2017
+Quando três programadores decidiram se juntar
+Para ajudar a levar a carreira de outras pessoas para o próximo nível
+De um lado a gente via ótimas oportunidades de um mercado cada vez mais aquecido
+Enquanto de outro a gente via nossos próprios amigos
+Ignorando as oportunidades em vez de se preparar para elas
+Foi aí que a gente percebeu que existe um abismo entre profissionais e mercado
+E que o papel da Rocketseat era construir uma ponte sobre esse abismo através da educação e tecnologia
+Literalmente o nosso propósito era ser um foguete
+Onde as pessoas pudessem através dele decolar na carreira
+E de lá para cá mais de 540 mil devs já decolaram por esse foguete
+Participando de eventos como esse aqui que você está
+Então nosso método é resultado do aprendizado ao longo desses quatro anos trabalhando com educação
+Ajudando nossas alunas e alunos a avançarem para o próximo nível
+E agora é sua vez de acelerar, então chega de falar e bora codar
+Fala Deus, como é que são vocês? Tudo bem?
+Então bora lá para mais um vídeo
+Estou super animado aqui para a aula de número 3 da NLW
+Pera aí, estou bem hypado, estou falando muito rápido
+Estou respirado aqui para falar mais devagar com vocês
+Galera, estou muito animado para a gente continuar a nossa aula de número 3
+E hoje a gente vai falar de alguns assuntos bem polêmicos e bem legais aqui na nossa aplicação
+Porque dentro das últimas duas aulas, a aula de número 1 ali
+A gente entendeu como que funciona o Flutter
+Foi entendendo um pouquinho de set-state e foi criando um pouco da aplicação
+A aula de número 2 a gente criou várias coisas de layout da aplicação
+Só que agora a gente vai olhar para o back-end da aplicação
+De dar vida à nossa aplicação
+Tipo assim, beleza, a gente criou o componente estático
+Está funcionando super bem, Gabu, estou curtindo muito
+Só que agora o que a gente precisa fazer?
+A gente precisa fazer a interação entre esses componentes
+E aí a gente vai aprender aqui hoje
+A gente vai aprender umas coisas bem legais do que a gente pode fazer
+Para interagir com esses componentes, fazer eles se reagirem
+Baseado em algum estado, baseado em alguma coisa
+Então, beleza, antes da gente começar aqui
+Vamos recapitular o que a gente fez na aula de ontem, na aula de número 2
+Na aula de número 2, igual eu tinha comentado
+A gente falou muito da questão dos componentes
+Então a gente criou o componente de level button
+A gente criou o componente de quiz card
+A gente aprendeu a utilizar o list view
+A gente criou o challenge page
+E a gente criou o question indicator widget
+E criou o quiz widget e o answer widget
+Então basicamente a gente criou a home do nosso aplicativo
+E a gente também criou a parte ali do quiz
+A primeira partezinha ali do quiz
+Então a gente criou a splash, a home e a parte de responder esse quiz
+Então hoje, como eu já disse aqui o spoilerzinho para vocês
+A gente vai começar a olhar para a coisa mais
+Vamos dizer assim, coisas mais de back-end da nossa aplicação mobile
+Porque querendo ou não, mesmo que a gente trabalhe com a linguagem front-end
+A gente tem o back-end da nossa linguagem front-end
+Mas espera aí Gabo, o que você está falando?
+Beleza, vamos lá, vamos entender um pouquinho
+Quando você tem os dados, por exemplo
+Deixa eu mostrar a minha tela aqui
+Mostra a minha tela aqui, vamos para a minha tela
+Vamos lá para o Figma
+É para ficar mais fácil essa indicação
+Quando a gente olha aqui para a nossa tela da app bar
+Da home, a gente tem algumas informações
+Que normalmente essas informações, elas vêm de algum lugar
+Ou ela vai vir de um shared preference
+Que é gravar localmente no seu aplicativo
+Ou ela vai vir de alguma API, algum recurso externo
+Então, por exemplo, a gente pode usar uma API RESTful
+Para a gente conseguir esses dados
+Ou a gente pode falar assim
+Servidor, usuário, me entrega os dados desse usuário para mim
+Aí ele vai te devolver o nome e a foto desse usuário
+Ó, servidor, eu preciso que você me devolva os quiz
+Aí ele pega e te devolve os quiz
+Então o servidor, ele funciona dessa forma
+Então normalmente, no cotidiano, a gente normalmente utiliza APIs
+Só que para o nosso contexto aqui, a gente vai utilizar um conceito de mock APIs
+Ou seja, a gente vai criar uma API falsa
+Para simular o efeito de uma API consumindo um servidor
+Só que a gente vai fazer uma API falsa aqui
+Um pouquinho é diferente
+Então vocês vão ver o porquê
+Para a gente simular melhor essa questão aí do servidor
+Beleza?
+Então a ideia da gente ter o front-end é por isso
+Quando a gente olha para essa tela aqui
+A gente tem o contexto da tela
+Só que muitas das vezes a gente fica meio assim
+Pera, como é que eu faço para colocar o nome ali?
+Como é que eu faço para pegar os quizzes?
+Então a gente precisa de algum mundo externo
+A gente precisa de algum mundo externo
+Para nos dar essa informação
+Ou a gente deixa essa informação salva dentro do código
+Ou a gente deixa essa informação dentro do shared, preface
+Dentro de um JSON, dentro de um arquivo JSON
+Então a gente tem vários jeitos de deixar essa informação salva
+Para a gente fazer a execução dessa aula
+Beleza?
+Então bora lá
+Então aqui a gente vai olhar para o nosso Notion
+Só para a gente se situar no que a gente está fazendo
+Então beleza?
+Então a gente falou que a gente vai aprender
+Que a gente vai aprender a manipular dados
+Então a gente vai olhar para a estrutura de dados
+E a gente também vai aprender ali
+A ter esse dado em algum lugar
+Para a gente puxar esse dado e aparecer na nossa tela
+A gente fez o recap da aula anterior
+Então a aula de número 2
+A gente falou muito de layout
+Então a gente construiu os layouts
+Para chegar na aula de número 3
+E a gente conseguir utilizar esses layouts
+A gente ter uma reatividade desses layouts
+E ver como que a gente pode interagir com esses layouts
+Então aqui a gente tem um Figma
+Eu sempre deixo o Figma aqui
+Para ajudar vocês a se situarem no Notion
+Beleza, então vamos lá
+A gente vai entrar aqui agora no conteúdo técnico
+Beleza
+Então o conteúdo técnico aqui
+Eu estruturei os modelos da nossa aplicação
+Porque qual que é a ideia?
+A gente pega a estrutura que está no Figma
+A gente olha para o Figma
+E a gente tem que modelar esse Figma
+Para criar uma estrutura de dados
+Então a gente cria uma estrutura de dados
+Onde essa estrutura vai ter todas as informações variáveis do layout
+E como assim informações variáveis?
+Por exemplo, a cor do fácil
+Ela está fixa aqui
+Ela está com a cor roxa
+Então a gente não precisa ter uma estrutura de dados
+Que salva a cor
+Que o fácil é roxa
+Mas a gente pode fazer isso?
+Pode
+Depende da ocasião e tudo
+Mas a gente vai deixar as cores salvas no código
+Mas o fácil, o médio, o difícil perito
+Ele pode ser coisas que a gente carrega de uma API
+Para carregar os levels
+Ou seja, os levels dos quizzes
+Eles podem ser montados baseados no que vem da API também
+A gente não precisa deixar fixo, fácil, médio, o difícil perito
+Então assim, todas as informações a gente pode utilizar no meio externo
+Mas beleza
+Antes da gente chegar no meio externo
+Vamos olhar para o nosso Figa
+E conseguir extrair os nossos modelos
+Então vamos lá
+Quando a gente olha aqui para o quiz
+O quiz
+O que é o quiz?
+Vamos entender o conceito do quiz
+O quiz é esse card
+Mais as informações para montar o quiz
+Ou seja, o que isso quer dizer?
+Então o quiz
+Ele vai ter uma imagem ou um ícone
+Ele vai ter um título
+E ele vai ter quantas perguntas já foram respondidas por aquele usuário
+Baseado nisso a gente vai montar a porcentagem aqui
+Beleza
+Só que quando eu clico nesse construir interface
+Ele vai navegar para uma tela de desafio
+A tela de challenge
+E essa tela vai ter várias perguntas
+Então o quiz
+Se a gente for olhar o quiz
+Ele vai ser um conjunto
+Ele é um conjunto de imagem, título e uma lista de questões
+Então o quiz tem uma lista de questões
+E dentro dessa lista de questões
+A gente tem coisas dentro dela
+Dentro da lista de questões
+A gente vai ter o título de cada questão
+E também a gente vai ter
+Olha que legal
+A gente vai ter cada resposta dessa pergunta
+E uma dessas perguntas tem que ser a pergunta certa
+Então se a gente for olhar
+A gente já estruturou o que?
+Dentro do lixo eu separei essas estruturas para a gente
+Então o quiz ele vai ter uma lista de questões
+Ele vai ter um título
+Ele vai ter um ícone ou uma imagem
+E ele vai ter o question answer
+Ou seja, as questões respondidas
+Quantas questões já foram respondidas?
+3 de 10
+5 de 10
+10 de 10
+Por que a gente não salvou a quantidade de questões?
+Porque a quantidade de questões a gente consegue pegar pela lista
+Que a gente criou
+E as questões respondidas
+Baseadas no que a gente salvou no chard preference
+Na API
+No que a API nos retornou
+Então a gente tem três dados de questões respondidas
+Em algum lugar da nossa aplicação
+E aqui a gente também tem a questão do level
+Porque é interessante
+Porque quando eu clico
+Se a gente olhar aqui no Figma
+Quando a gente clica aqui no fácil
+Ele vai mostrar para a gente só as perguntas fáceis
+Quando eu clicar no difícil
+Ele vai mostrar só as difíceis
+Então para isso
+A gente precisa salvar essa informação
+No nosso quiz
+E aí quando a gente olha para o quiz
+Ele recebe uma lista de questões
+E a gente desmembra a lista de questões
+E um novo objeto
+O objeto question
+Então beleza
+Antes da gente ir estruturando cada um
+Vamos só passar aqui
+Antes da gente ir codar eles
+Então o question
+Ele vai ter uma lista
+Ele vai ter um título
+Que é o título
+Que está aqui no Figma
+E ele vai ter uma lista de respostas
+E essas respostas
+É uma outra estrutura de dados
+E a gente vai colocar o título da resposta
+E se ela é a resposta correta
+Porque se ela for a resposta correta
+Vai ficar verde
+Se for a resposta errada
+Vai ficar vermelho
+É aquela estrutura que a gente tinha criado lá na O2
+Por isso que eu falei
+Eu criei aqueles gets ali
+Só para facilitar um pouco
+A validação
+Mas os gets nada mais é do que
+Ah se for isso
+Coloca essa cor
+Se for isso coloca aquela cor
+Por isso que eu só copiei e colei ali
+Para ficar mais simples
+É por isso que eu tinha dito isso na aula passada
+Mas na hora que a gente for utilizar aqui
+A gente vai ver passo a passo
+O que cada um daqueles gets estão fazendo
+E aí a gente também tem o usuário
+O que é usuário Gabu?
+O usuário é o nome do usuário
+A foto do usuário
+E o score do usuário
+Ou seja, quanto que o usuário já respondeu
+E essas informações a gente tem que ter ela
+Em algum lugar na nossa aplicação
+Então dito isso
+A gente fez um overview aqui
+Do que a gente vai fazer
+E do que a gente precisa de estrutura de dados
+Então agora
+Bora colocar a mão no código
+E começar a criar
+Essa aplicação
+Beleza?
+Então vamos aqui
+Estamos no nosso Dev Quiz
+A gente estava na última aula
+E agora a gente vai dar prosseguimento
+Deixa eu só colocar a tela aqui
+Direto no Desktop
+Porque aí fica mais fácil
+Para a gente focar no código
+Então beleza
+Olhando aqui para o nosso código
+A gente vai ter
+A nossa tela de Home
+Onde a gente vai criar
+As nossas estruturas de dados
+Só que assim
+A gente tem algumas abordagens
+Que a gente pode fazer
+E a gente vai adotar
+Uma abordagem
+De criar os modelos compartilhados
+Então lembra que a gente tinha criado
+A pastinha shared aqui
+Para deixar o Progress Indicator
+Peraí
+Falei muito rápido
+A gente criou a pastinha shared aqui
+Para deixar o Progress Indicator
+A gente vai criar uma pastinha
+Chamada Models
+Onde a gente vai deixar
+Todos os modelos da nossa aplicação
+Isso é legal
+Porque a gente olha assim
+E fala
+Nossa que legal
+Eu sei todos os modelos
+Que a minha aplicação usa
+Então o primeiro modelo
+Que a gente vai criar aqui
+É o Quiz Model
+Normalmente
+Para o padrão
+Como a gente coloca
+Underline
+O Wittget
+A gente também vai colocar aqui
+Underline Model
+Para simbolizar
+Que isso é o Model
+Então o Class
+Vamos criar uma classe
+Estrutura de dados normal
+Quiz Model
+O que o Quiz Model tem?
+Ele vai ter alguns atributos
+Um dos atributos
+Que ele tem
+É o atributo de título
+Ele vai ter um atributo
+Lista
+De questions
+Só que a gente não criou
+O tipo da question
+Então a gente precisa criar
+O tipo dessa estrutura
+Então vamos deixar
+Quebrado ainda o código
+Tá?
+E aí vamos criar
+A estrutura aqui
+Do
+Vamos criar a estrutura
+Agora do question
+QuestionModel.dark
+Então vamos criar aqui
+A class
+QuestionModel
+O question
+Ele recebe o que?
+Um título
+E ele também vai receber
+Uma lista de
+Respostas
+Answers
+Deixa eu ver
+Como que eu escrevi aqui
+Só para eu lembrar
+Como que eu escrevi aqui
+Seria a pergunta de
+Seria
+Uma lista de
+Answers
+Seria as
+Answers, né?
+E a gente vai ter que
+Criar mais um modelo aqui
+Que é o modelo de
+Answer
+AnswerModel.dark
+E aqui a gente vai ter
+Class
+AnswerModel
+E aqui a gente vai ter
+Alguns atributos
+A gente vai ter aqui
+Alguns atributos, né?
+Que é o atributo
+StringTitle
+E também a gente vai ter
+FinalBull
+IsRight
+Beleza
+Então agora a gente tem
+O título
+Do nosso
+AnswerModel
+E a gente tem
+Se ele é
+Se ele é a resposta
+Correta
+Então a gente vai ter
+Que criar um
+Construtor para ele, né?
+Porque quando a gente
+Está declarando como
+Final
+Ela precisa de um
+Construtor para dar
+Os valores do
+Final
+Então a gente vai
+Para criar um
+Construtor no Dart
+Você faz
+Você escreve o mesmo
+Nome da classe
+Né?
+AnswerModel
+E que a gente vai
+Criar construtor
+Nomeados
+Porque assim
+Fica mais simples
+Da gente
+Saber quais atributos
+A gente está passando
+Então a gente vai
+Utilizar o operador
+De this
+Para acessar o título
+This
+E a gente vai usar
+O operador
+De this.isRight
+Para acessar o write
+Só que quando a gente
+Faz isso
+Ele está reclamando
+Falando o seguinte
+O parâmetro
+Título
+Ele pode
+Ele pode assumir
+O valor de nulo
+Ele não pode assumir
+O valor de nulo
+Porque eu não coloquei
+Aqui o nullable
+Se eu colocar
+Interrogação nos dois
+Ele vai ser nullable
+Que é a questão
+Que agora é do
+Flutter 2.0
+Que é a questão
+Do no safety
+Só que a gente não
+Quer que ele seja
+No safety
+A gente não quer
+Que o título
+Seja nulo
+Como é que a gente
+Cria uma resposta
+Que ela seja nula
+Né
+Tipo
+Porque estranho
+Para o usuário
+Então a gente vai
+Colocar o
+Escreto aqui
+Required
+Ó
+É requerido
+Para você criar
+O in-seil
+Model
+É obrigado
+Você passar um título
+É obrigado
+Você passar
+Que a resposta
+É verdadeira
+Ou não
+É
+Só que a gente
+Pode fazer o seguinte
+A gente pode dizer
+Que o valor de full
+Ela é falso
+Ou seja
+Sempre a resposta
+Ela não é a certa
+Se eu quiser
+Assumir que ela
+Seja a resposta certa
+Eu coloco
+Na hora que eu vou
+Construir o in-seil model
+Eu coloco
+Is right
+True
+E aí a gente vai
+Colocar um ponto e vírgula
+Aqui
+Pronto
+Então a gente tem
+O construtor
+Então aqui
+A gente criou
+Um construtor
+Da nossa classe
+Do in-seil model
+Vamos colocar
+Uma vírgulinha
+Aqui no final
+Só para ele
+Deixar essa estrutura
+Uma embaixo
+Da outra
+Que eu gosto
+Mais assim
+De ler
+Dessa forma
+Mas aí fica
+A critério
+De vocês
+Eu gosto
+De utilizar
+Assim de colocar
+A vírgula
+No final
+Para ficar menor
+O espaçamento
+Aqui
+Porque eu também
+Utilizo uma tela menor
+Então normalmente
+Eu não aproveito
+Tanto na horizontal
+Eu gosto
+De usar mais
+Na vertical
+E agora a gente
+Vai vir aqui
+No question model
+Porque o question model
+Ele consome
+Um answer model
+Então a gente pode
+Vim aqui
+Answer model
+E agora a gente
+Vai criar o mesmo
+Construtor aqui também
+Question model
+Do tipo nomeado
+Dis.titulo
+Dis.answer
+Só que
+Aqui a gente
+Tem o seguinte
+A gente quer
+Que o título
+Seja requerido
+E que você
+Tenha que ter
+Os answers
+Então você precisa
+Adicionar as respostas
+Você também
+Pode utilizar
+Um atributo
+Chamado
+Asset
+Para garantir
+O seguinte
+A gente quer
+Garantir que
+As answers
+Ou seja
+A gente tem que ter
+Por causa do layout
+O tamanho
+Ele tem que ser
+Igual a 4
+Ou seja
+Não pode ser
+Menor que 4
+E nem mais que 4
+Tem que ser
+Exatamente 4
+Isso é interessante
+Também
+A gente coloca
+O asset
+Nas nossas classes
+Para garantir
+Também
+A integridade
+Do layout
+Porque se a gente
+Olhar o layout
+Ele foi montado
+Para ter 4
+4
+Respostas
+Se a gente
+Coloca um layout
+Com uma resposta
+Ou duas respostas
+A gente também
+Está quebrando
+O conceito do quiz
+Então a gente
+Vai colocar isso
+No asset
+Porque se
+Algum dev
+For utilizar
+Essa classe
+Ela já vai
+Estar travada
+Você tem que
+Colocar 4
+Answers
+Para criar
+Uma questão
+Beleza
+Ponto
+Show
+Isso é muito legal
+A gente usar o asset
+Principalmente
+Quando a gente
+Está trabalhando
+Em times
+Para a gente
+Garantir a integridade
+Daquela classe
+Essa classe
+Ela tem que ter
+4
+Respostas
+E agora
+A gente criou
+A gente criou
+O answer model
+Criamos
+O question model
+E agora
+A gente pode
+Vim aqui e falar
+Quiz model
+Você vai ter o questions
+Vai ter o question model
+Aqui
+Então a gente vai criar
+Também o construtor
+Aqui
+Quiz model
+Parâmetro nomeado
+Por que você
+Colocando nomeado
+Eu poderia
+Colocar aqui
+O título
+Dis.questions
+Vai funcionar
+Da mesma forma
+Só que
+A diferença
+É
+Vamos criar
+Uma classe
+Teste
+Aqui
+Só para a gente
+Função
+Teste
+Para consumir
+Se eu for
+Consumir
+Criar uma variável
+Final
+X
+Recebe
+Quiz
+Model
+Se eu fizer
+Isso
+Olha o que
+Acontece
+Ele vai me
+Obrigar
+A passar
+Um título
+E eu
+Obrigar
+A passar
+Uma lista
+Só que
+Você não
+Sabe
+Quais os atributos
+Tem que colocar
+O mouse
+Para pegar
+Quais os atributos
+Então eu prefiro
+Utilizar os parâmetros
+Nomeados
+E aí eu posso
+Utilizar a questão
+Do required
+E a vantagem
+É que se você tiver
+Muitos parâmetros
+Que alguns deles
+Não são requeridos
+Você pode
+Simplesmente
+Colocar a interrogação
+Dizendo que ele
+Pode receber o valor
+De nu
+E ele não precisa
+Estar passando
+Esse parâmetro
+Como required
+Só que como as questões
+E o título
+Eles tem que ser
+Requeridos
+Para funcionar o quiz
+Então a gente vai colocar
+Só que o quiz
+Se a gente olhar
+Lá no notion
+Ele tem algumas
+Informações a mais
+A gente criou
+A question
+Colocou o título
+A lista
+A gente criou
+O answer
+Aqui o título
+Is right
+Só que dentro
+Do quiz
+Ele tem uma lista
+De questão
+Um título
+Só que ele tem
+Esse atributo
+Quantas questões
+Já foram respondidas
+Daquele quiz
+Então a gente precisa
+Criar uma variável
+Int
+Vamos criar
+Uma variável
+Int
+Chamada question
+Answered
+Ou seja
+Quantas questões
+Foram respondidas
+E também a gente
+Precisa
+Colocar
+Se ele
+Vamos colocar aqui
+Um final
+String
+Vamos colocar um
+String aqui
+Para pegar
+A imagem
+E vamos utilizar
+A imagem
+Via asset
+Que é aquelas
+Imagens
+Que a gente
+Já pré-carregou
+Lá naquele
+Arquivo
+Do zip
+E aí também
+A gente pode
+Ter o level
+Então final
+Level
+Level
+Mas espera aí
+Level a gente
+Não criou
+Essa estrutura
+Por que a gente
+Não criou
+Essa estrutura
+Porque é o seguinte
+A gente vai criar
+Um menu
+Então ao invés
+Da gente criar
+Uma classe
+Vamos criar um menu
+Aqui
+Para a gente dizer
+Qual é o level
+Desse
+Desse
+Desse quiz
+Então vamos criar
+O level aqui
+O level
+Ele pode ser
+Um level fácil
+Médio
+Difícil
+E perito
+Eu vou colocar
+Em português mesmo
+Porque fica mais fácil
+Com os nomes lá
+Para a gente fazer
+Os filtros depois
+Então ele vai ter um level
+Então quando eu tenho
+Uma question
+Ela vai ter um level
+E aí eu preciso
+Colocar alguns atributos
+Por exemplo
+O level
+Ele é requerido
+Se ele for
+Você vai ter que colocar
+Record
+Dis
+Ponto
+Normalmente o bom
+É você colocar
+O construtor aqui
+Na ordem
+Então título
+Question
+Dis
+Ponto
+Question
+Answered
+Vamos colocar
+Que o default
+É zero
+Para a gente não ficar
+Preenchido toda vez
+Que criar um quiz
+Vamos colocar
+Que a imagem
+Ela é requerida
+Então você precisa
+Passar a imagem
+E também precisa
+Passar o level
+Dis
+Ponto
+Level
+Então pronto
+Aqui a gente já criou
+Nossa estrutura de dados
+Da nossa aplicação
+Da questão do quiz
+Então o quiz
+Ele envolve
+Um question model
+E envolve
+Um answer model
+Para a gente finalizar
+Nossa estrutura de dados
+Para a nossa aplicação
+A gente precisa criar
+Também o user
+O user model
+Para gravar o score
+O nome
+E a foto url
+Então vamos criar
+Mais um modelo
+Aqui chamado
+User model
+Ponto dart
+E da mesma forma
+Class
+User model
+Vamos ter
+Final
+String
+Name
+Final
+String
+Vamos ver
+Vamos ver lá
+Como é que está
+A ordem
+Foto url
+Final
+Double
+Ou a gente pode
+Fazer um double
+Para colocar
+0.75
+Ou a gente pode
+Colocar um inteiro
+Para colocar
+De 0 a 100
+Então o score
+Dele é de 0 a 100
+Então vamos colocar
+Um score
+Int
+Então aqui
+Ao invés
+Da gente criar
+O constructor
+Na mão
+A gente pode
+Falar para o dart
+Criar o constructor
+Esses outros aqui
+Generate
+Constructor
+É um
+Plugzinho
+Que eu coloquei aqui
+Dart
+Data class
+Então se você instalar
+O dart
+Data class
+Generator
+Quando eu clicar
+Aqui
+Ele vai aparecer
+Para vários tipos
+Por exemplo
+Você pode criar
+Um data class
+Completo
+O que é um data class
+Ele vai criar
+O copy
+O if
+Ele vai criar
+O to map
+O from map
+Só que isso aqui
+A gente vai deixar
+Depois se a gente
+For utilizar
+Então vamos colocar
+Para ele criar
+Só o construtor
+Para a gente
+Então quando eu clico
+Para ele criar
+O construtor
+Ele já coloca
+Olha que legal
+Ele já coloca
+O requality
+E coloca o dis
+Para todos
+Os nossos parâmetros
+Então pronto
+Com essa extensão
+Dart
+Data class
+Generator
+Ele já facilita
+Muito para a gente
+Também
+Então beleza
+Então é sempre legal
+A gente também utilizar
+Coisas que facilitam
+Ali o nosso dia a dia
+Show
+Então aqui a gente
+Criou o user model
+Criamos o quiz model
+Question model
+E um answer model
+Beleza
+Temos todas as estruturas
+De modelos
+Aqui criadas
+Então vamos lá
+Olhar
+Vamos olhar aqui
+Para o nosso notion
+Para ver o que
+A gente precisa mais
+Então a gente criou
+O usuário aqui
+Score
+Name
+Photo URL
+Então agora o próximo passo
+É o que?
+A gente trabalhar
+É trabalhar com essa estrutura
+Porque assim
+A gente criou os modelos
+Da nossa aplicação
+Só que a gente também
+Precisa agora
+Interagir com
+Com esses modelos
+Da minha aplicação
+Vamos lá
+Para a gente consumir
+Os modelos
+Da nossa aplicação
+A gente tem aqui
+O nosso
+Home and Controller
+E isso aqui é interessante
+O nosso
+Home and Controller
+Quando a gente fala
+De criar algum controlador
+Normalmente a gente vai
+Fazer algumas chamadas
+Vai fazer algumas interações
+Só que para a gente
+Criar um controlador
+Também
+A gente precisa de criar
+Variáveis ali
+Para armazenar
+As coisas
+Então normalmente
+Quando a gente fala
+De criar um controller
+Normalmente esse controller
+Ele vai ser responsável
+Pelo estado
+Da sua tela
+Então normalmente
+Ele vai guardar informações
+Baseadas naquelas informações
+Você vai mudar
+O estado da sua aplicação
+Por exemplo
+Se a lista dos quiz
+Forem vazias
+A gente vai colocar
+Um circular progress indicator
+Para indicar
+Que ele está fazendo um load
+Ou seja
+É sempre importante
+A gente dar feedback
+Para o usuário
+Então quando a gente está
+Criando qualquer aplicação
+A gente tem que se preocupar
+Com três coisas
+O estado de sucesso
+O estado de erro
+E o estado de load
+Então normalmente
+Esses três
+Eles sempre caminham juntos
+E normalmente
+Boa parte das features
+Precisam desses três estados
+Não quer dizer
+Que vai ter todos os estados
+Normalmente os três estados
+Loading
+Sucesso
+E erro
+É comum da gente ter
+Então isso é interessante também
+Da gente
+Sempre
+Quando for desenvolver
+Uma fita
+Também pensar
+Ou às vezes também
+Avisar
+Para quem está criando
+O design
+Também falar
+Tem um load aí
+Para a gente colocar
+Tem um erro
+Para a gente colocar
+Isso é a gente ter
+Senso de produto
+Então é legal
+Por mais que a gente
+Estar criando um quiz
+Aqui
+Olha
+Eu já estou criando um quiz
+Criando um controle
+Já pensando em ter também
+Um estado
+Porque pode ter algum erro
+Eu posso carregar
+Algum JSON
+E ter alguma modificação
+Que dê algum erro
+Eu preciso avisar
+Para o usuário
+Então toda essa interação
+De produto
+Também é legal
+A gente ter
+E a gente ir criando
+Esse senso
+No processo de desenvolvimento
+Então por mais que
+Quando a gente olha
+O Figma
+Olha alguma interação
+Ela seja uma interação
+Tipo
+Ah está ali
+Não precisa fazer muita coisa
+Mas é sempre legal
+Da gente pensar nisso
+Então eu deixo isso
+Para vocês também
+Porque por exemplo
+Em algumas aulas
+Eu percebi
+Eu deixei algumas coisas
+Não feitas
+Eu percebi
+Ah o Gabu
+Deixou a gente fazer tal coisa
+Eu fui lá e fiz
+Implementei
+Então isso é legal
+Que vocês estão tendo
+Senso de produto
+Vendo o que está no Figma
+E vendo
+Olha não está igual o Figma
+Está faltando alguma coisa
+Vou implementar
+Então isso é muito legal
+Eu vi o feedback de vocês
+Estou curtindo muito
+A gente interagindo ali
+No Discord
+E vendo o que vocês estão fazendo
+Também é muito legal
+Incrementar
+Aquilo que não foi feito
+Então
+Voltando aqui para o código
+Vamos voltar aqui para o código
+Eu deixo só
+Esse momentinho de produto
+Porque eu sou uma pessoa
+Que gosta muito
+De desenvolver produto
+Então sempre que eu estou
+Em qualquer projeto
+Eu falo
+Beleza
+A gente está no projeto
+Mas eu estou pensando
+Como produto
+Como visão de dono
+Tipo
+Vamos fazer essa alteração aqui
+Porque
+Normalmente
+70% dos apps
+80%
+9%
+Fazem isso
+E tem dado muito certo
+Muita gente gosta
+Então vamos implementar
+Essa filtro
+Então isso é muito legal
+Beleza
+Voltando aqui para o código
+A gente vai criar agora
+O nosso Homer Controller
+Por que
+Por que
+Aí vocês podem estar pensando
+Mas Gabu
+Beleza
+A gente criou
+As estruturas
+E por que a gente
+Precisa ter um controller
+E isso é uma pergunta
+Muito interessante
+Vocês já pararam
+Para pensar
+Por que as vezes
+A gente está fazendo
+Certas coisas
+As vezes
+A gente faz
+Sem entender o porquê
+Mas beleza
+Vamos entender
+O porquê de um controller
+O controller
+Ele é responsável
+Por controlar
+Ou seja
+O que ele vai controlar
+Ele vai controlar
+O estado da página
+Lembra lá na primeira aula
+Quando a gente fez
+Aquele set state
+Quando eu mudava
+O estado ali
+Ele fazia implementações
+Na minha tela
+Por exemplo
+Eu mudava o estado
+Na cor
+Por exemplo
+Eu trocava a cor
+Eu dava um comand s
+Ele trocava lá
+Na minha cor
+Aí a gente pode ir vendo
+Que essas coisas
+Elas
+São
+A responsabilidade
+Do controle
+Então ouvir essa palavra
+Controller
+Vai ser muito comum
+No seu cotidiano
+De desenvolvimento
+No mobile
+Aí o controle
+Ele se quebra
+Em outras coisas
+Ele pode quebrar
+Ele pode chamar ele de bloc
+Pode chamar ele de store
+Mas no final
+É um controle
+É um controlador
+Ele vai controlar
+Ele vai dizer
+Para a tela o seguinte
+Tela renderiza
+O load
+Tela renderiza
+O nome
+Gabu
+Tela renderiza
+A foto do Gabu
+Então o controlador
+Ele é responsável
+Para dizer
+O que a tela vai fazer
+Porque a tela
+Simplesmente
+Ela renderiza
+Está ali
+Mas se ela não tiver
+Informações
+Ela não consegue
+Trabalhar
+Então a UI
+User interface
+Ela trabalha
+Junto com o controle
+É como uma controladora
+Então sempre o controlador
+Tem que dizer
+Para a tela
+O que ela tem que exibir
+Qual o estado
+Que ela tem que fazer
+Porque a tela em si
+É um estático
+É como se fosse uma imagem
+Pensa que a tela
+É uma imagem
+Ela está estática
+Para trocar aquela imagem
+Por exemplo
+No slide
+Você tem que clicar
+No botão
+Tem que clicar no mouse
+Para ele trocar
+O slide
+E a tela aqui no Flutter
+É a mesma ideia
+A gente precisa de fazer
+Alguma coisa
+Para ele trocar
+Então beleza
+Vamos começar a criar
+O nosso controle
+Aqui para a gente
+Começar a criar
+Essa troca
+Criar essa interação
+Então vamos lá
+Criando o nosso
+HomeController
+Olhando aqui
+Para a nossa tela
+A gente vai lá
+Na nossa pastinha
+De lib
+Vamos lá
+Na nossa pastinha
+De home
+E vamos criar
+Um arquivo aqui
+Chamado
+HomeController
+E
+É legal
+Que normalmente
+Quando eu falo
+O nome com vocês
+A terminação
+Do arquivo
+É aquele nome
+Então isso é
+A questão de padrão
+Também
+Vocês ir criando
+O padrão
+Na escrita
+Porque fica mais
+Por exemplo
+Eu sei que
+Quando eu vou criar
+Um controller
+Depois de um tempo
+Eu sei que é home
+O nome da minha página
+Que eu quero controlar
+E terminação
+Controller
+Beleza
+Criamos o home
+Controller
+Criamos aqui
+O home controller
+Show
+Temos o home controller
+Aqui
+Beleza
+Estamos aqui
+Com o nosso home controller
+O que a gente
+Precisa fazer agora
+Dentro do nosso
+Home controller
+Para a gente ter
+Informações
+A gente tem
+Algumas abordagens
+Que a gente pode fazer
+Primeira abordagem
+É o que?
+O home controller
+Vamos colocar
+Que ele também
+Vai controlar
+O usuário
+Então vamos dizer
+Que a home
+O home controller
+Ele vai abordar
+O usuário
+E ele vai abordar
+Também os quizzes
+Então para isso
+A gente vai criar
+Duas estruturas
+Aqui
+A gente vai criar
+Um user model
+Do tipo user
+E a gente vai dizer
+Que ele é nullable
+E a gente vai iniciar
+Ele como null
+Então ele vai ser nullable
+E a gente vai ter
+Uma lista
+De quiz
+Que representa
+Os quizzes
+E também a gente vai dizer
+Que ele é null
+Por que?
+Porque no início
+A gente precisa
+Buscar essa informação
+De algum lugar
+Por conta disso
+A gente vai deixar
+O user model
+E o quiz
+Iniciar como null
+E a gente vai criar
+Uma variável
+Aqui para dizer
+Que agora
+Quando estiver
+Nesse estado
+A gente pode
+Acessar o quiz
+Qual variável
+Que é essa?
+O nome
+State
+A gente vai criar
+Uma variável
+Aqui chamada
+State
+É var
+State
+Só que se eu
+Criar var
+State
+A gente não tem
+Um tipo
+Qual é o tipo
+De state
+Que a gente quer?
+A gente vai criar
+O tipo desse state
+Então para isso
+A gente vai vir
+Vai vir aqui
+Vai vir dentro
+Do nosso home
+E vai criar
+Um arquivo
+Chamado
+Home
+State
+.dart
+E agora
+A gente pode
+Criar o state
+Da nossa página
+Home
+Então vamos lá
+Vamos criar o state
+Aqui da seguinte forma
+A gente tem
+Várias formas
+De você criar o state
+Mas no primeiro momento
+Vamos criar o state
+Como enum
+Então a gente vai ter aqui
+Um enum
+Chamado
+Home
+State
+E ele vai ter
+Um estado
+De sucesso
+Sucesso
+Loading
+E erro
+Então a gente vai ter
+Esses três estados
+Que eram os estados
+Que eu tinha comentado
+Com vocês anteriormente
+Tendo esses três estados
+A gente vai criar
+Um estado aqui
+Chamado
+Home
+State
+A gente vai
+Inicializar esse estado
+Como nu
+Ou
+A gente pode criar
+Um estado aqui
+Chamado de empty
+Eu gosto de criar
+Um estado vazio
+Porque é interessante
+Para a gente não ficar
+Inicializando o estado
+Do nosso controle
+Como nu
+Para evitar
+Aquelas quebras
+Tipo
+Ah você saiu
+Valor nu
+Então eu sempre gosto
+De criar um home
+State
+Ponto empty
+Aqui inicializando
+O nosso controle
+Então beleza
+Criamos aqui
+O nosso class controller
+Criamos o estado
+Do
+Beleza
+Então se a gente olhar
+O notion
+A gente criou
+O estado
+Eu não coloquei aqui
+Deixa eu completar
+Para vocês
+State
+Vamos criar
+Vamos criar o estado
+E agora
+A gente vai criar
+O get user
+E os get quizzes
+Que são funções
+A gente criou
+As variáveis
+Para guardar
+O que essas funções
+Vão buscar
+Então se a gente
+Criar aqui
+Void
+Get user
+Quando eu chamar
+Essa função
+Void
+Get user
+Ela vai pegar
+O usuário
+E vai escrever
+Aqui para mim
+User model
+Recebe o nome
+Gabudev
+E recebe
+A foto url
+A foto url
+A gente pode pegar
+A foto que a gente
+Utilizou
+Lá no
+Na app bar
+A gente pode vir aqui
+E pegar
+Essa foto
+Pegar essa foto
+E vamos colocar
+Essa foto aqui
+Dentro da nossa url
+E aqui
+Também está pedindo
+O meu score
+O meu score
+Ah
+Eu não respondi nada
+Então a gente
+Pode colocar também
+A gente pode ir lá
+No user model
+Inicializar o score
+Como zero
+Para facilitar
+Para a gente não ficar
+Colocando o score
+Então vamos inicializar
+O score ali como zero
+Beleza
+Então agora a gente
+Tem o score
+Ponto zero
+Colocamos aqui
+Ponto e vírgula
+Pronto
+A gente tem
+O nosso get user
+Beleza
+Então agora a gente
+Vai criar também
+O nosso
+Void get quizzes
+Beleza
+A gente tem que popular
+Essas informações
+O nosso quiz
+Então vamos lá
+Quizzes
+Quizzes recebe
+Uma lista
+Dentro dessa lista
+A gente vai criar
+Um quiz model
+Onde ele vai ter
+Um título
+Esse título
+Do quiz
+A gente pode chamar
+Tipo assim
+NLW
+5
+Flutter
+E a gente pode ter
+Aqui as questões
+Dentro das questões
+A gente pode criar
+Uma questão aqui
+Question
+Essa questão
+Question model
+Essa questão
+Ela vai ter um título
+Também
+O que
+Está curtindo
+Está curtindo
+O
+Flutter
+E aqui a gente vai ter
+As respostas
+Ó
+Inserts
+Vamos lá
+Eu esqueci de dar
+Um import
+Não
+É requerido ter
+Uma imagem
+Então vamos lá
+Imagem
+Vamos chamar
+O app
+Image aqui
+E vamos pegar
+A imagem
+Dos blocos
+Pegar as imagens
+Dos blocos
+Ele também
+Está pedindo
+O VS Code
+Também está pedindo
+O seguinte
+Vamos lá
+O VS Code
+Está pedindo o level
+Então vamos colocar
+Aqui o level
+Dessa questão
+Vamos colocar
+Aqui o level
+É um level fácil
+Level
+Ponto fácil
+Pronto
+Então a gente já
+Completou o quiz model
+Aqui
+Então a gente colocou
+Um título
+Colocou uma imagem
+Colocou um level
+E aqui a gente tem
+As questões
+Question model
+Eu não dei impost
+Então
+Normalmente eu escrevi
+Question model
+Eu dou um
+Command ponto
+E dou um impost
+Nele
+Beleza
+Então ele está pedindo
+As answers aqui
+Quais que são as respostas
+Então
+Answer
+Model
+Titul
+Estou curtindo
+Estou curtindo
+Estou curtindo
+Adorando
+Amando
+Flutter
+Muito top
+Muito top
+Show de bola
+Show de bola
+Aí qual que é a resposta
+Correta
+A gente pode escolher
+Vamos colocar aqui
+A última resposta
+Que é a correta
+Então beleza
+Is right
+Então a gente já criou
+Um quiz
+Então olha
+A gente tem duas informações
+Aqui dentro do nosso
+HomeControl
+A gente tem o get
+Do usuário
+E a gente tem o get
+Get quizzes
+Só que agora
+Só que agora
+O que a gente precisa fazer
+Beleza
+A gente criou
+Que o nosso controle
+As informações estão aqui
+Só que a gente precisa
+Utilizar essa informação
+A gente precisa colocar
+Essa informação
+Em algum lugar
+A gente precisa o que?
+Instanciar esse controle
+Em algum lugar
+Para a gente utilizar ele
+Então como a gente criou
+O controle da nossa
+HomePage
+Onde que a gente vai
+Inicializar esse controle
+A gente vai utilizar
+Esse controle
+Lá na HomePage
+Aí que a gente pode
+Criar a variável
+Chamada final
+Controller
+Recebe o HomeController
+Então pronto
+Aqui a gente inicializou
+O nosso HomeController
+E aí
+Com o nosso HomeController
+Inicializado
+Vamos dar o import aqui
+Aí você pode importar
+Relativo
+Ou importar completo
+Eu prefiro importar
+Relativo
+Como é
+Controler
+Está dentro do mesmo
+A pasta
+Fica mais simples
+Então beleza
+Instanalizamos aqui
+O HomeController
+O HomeController
+Ele tem duas
+Variáveis
+Ele tem a variável
+Do usuário
+Ele tem o UserModel
+E ele tem
+A variável
+Também
+Do
+Do app
+Do
+Dos quizzes
+Então a gente precisa
+Fazer duas coisas
+Primeiro a gente precisa
+Conseguir passar
+Essa informação
+Do usuário
+Para dentro do
+AppBarWidget
+Uma coisa simples
+Que a gente pode fazer
+É tornar externo
+O usuário
+Por exemplo
+O Gabu deve
+E a foto
+Está dentro
+Da AppBar
+Eu não consigo trocar
+Então por isso
+Eu vou passar
+Vou falar
+Que ela recebe
+Um UserModel
+Então no momento
+Que ela recebe
+Um Usuário
+Que ela recebe
+Um Usuário
+Eu posso colocar
+Aqui
+Required
+This User
+E a gente pode
+Utilizar
+O seguinte
+User.
+User.name
+E aqui
+E aqui a gente pode
+Utilizar
+User.photo.rl
+Pronto
+Então agora a gente
+Vai passar
+O AppBar
+Ele está pedindo
+Um usuário
+Então a gente pode
+Vim aqui
+User.controller.user
+Só que o controller.user
+Ele pode ser nulo
+Ele pode ser nulo
+Ele pode ser nulo
+Então se a gente
+Fizer a chamada
+Diretamente dessa forma
+A gente vai ter
+Um problema
+Que é o seguinte
+O UserModel
+Ele pode ser nulo
+E aí a gente pode
+Fazer o seguinte
+Beleza
+Nesse momento
+Eu garanto
+Eu posso
+Garantir
+Falar assim
+Eu garanto
+Dart
+Que ele não vai ser nulo
+Aí eu coloco
+A exclamação
+Beleza
+Então vamos colocar
+A exclamação aqui
+Só que nesse momento
+Galera
+Eu não estou garantindo
+Que ele é nulo
+Porque a gente
+Só inicializou
+Só chamou o controle
+E inicializou
+A gente não chamou
+Nem a função
+Nem nada
+Então por conta disso
+Ele vai ser nulo
+Só que eu estou
+Forçando ele
+Dizendo que ele
+Que eu estou garantindo
+Que ele não vai ser nulo
+Só que no momento
+Que a gente vai rodar
+A gente vai perceber
+Que a gente vai ter um problema
+Vai quebrar
+Então vamos deixar
+O build aqui acontecendo
+Deixar o build aqui acontecendo
+Deixar o build aqui acontecendo
+Enquanto
+A gente também faz
+A mesma coisa
+Aqui para
+Para as funções
+Está vendo que aqui
+A gente não está utilizando
+Uma lista de children
+E a gente pode
+Simplesmente vir aqui
+E chamar
+Controller
+Ponto
+Aí ele vai
+O VS Code
+Vai acessar os quizzes
+Ele vai acessar os quizzes
+E aí os quizzes
+A gente vai fazer
+Uma transformação
+A gente vai fazer
+Quizz.map
+Então a gente vai transformar
+O operador de map
+Ele é muito legal
+Que a gente consegue
+Transformar uma lista
+De um tipo em outro
+A gente vai transformar
+Essa lista
+Em um tipo de quiz
+Widget
+A gente vai pegar
+O children
+Que tem o
+Controller.quizzes.map
+E vamos transformar
+Em uma lista de quiz
+E a gente vai dizer
+Que isso aqui
+É um ponto
+ToList
+Então a gente vai
+Transformar
+O children
+Em um ToList
+Só que os quizzes
+Eles também
+Podem ser nu
+Então a gente tem
+Que colocar um tratamento
+Aqui de interrogação
+Beleza
+Tudo bem
+E aqui a gente vai ter
+O
+Quiz
+QuizWidget
+Então beleza
+A gente vai ter o
+QuizWidget aqui
+Dentro do QuizWidget
+Ele recebe
+O parâmetro do título
+Então vamos pegar
+O título
+Então é
+É ponto
+Vamos pegar o título
+Aqui
+É ponto
+Title
+Beleza
+Só que o título
+Ele está dizendo
+É quando a gente
+Criou
+O
+O modelo
+Do QuizModel
+A gente disse
+Que o título
+Ele pode ser nu
+Então vamos lá
+Conferir dentro
+Do QuizModel
+Vamos lá
+Nos nossos modelos
+E vamos validar
+Se o título
+Pode ser nu
+Olha o título
+Pode ser nu
+Só que não
+A gente colocou
+Record
+Então o título
+Não pode ser nu
+Em hipótese alguma
+Isso vai acontecer
+Então beleza
+Então agora
+Se a gente colocar aqui
+Vai ver que vai funcionar
+Perfeitamente
+Show
+Está funcionando
+Bacaninha
+É
+Vamos ver se a gente
+A gente teve algum problema
+Aqui
+Vamos mandar rodar de novo
+Vamos esperar o build
+Acontecer aqui
+Então
+É
+Quanto está acontecendo
+O build aqui
+Vamos lá
+Vamos
+Vamos pensar em algumas
+Estratégias
+É
+Se
+Se a gente
+Rodar
+Rodar
+Rodar
+Dessa forma
+A gente
+Provavelmente
+Vai tomar um erro
+A gente vai ter um erro
+Da nossa tela
+Então
+Para garantir
+Que a gente não tem o erro
+A gente pode
+Fazer
+Alguma abordagem
+Qual que é a abordagem?
+Chamar
+A nossa função
+De get user
+E get quiz
+Para garantir
+Que na hora
+Que renderizar a tela
+Já tem essa informação
+E não ocorra
+O problema
+De quebrar
+De dar aquela famosa
+Tela vermelha
+Mas vamos
+Deixar acontecer
+O erro
+De tela vermelha
+Porque é interessante
+Também para a gente
+Aprender a lidar
+Com o erro
+E ver
+Como que a gente
+Pode resolver
+Com o erro
+Então
+Quando eu coloquei
+Essa interrogação
+Aqui
+Eu estou forçando
+Para o Dart
+Ou seja
+Estou falando
+Dart
+Ó
+É
+Eu estou fazendo
+Uma coisa aqui
+E eu tenho certeza
+Que isso não é o certo
+Mas
+Eu estou te garantindo
+Eu estou garantindo
+Que a gente está
+Utilizando aqui
+O Nusafety
+Então é legal
+Também a gente
+Parar nisso aqui
+E pensar um pouquinho
+É do seguinte
+Quando a gente está
+Trabalhando
+No Dart
+Antes da versão 2.0
+A gente não tinha o Nusafety
+Então
+Essas coisas
+A gente poderia chamar
+Aqui direto
+Controler.user
+Mesmo ele sendo
+Estenciado Nus
+Que não ia acontecer nada
+Simplesmente ia acontecer o seguinte
+Na hora que você rodasse
+Você tem um erro
+Só que
+A vantagem
+Que a gente está tendo
+Aqui agora
+É o seguinte
+A vantagem
+De a gente utilizar
+Dessa forma
+É que a gente
+Tenha
+A IDE
+No salvando
+Ou seja
+A IDE
+Está chegando
+E falando assim
+Ó
+Você sabe
+Que isso tem
+A possibilidade
+De ser Nul
+Então tome cuidado
+Então trate
+Que isso não seja Nul
+Para não acontecer esse erro
+Então se a gente
+For lá no nosso
+Lib
+É
+Core
+App
+Widget
+E mandar
+Ele renderizar agora
+O nosso
+Homepage
+Vamos trocar aqui
+Para renderizar o
+Homepage
+Coloca para renderizar o
+Homepage
+A gente vai ver que a
+Primeira coisa que vai
+Acontecer
+É a gente ter um erro
+Na nossa tela
+Porque ele vai tentar
+Acessar um dado
+Que está Nul
+Ó
+Nul check operator
+Using uma Nul value
+Ou seja
+Você
+É
+A gente utilizou
+Você não né
+Eu
+É o Gabu aqui
+Utilizou o seguinte
+Utilizei
+Um check de Nul
+Falando o seguinte
+Ó
+Não é Nul
+E eu estou passando Nul
+Né
+Então peraí
+Uai
+Você está falando
+Que a coisa não é Nul
+E está passando Nul
+Então realmente a gente vai ter o erro
+Só que isso é legal
+Que no momento que a gente
+Está fazendo o erro
+A IDE já nos avisa
+Só que a gente foi teimoso
+E falou
+Não
+Vamos deixar
+Eu fui teimoso
+E falei
+Não
+Vamos deixar
+Não vai dar nada
+Só que deu
+Deu erro
+Então para a gente resolver isso
+Quando a gente está utilizando
+A classe aqui
+Ó
+Stateful
+Por isso que lá no início
+Eu falei ó
+Vamos usar o stateless aqui
+Vamos usar o stateless em página
+Depois a gente vai entender
+O porquê
+O stateless
+Como a gente tinha feito antes
+Ele não muda estado
+E uma coisa que ele
+Por ele não mudar estado
+Ele também não tem
+Uma função chamada
+InitState
+Ou seja
+Ela é uma função chamada
+Antes
+Ou seja
+Antes de iniciar qualquer coisa
+Tudo que está dentro dela
+É chamado
+Então a gente pode fazer o seguinte
+Pode utilizar o
+InitState
+Para chamar aqui
+O controller
+.getUser
+E também
+Chamar o controller
+.getQuizzes
+Então no momento
+Que a gente rodar
+Agora se eu der
+O
+O
+Comand
+Aqui
+Comand S
+A gente vai perceber
+Que não vai acontecer
+O efeito
+Por quê?
+Esse InitState
+Ele só acontece
+Uma vez que foi
+Criado a nossa classe
+O build
+Ele vai acontecer
+Várias vezes
+Mas o InitState não
+Então eu preciso rodar
+Um hot restart
+Para ele
+Recompilar a aplicação inteira
+E aí
+Ele fazer
+A questão ali
+Da renderização
+Da renderização
+Na nossa tela
+Então aqui
+Olha que legal
+A gente
+A gente criou
+O olagabudev
+Colocou uma foto
+Só que
+Eu
+Eu utilizei o componente
+Errado
+Né galera
+Eu utilizei aqui
+O quiz
+E eu deveria
+Eu deveria ter
+Eu deveria ter
+Utilizado
+O quiz card
+Ele já renderizou
+O quiz
+Lá para a gente
+Então assim
+Se a gente for olhar
+A gente até fez
+Funcionar mais
+Do que a gente
+Imaginava
+Então se a gente
+Colocar o quiz card
+Widget aqui
+E mandar renderizar
+Na minha tela
+A gente vai ver
+Que agora a gente
+Está consumindo
+Os dados
+Da nossa
+API
+Da nossa
+API fake
+Né
+Vamos dizer assim
+E está aparecendo
+Aqui na tela
+Então por exemplo
+Só que
+Se a gente for olhar
+Tem um problema aqui
+Né
+Vamos lá
+Tem um problema aqui
+Que eu estou
+Está escrito aqui
+Gerenciamento de estado
+Escrito gerenciamento de estado
+É
+E está escrito
+Aqui
+NLW5flutter
+Por que o título
+Está errado
+E aqui
+Eu não respondi nenhuma
+Está falando que respondeu
+3 de 10
+É só a imagem
+Que está certa
+Mas é porque
+Eu coloquei bloc
+Espera aí
+Tem alguma coisa
+Errada
+Por que
+Se a gente olhar
+Quando a gente
+Está acessando
+Aqui
+Criando
+Os nossos
+Quizzes
+O quiz card
+Ele não recebe
+Nenhum parâmetro
+Ele está com os parâmetros
+Todos lá
+Escritos diretamente
+Então o que
+A gente pode fazer
+A gente pode
+Passar
+Passar
+Para fora
+O
+O que ele usa
+Por exemplo
+Ele usa um título
+A gente pode passar
+Um
+Final
+String
+Title
+E também
+A gente pode passar
+O
+A questão ali
+Do quanto
+Que já foi respondido
+Se é 3 de 10
+O que é
+Então a gente pode
+Final
+String
+Qual que é o nome
+Que poderia ser
+O nome disso
+Vamos pensar
+Se eu coloquei
+3 barra 10
+Seria
+Vamos colocar aqui
+Completed
+Ou seja
+Quanto que já
+Completou
+Quanto que já
+Foram respondidas
+Quanto que foram
+Completadas
+Então vamos gerar
+O construtor
+Aqui
+Então ele gerou
+O construtor
+Com o título
+Ele é required
+E o
+E o
+Completed
+Também é required
+Então a gente pode
+Vim aqui
+Colocar o título
+Agora
+E vamos colocar
+Aqui
+O
+Completed
+Aqui
+Completed
+Beleza
+Se eu der o
+Command S
+Aqui
+Ele vai dar erro
+Porque ele vai estar
+Pedindo aqui o título
+Então a gente vai passar
+O título
+E.titulo
+E também ele está
+Pedindo a questão
+Do Completed
+Então o Completed
+É o
+E.
+Question
+Answered
+Que a gente vai usar
+Concatenar
+String
+Então a gente vai usar
+O símbolo
+Do dinheiro
+E colocar aqui
+Answered
+Barra
+Acessar de novo
+Para a gente pegar
+Agora o dado
+Do E.
+Question
+Ponto
+Lente
+A quantidade
+De questões
+Então a gente vai ver
+Se é
+Question
+Answered
+Barra
+A quantidade
+De questões
+Então a gente vai perceber
+Que 0
+Barra 1
+Ou seja
+Tem uma questão
+E
+O NLW
+5 Flutter
+Aqui
+Está aqui
+Para a gente
+Na tela
+Então agora
+Que é legal
+A gente conseguiu
+O que?
+Pegar o dado
+Que estava lá
+No nosso controle
+E colocar aqui
+Na nossa tela
+Show de bola
+Perfeito
+Só aqui
+A gente pode fazer
+Uma coisa
+É o seguinte
+A gente pode
+Beleza
+Aqui
+Resolveu
+Só que
+A porcentagem
+Ela está errada
+Se a gente for
+A porcentagem
+Olha
+Ela está
+Uma porcentagem
+De 0
+3
+Então a gente
+Precisaria
+Pegar
+Essa informação
+Do question
+Answered
+Dividir
+Pela
+O question
+Leng
+Aqui
+E entregar
+A porcentagem
+Do quanto
+Foi respondido
+Ou quanto
+Que não
+Só que
+A gente pode
+Fazer
+Isso dessa
+Forma
+E também
+Pode criar
+Aqui
+Um
+Final
+Double
+Percent
+Para criar
+A porcentagem
+Que foi respondida
+Então a gente pode
+Pegar aqui
+E colocar aqui
+Embaixo
+A porcentagem
+Beleza
+Então a gente pode
+Vim aqui
+Na tela
+Pegar a porcentagem
+Porcentagem
+E vamos colocar
+E.question
+Questões respondidas
+Dividido por
+E.questions
+.length
+Então se a gente
+Fizer aqui
+Vamos olhar
+Na nossa tela
+Ó
+Zero de um
+Nada respondido
+Se a gente
+Pegar aqui
+E colocar
+Mais uma
+Question
+Vamos lá
+A gente tem
+Só uma
+Question
+Vamos colocar
+Mais uma
+Question
+Aqui
+Vamos colocar
+Mais uma
+Question
+E vamos dar
+O hot
+Reload
+Olha
+Não aconteceu
+Nada
+Por que?
+A chamada
+Ela só acontece
+Uma vez
+Então o
+InitState
+Ele não é chamado
+Toda vez que a gente
+Dá um
+Command S
+O que chama
+Toda vez que dá
+Command S
+É o build
+Só que como a gente
+Não chamou
+GetUse
+Nem o GetQuiz
+Para atualizar
+As variáveis
+Não vai acontecer
+Nada
+Então a gente vai
+Precisar de dar
+Um hot
+Reload
+Aqui
+Então a gente
+Deu o hot
+Reload
+A gente vai
+Perceber
+Que
+Vai aparecer
+Deveria aparecer
+Né
+Zero
+Zero
+Dois
+Apareceu
+Só demorou um pouquinho
+Então apareceu
+Zero
+Dois
+E
+Cinco
+Flutter aqui
+Se a gente
+Disser
+Que foi
+Respondida
+Answer
+Responder
+Que
+Question
+Respond
+Foi respondida
+Uma questão
+A gente vai ter
+Ali
+Cinquenta por cento
+Agora
+Deixa eu olhar
+Aqui na nossa tela
+Vai ficar
+Cinquenta por cento
+Então assim
+É bem legal
+A forma que a gente
+Já pode
+A gente já está interagindo
+É como se a gente
+Estivesse mudando
+Os dados
+Lá no back
+End
+Da nossa aplicação
+Já interagindo
+Com o plan
+Legal que a gente
+Pode perceber
+Que foi uma interação
+Bem simples
+Se a gente for olhar
+Assim
+Não teve a complexidade
+Tão grande
+Para a gente conseguir
+Chegar nesse resultado
+Só que aí
+A gente criou
+Uma variável
+Lá
+Do dentro
+Do nosso
+A gente criou
+Uma variável
+Aqui
+Chamada
+HomeState
+E a gente não está
+Utilizando nada
+Para nada
+O que a gente vai fazer
+Ao invés
+De a gente
+Ter que fazer
+Essas chamadas
+Aqui
+A gente vai
+Continuar fazendo
+Essas chamadas
+Mas pense por exemplo
+Que essa chamada
+Ela demorasse um tempo
+Se fosse uma chamada
+Assíncrona
+Vamos simular
+Uma chamada
+Assíncrona
+Aqui
+Se ela fosse uma chamada
+Assíncrona
+Assim
+Vamos lá
+Await
+Culture.delay
+Vamos colocar
+Aqui
+Ela demoraria
+Dois segundos
+Para carregar
+Dois segundos
+Tanto o quiz
+Quanto o usuário
+Porque isso aqui
+A gente está fazendo
+Uma simulação
+De uma chamada
+De uma API
+Então se a gente rodar
+Olha
+Vamos ver o que vai acontecer
+Porque para rodar
+Ele vai demorar
+Dois segundos
+No check
+Operator
+User
+On a new
+Value
+Cout
+Por que isso acontece
+Pelo fato
+Que ele demora
+Dois segundos
+Para conseguir a informação
+Então assim
+Demora dois segundos
+Para a gente conseguir a informação
+Então por esse fato
+Por esse
+Por estar acontecendo isso
+A gente tem que tomar
+Um cuidado
+Do que?
+De tratar
+Ou seja
+A gente vai ter que fazer
+Algum processo
+Para falar
+Que time load
+Ó
+Aplicação
+Time load
+Não faça nada
+Quando tiver em sucesso
+Você sim
+Acessa as informações
+Do usuário
+E do quiz
+Então para isso
+Vamos lá
+A gente pode criar
+A gente pode fazer
+O uso do estado
+A gente pode
+Fazer o seguinte
+Ó
+Quando
+Ele chamar o get use
+A gente pode setar
+Que o estado
+É home
+State
+Ponto load
+A gente pode setar
+Que o estado
+Time load
+E quando
+Acabar
+Esse processo
+Esse await
+Ou seja
+Acabou
+A chamada
+A gente falou
+State é igual
+A home
+State
+Ponto
+Sousa
+A gente pode colocar
+Que esse state
+Na verdade
+Ele poderia ficar
+Até aqui
+E a gente poderia fazer
+A mesma coisa
+Para o quiz
+E
+A mesma coisa
+Para o
+Para o quiz
+E para o
+A gente fez
+Para o usuário
+Já
+A gente vai fazer
+A mesma coisa
+Também para o quiz
+Vamos colocar aqui
+A mesma coisa
+Para o quiz
+Deixa eu só tirar
+Minha tela aqui
+Isso
+Ó
+Então a gente colocou
+Aqui
+O await
+Footer
+Ponto delayed
+E colocou
+Um estado de load
+Toda vez que eu chamar
+O get use
+Ele vai colocar um load
+E quando ele acabar
+O processo aqui
+De dois segundos
+Ele vai setar
+Minha variável
+E vai dizer
+Que foi sucesso
+Então
+Estado de load
+Setou
+Que esperou
+Que o tempo
+Deu sucesso
+Retornou para a gente
+Então na nossa tela
+A gente vai fazer o seguinte
+A gente pode retornar
+Renderizar
+O scaffold
+Dessa forma
+Ou só para a gente facilitar
+Vamos criar aqui
+Um if
+Ó
+If
+Se o controller
+Ponto state
+For igual
+A
+Home
+State
+Ponto load
+Se ele estiver no estado
+De carregando
+Ou
+A gente pode fazer
+Mais simples
+Se ele for
+O estado de sucesso
+Vamos dar um import
+Aqui
+Se ele for
+Estado de sucesso
+Vai renderizar
+O scaffold
+Agora
+Se ele for
+Qualquer outro estado
+Então se isso for
+Sucesso
+Se ele for
+Qualquer outro estado
+A gente vai retornar
+Um scaffold
+Também vazio
+Só que no body dele
+No body do scaffold
+Body
+A gente vai ter
+Um center
+A gente vai centralizar
+O que?
+Um circular
+Progress indicator
+E aí a gente pode utilizar
+O esquema lá
+De trocar a cor
+Para a gente manter
+A cor verde
+A gente pode vir aqui
+No value core
+Always
+Stopped
+Animation
+Color
+Recebe
+O app
+Colors
+.
+Dark
+Green
+Então vamos colocar aqui
+Para ele trocar
+A cor
+Da nossa aplicação
+Vamos fechar aqui
+Vamos mandar ele salvar novamente
+E aqui
+Dessa forma
+A gente vai colocar
+Um progress indicator
+Isso aqui é bem legal
+Porque a gente vai evitar
+Esses tipos de erros
+Eu esqueci de dar o import
+Aqui do core
+Para ele pegar a cor
+Beleza
+Então colocamos a cor aqui
+Então se ele tiver
+No estado
+De
+De loading
+Simplesmente
+Ele vai ficar
+Renderizando o componente
+Aqui para a gente
+Então
+Se eu rodar aqui
+Vamos rodar novamente
+Ele vai chamar
+O control.getUser
+Ele vai chamar
+O control.getQuizzes
+E vamos olhar
+Para a nossa tela
+Ué
+A gente está olhando
+Para a tela
+Não aconteceu nada
+Gabo
+Exatamente
+Não aconteceu nada
+Eu também estou olhando
+Não aconteceu nada
+Será que o que aconteceu
+Vamos lá
+Deixa eu voltar aqui
+Para a tela
+Beleza
+Ó
+Vamos investigar
+Né
+Quando essas coisas acontecem
+A primeira coisa
+Que eu gosto de fazer
+É o seguinte
+Vamos utilizar o recurso
+Que a gente tem
+Aqui no VS Code
+Que é vir aqui
+No controller
+Ó
+A gente vai colocar
+Aqui no
+A gente vai colocar
+Um breakpoint aqui
+E vamos colocar
+Um breakpoint
+Aqui
+E vamos
+Mandar rodar de novo
+Para ver o que acontece
+Se ele chegar no state
+Quer dizer que realmente
+Aconteceu o breakpoint
+Ele chegou
+Naquele momento
+Né
+Ó
+Chegou
+Então o estado
+Ele chegou em sucesso
+Ó
+Chegou em sucesso
+Chegou em sucesso
+Só que não aconteceu nada
+Tipo assim
+Nada
+Sabe o que é nada
+Exatamente
+Na nossa tela
+Continua em load
+E aqui agora
+Vai entrar uma coisa
+Bem interessante
+É
+Porque
+Uma coisa
+É você ter o controle
+Ter os dados
+E ter as coisas
+Outra coisa
+É você ter a tela
+Só que
+Precisa ter
+Um caminho de união
+Entre a tela
+E entre
+O controle
+E o que teria
+Essa união
+A gente precisa
+De alguma camada
+Para dizer
+Para o controle
+Dizer
+Ó
+Tela
+Atualiza
+Tela
+Atualiza
+Então a gente tem
+Um recurso desse no Flutter
+Né
+A gente já
+O recurso
+É um recurso
+Que a gente chama
+De set state
+Então
+Se a gente chamar
+O set state
+Em algum lugar
+Na nossa tela
+Quer dizer que vai funcionar
+Por exemplo
+A gente poderia
+É
+Por exemplo
+Poderia ter um set state
+Se eu colocar um set state
+Aqui dentro
+Será que vai funcionar
+Vamos testar
+Né
+Ó
+Set state
+Colocar o set state
+Aqui
+Vamos colocar para rodar
+Vamos rodar aqui
+Ó
+Vamos ver se
+Colocando o set state
+Nessa tela
+Ela
+Ela vai funcionar
+Beleza
+Coloquei o set state
+Aqui
+Ó
+Date format
+Tá fazendo o build
+Ainda
+Peraí
+Ó
+Vai fazer o build
+Beleza
+Vamos colocar o set state
+Ali
+Vai começar
+O load
+Aqui normalmente
+Ó
+Chegou no estado
+Beleza
+Vamos tirar os breakpoints
+Aqui
+A gente viu
+Que tá funcionando
+Tá chegando
+O estado
+Tá trocando
+Só que
+O que que tá acontecendo
+A gente não tá tendo
+O processo de atualização
+Da tela
+A tela não atualiza
+Ela não tá atualizando
+Né
+Ela tá ficando no estado
+De load
+Só que
+A gente pode utilizar
+Um recurso
+Pra fazer isso
+Um recurso
+Pra fazer isso
+É o seguinte
+Ó
+Se a gente der
+Um hot reload
+Vamos lá
+Hot reload
+Ué
+Apareceu
+Gabo
+Por que
+Por que
+Quando eu fiz
+O hot reload
+No VS Code
+Apareceu
+O que
+O que acontece
+Demora dois segundos
+Né
+Então
+Ele fez os dois segundos
+E atualizou
+Só que a tela
+Não sabe
+Quando você faz
+O hot reload
+É como se
+Você faz um set state
+Na tela
+Ou seja
+Atualiza a tela
+Então ele vai pegar
+Atualizar a tela
+E vai pegar
+A nova informação
+Do controle
+Ah
+Agora tá em estado
+Sucesso
+E vai renderizar
+Só que
+Pra gente fazer
+Essa atualização
+A gente precisa
+De utilizar
+Algum recurso
+A gente precisa
+De fazer
+Algum recurso
+Pra dizer
+O momento
+Que precisa
+Fazer essa atualização
+Então a gente pode
+Utilizar um recurso
+Que tem dentro
+Do flutter
+Pra facilitar
+Pra gente
+Que é o seguinte
+A gente pode
+Vim aqui
+No nosso controle
+E criar uma variável
+Do tipo
+Valor
+Notifier
+Então ao invés
+Da nossa variável
+Ser simplesmente
+Um home state
+A gente vai chamar
+Ela de
+Valor
+Notifier
+O
+Valor
+Notifier
+Ele é um
+Genente de estado
+Que já tem
+Dentro do próprio
+Flutter
+Então a gente
+Não precisa
+De importar
+Nenhum
+A gente precisa
+Só importar
+Um package
+Aqui
+No foundation
+Mas a gente
+Não precisa
+Importar
+Nenhum package
+Usar nenhuma
+Outra gerência
+De estado
+A gente pode
+Usar a gerência
+De estado
+Que tem no próprio
+Flutter
+E aí
+Através dessa
+Gerência de estado
+O value
+Notifier
+A gente vai
+Conseguir fazer
+Essa atualização
+Na nossa tela
+Value
+Notifier
+Home
+State
+Home
+State
+.
+Empt
+Então vamos
+Socializar aqui
+O valor
+Vazio
+Então a gente pode
+Falar que o estado
+Ele é do tipo
+Final
+Beleza
+Então o estado
+Tipo Final
+Só que para o estado
+Funcionar dessa forma
+Aqui
+State igual a
+Loading
+State igual a
+Sucesso
+A gente pode
+Usar um recurso
+Da linguagem
+Que é criar um set
+Então a gente pode
+Criar um set
+Aqui
+Que chama
+State
+Em vez de a gente
+Chamar só de state
+A gente vai chamar de
+State
+Notifier
+Para representar
+Que o estado
+Aqui é um estado
+Notificável
+O estado
+Do value
+Notifier
+Então o state
+Ele pode
+Receber aqui
+Um home
+State
+State
+E a gente pode
+Falar o seguinte
+Que o
+State
+Notifier
+.value
+Recebe
+O state
+Então fazendo isso
+A gente vai ter
+O uso normal
+Aqui
+Do nosso state
+E também a gente pode
+Criar um get
+Que retorna
+Um home state
+Home state
+Get
+State
+Que retorna
+O state
+Notifier
+.value
+Então dessa forma
+Criando
+Criando dessa forma
+Aqui
+Deixa eu
+Só voltar para minha tela
+Aqui
+Criando dessa forma
+Aqui
+A gente vai utilizar
+Um value notifier
+Então a gente chamou
+O value notifier
+Fez um import
+Aqui do foundation
+A gente criou
+Aqui o value notifier
+O value notifier
+Ele tem um tipo
+T
+Então ele é do tipo
+Home state
+E ele precisa
+De um valor inicial
+O valor inicial
+É empty
+E a gente criou
+Um set
+E um get
+Por que?
+Porque quando a gente
+Criou um set
+A gente consegue
+Alterar
+Jogar o valor
+Do estado
+Igual a gente tinha feito
+Onto
+Como se fosse
+Uma variável comum
+E aí beleza
+Fizemos isso aqui
+Está funcionando
+E agora o que a gente
+Precisa fazer
+Para atualizar
+A nossa tela
+Uma forma muito simples
+Para atualizar
+A nossa tela
+Como a gente
+Precisa atualizar
+A tela inteira
+A gente pode vir aqui
+Em vez de fazer
+O set state
+A gente vai
+Beleza
+Vai chamar o
+Controller aqui
+Normal
+Só que a gente
+Vai usar um recurso
+Que tem dentro
+Do
+Do value notifier
+O value notifier
+Ele tem um recurso
+Chamado
+ADD list
+Ou seja
+A gente consegue
+Ouvir
+Toda vez que a gente
+Colocou um estado
+De load
+Um estado de sucesso
+A gente consegue
+Ouvir
+Esse estado
+Então por isso
+A gente pode vir aqui
+E fazer o seguinte
+Controller
+Controller
+Ponto
+State
+Notifier
+Então a gente vai dar
+O controller
+Ponto
+Ponto
+State
+Notifier
+E aqui a gente vai
+Adicionar um recurso
+Que a gente chama
+Assim de
+ADD list
+Ou seja
+ADD list
+Ele vai ficar
+Ouvindo todas as alterações
+Que acontecer
+No meu
+State
+Notifier
+Então a gente pode
+Acessar o seguinte
+Quando
+Ou a gente
+Simplesmente
+Acessa aqui
+E manda ele
+Simplesmente
+Dá um set state
+Toda vez que tiver
+Alguma modificação
+Você vai dar um set state
+Para fazer a alteração
+Na minha tela
+Então set state
+Então simplesmente
+Isso aqui
+Já faz a gente
+Atualizar a tela
+Do flutter
+Então a gente está
+Utilizando o controle
+E utilizando a atualização
+Na tela do flutter
+Toda vez que tiver
+Alguma atuação
+Ele vai dar um set state
+Só ele salvar aqui
+E a gente vai rodar
+E vocês vão perceber
+Que vai funcionar
+Tranquilamente
+Vamos colocar aqui
+Então um recurso
+Dentro do próprio flutter
+Sem utilizar nenhum point kit
+A gente já está fazendo
+A gerência de estado
+Porque agora a gente está
+Utilizando o add list
+Para avisar
+Que teve uma alteração
+No controle
+E quando teve uma alteração
+No controle
+Eu tenho que fazer
+Uma alteração na minha tela
+Vamos
+Eu acho que já deu tempo
+De ele buildar ali
+Deixa eu fazer aqui
+Deixa a gente ficar olhando aqui
+Para a gente ver o load
+Acontecer
+Olha ele está acontecendo o load
+E apareceu a minha tela ali
+Vamos começar
+E a nlw
+CircuitFund
+Então aqui
+Olha para vocês verem
+A gente conseguiu gerenciar
+O estado da nossa aplicação
+Utilizando o próprio recurso
+Que tem no flutter
+Que é o recurso
+Do velha notify
+Então a gente não precisou
+De utilizar nenhum package
+Então isso é muito bom
+A gente não precisa utilizar
+Nada externo
+Dentro do próprio flutter
+E a gente atualizou
+A nossa tela
+Simplesmente criando
+Um add list
+E dando um set state
+Isso aqui é muito simples
+A gente já atualizou
+A nossa tela
+Beleza
+Então agora
+Vamos lá
+Olhar o nosso notion
+Para ver o que a gente já fez
+Então a gente criou
+O home controller
+Criamos o estado
+Criamos o get user
+Criamos o get quizzes
+E agora a gente precisa
+Fazer o seguinte
+A gente precisa criar
+Uma database local
+E a gente precisa criar
+O nosso home repository
+Então agora
+Vamos criar essas informações
+Porque a gente vai utilizar
+O recurso do JSON
+Para colocar essas informações
+Então agora
+Que a gente aprendeu
+A criar o flutter await
+A gente vai substituir
+Aquilo ali
+Para um home controller
+Ou home repository
+E esse home repository
+Vai carregar um JSON
+Dentro do nosso código
+E eu vou mostrar para vocês
+Como que a gente pode fazer isso
+Que a gente vai utilizar
+Como nossa database local
+Então primeira coisa
+Vamos criar nossa database local
+Aqui para a gente ter
+Informações de onde puxar
+Então a gente vai criar
+Uma pastinha
+Dentro da nossa raiz
+Do nosso projeto
+Vamos criar uma pastinha aqui
+Chamada database
+Database
+Dentro dessa pastinha
+A gente vai criar
+Dois arquivos
+Um arquivo user.json
+E dentro desse JSON
+A gente vai criar aqui
+Um name
+Onde você vai
+Colocar o seu nome
+Vou colocar meu nome aqui
+Gabudev
+Vou colocar aqui
+O meu score
+Então por exemplo
+O meu score hoje
+É um score de
+20
+Ó
+De 75
+E vamos colocar aqui
+A minha foto
+URL
+Então vamos pegar
+A minha foto URL
+Que eu coloquei lá dentro
+Do controle
+E vamos colocar aqui
+Então agora a gente vai mover
+Tudo que a gente tem fixo
+Dentro do nosso controle
+Para o nosso JSON
+E aí esse JSON
+Fica mais fácil
+A gente consegue ficar
+Alterando ele
+Para a gente ter
+Os nossos dados
+Dinâmicos ali
+Simulando uma API
+Vamos colocar aqui
+O nosso JSON
+E agora aqui
+A gente vai ter
+O
+O nosso
+Quizzes
+A gente vai ter
+Os nossos quizzes
+Aqui .json
+Então vamos criar
+Um JSON aqui também
+Só que os nossos quizzes
+A gente pode ter
+A gente pode criar ele diferente
+O quiz
+Vamos lá no home controller
+A gente pode copiar
+Um home controller
+Um dart aqui
+Para ficar mais fácil
+Um quiz model
+Ele tem várias informações
+Então vamos pegar
+Um quiz model aqui
+O nosso JSON
+Aqui dos quizzes
+Ele vai
+Vai inicializar
+Como uma lista
+Então a gente vai ter
+Uma lista de
+Quizzes
+Então a gente vai ter
+Um quiz model
+Só que aí
+A gente vai traduzir aqui
+Para ficar mais simples
+A gente vai tirar
+A gente vai ter um título
+Então
+A gente precisa ter um título
+A gente vai ter um título
+A gente vai ter
+A
+A nossa imagem
+É
+Aqui a nossa imagem
+Ela está utilizando
+O app images blocks
+Vamos colocar
+Para a imagem
+Ela simplesmente receber
+Ou ela recebe
+A string
+Ou se ela recebe
+O nome da imagem
+E aí a gente faz
+Uma conversão
+Lá no repositório
+Ele vai ter
+A quantidade de questões
+Que já foram respondidas
+Vamos lá
+Question respondidas
+Vai ter o level
+O level
+Aqui a gente vai colocar
+Também uma string
+Depois a gente vai fazer
+O parse
+Para o tipo do enum
+E aqui a gente vai ter
+Umas questions
+As questions
+É uma lista
+De question model
+Então dentro
+Da lista
+A lista de questões
+A gente vai ter
+Um outro map
+Então a gente vai ter
+Um map aqui
+Para a gente carregar
+Essas outras questões
+Então a gente pode tirar aqui
+Então a gente vai ter
+Um título também
+A gente vai ter um título
+Vai ter a quantidade
+De respostas
+A gente vai ter
+A quantidade de respostas
+Aqui a gente vai criar
+Deixa eu só apagar
+Esse de baixo
+Para ficar mais fácil
+Então aqui
+A gente vai criar também
+Um map
+Para cada insert model
+A gente vai ter um map
+Aqui
+A gente vai ter um map
+A gente vai ter um map
+Aqui com o título
+Então cada um desses aqui
+Vai representar
+O insert model
+Embaixo também
+A mesma coisa
+Vamos copiar aqui
+A gente faz
+O comand D
+Que eu tinha ensinado
+Para vocês
+Ou ctrl
+Ctrl D
+E a gente
+Coloca aqui
+Para fazer mais rápido
+A troca
+E aqui
+Não
+Aqui não deu
+Vamos colocar
+A nossa chave
+Vamos colocar aqui
+A nossa chave
+Vamos colocar aqui
+A nossa chave
+Is right
+Um
+Título aqui
+Vamos lá
+Aqui a gente tem
+A nossa
+A nossa question
+Então eu tenho
+Um fechamento aqui
+Para a nossa question
+A gente tem
+Um fechamento aqui
+Das questions
+Das answers
+A gente tem que fechar
+Uma chave aqui
+Então a gente vai ter
+O fechamento das answers
+A gente vai ter
+Das answers
+A gente vai ter
+As questions
+As questions
+A gente vai ter
+Aqui embaixo
+A gente não precisa desse
+Depois que a gente
+Fechou as questions
+A gente tem que fechar
+Aqui
+Então a gente tem que fechar
+Aqui
+Então pronto
+Aqui a gente
+Mapeou
+O nosso Jason
+Então o nosso Jason
+Dos nossos quizzes
+Ele vai ter
+Esse comportamento
+Ele vai ter um título
+Uma imagem
+Um question
+Answers
+Um level
+Aí aqui dentro
+Ele vai ter
+As questões
+A questão do
+Está curtindo o Flutter
+Ele vai ter
+Ele vai ter as answers
+Aqui
+A gente pode formatar
+Aqui na mão
+Estou sem um formatador
+De Jason
+Aqui
+A gente pode formatar
+Aqui
+Para ficar mais fácil
+Vamos colocar aqui
+Vamos colocar aqui
+Beleza
+Então aqui a gente
+Criou
+O título
+Para o nosso quiz
+Qual imagem
+Que ele vai utilizar
+Qual level
+Qual a questão
+E está perguntando
+Aí que a gente
+Tem o título
+Da questão
+E as respostas
+E aqui pode criar
+Outras questões também
+Então vamos colocar
+Duas aqui
+Igual a gente tinha antes
+Beleza
+Então agora a gente
+Tem a nossa database
+É onde a gente
+Vai ter os nossos quizzes
+E os nossos
+É o nosso quizzes
+E o nosso user Jason
+E agora a gente
+Precisa adicionar
+Essa pastinha
+Lá no nosso
+PubSpec
+Então a gente vai criar
+Uma pastinha aqui
+Chamada
+Database
+Então a gente vai criar
+Aqui o database
+Aonde ele vai ter
+Os nossos Jason
+O Jason de
+De user
+E o Jason
+Dos nossos quizzes
+Então provavelmente
+A gente vai ter que
+Parar o build aqui
+Para ele fazer
+Um import
+Então beleza
+Ele vai fazer
+O import
+Da nossa database
+Então quando ele
+Faz o import
+Da nossa database
+Aqui
+A gente pode agora
+Beleza
+A gente criou
+O nosso database local
+Criamos o usuário
+E os quizzes
+Deixa eu só voltar
+Para a minha tela aqui
+Porque fica mais fácil
+No código
+E agora a gente vai criar
+O nome repository
+Que o nome repository
+Ele vai criar
+Uma função get user
+E uma função get quizzes
+Aonde ele vai devolver
+Para o nosso
+Ele vai devolver
+Para o nosso controller
+Essa informação
+Já mastigada
+Então o controller
+Que vai fazer a questão
+Ali dos passes
+Daquelas coisinhas
+Ali que a gente fez
+E vai devolver
+Essa informação direto
+Lá
+Para o nosso
+Para o nosso modelo
+Beleza
+Então vamos lá
+Vamos criar o home repository
+Aqui
+Vamos criar o home repository
+Ó
+Vamos lá
+Lib
+Vamos lá na pastinha home
+Vamos criar agora
+O home repository
+Ponto dart
+Então aqui a gente vai criar
+Uma classe
+Chamada
+Home repository
+Onde essa classe
+Ela vai ter duas funções
+Ela vai ter uma função
+Do tipo futuro
+Que devolve o usuário
+Então ela vai devolver
+O user model
+Então ela chama
+Get user
+Ela vai ser um processo
+Assíncrono
+E a gente vai ter
+A gente vai fazer um import
+Aqui
+E a gente vai ter também
+O
+A gente tem o get user
+E a gente também tem
+O
+Get
+Quizzes
+E ele vai ser uma lista
+Uma lista de
+Quiz model
+A gente vai ter o get quiz
+Então vamos implementar primeiro
+O get user
+Para
+Para ler aquele disso
+A gente vai utilizar um recurso
+Que tem no
+No
+No dart
+Que se chama de
+Root bundle
+É para você acessar
+Arquivos
+Que você colocou
+Por exemplo
+Para você acessar
+Os seus assets
+E tudo
+A gente vai utilizar
+O root bundle
+Então a gente vai criar
+Uma variável
+Chamada final
+Response
+Recebe await
+E a gente começa
+A escrever aqui
+Root bundle
+Root bundle
+Aí ele vai dar
+O auto import
+Então a gente clica
+No enter aqui
+Pronto
+Root bundle
+Root bundle
+Ele tem algumas funções
+Uma das funções
+É a gente
+Carregar uma string
+E aqui
+É a
+O path
+Que a gente tem que passar
+O path é
+Barra
+Database
+Barra
+User
+Ponto
+JSON
+Então
+O response aqui
+Ele vai devolver
+Uma string
+Para a gente
+Então baseado
+Nessa string
+Que ele vai devolver
+A gente vai
+A gente vai fazer
+O parse
+Então a gente vai criar
+O nosso usuário
+Então para criar
+O nosso usuário
+A gente ia fazer
+O user
+E ia fazer
+Um processo
+De parse
+Aqui tudo na mão
+Só que lembra
+Que lá no começo
+Podia falar
+Que a gente tem
+Como criar
+O data class
+Aqui
+Quando a gente
+Importa aquele package
+Então se a gente
+Vier aqui
+Chamar o
+Dart
+Data class
+Generator
+A gente pode
+Vim aqui
+E mandar ele
+Criar
+O
+Generate
+JSON
+Serialization
+Ou seja
+Ele vai fazer
+Porque quando a gente
+Salva um JSON
+Ele é uma string
+Então a gente
+Pega esse JSON
+E transforma no objeto
+E ele já faz isso
+Para a gente
+Name
+Photo
+Score
+Name
+Photo
+Então ele já criou
+As funções
+Aqui para a gente
+Criou a função
+Do true map
+From map
+True JSON
+E from JSON
+Então com essas aqui
+A gente já consegue
+Pegar o JSON
+Que está lá
+E transformar
+Então eu posso
+Simplesmente chamar
+Aqui ó
+User model
+.
+From JSON
+E eu vou passar
+A minha response
+Que ele vai devolver
+Uma string
+Baseado nisso
+Eu vou ter
+O meu usuário
+Então eu posso
+Revolver aqui
+O meu usuário
+Então pronto
+Com esse simples código
+Aqui a gente já consegue
+Acessar os dados
+Do meu root bundle
+E eu consigo
+Já devolver o usuário
+Então agora a gente
+Vai fazer a mesma coisa
+Aqui com o nosso
+Get quizzes
+Final response
+Recebe
+Await
+Root bundle
+.loadstring
+Loadstring
+Então a gente vai ter que
+Barra database
+Barra quizzes
+.json
+Então a gente vai ter que
+Lá no nosso
+Quiz model
+E a gente vai fazer
+A mesma coisa
+Vamos pedir ele
+Para fazer o
+JSON
+Serialization
+Só que
+Quando ele faz
+O JSON
+Serialization
+A gente vai
+Algumas coisas aqui
+Vai quebrar
+Por causa que
+O question model
+Ele também precisa
+De ter
+A questão
+Do
+Serialization
+Então a gente tem que
+Lá no
+JSON model
+Ó no
+Question model
+Dar um
+Coma de ponto
+Também
+Para ele aparecer
+O generation
+JSON
+Serialization
+E aí ele também
+Vai pedir a mesma
+Coisa do
+Answer model
+A gente vem aqui
+Clica no JSON
+Então é muito importante
+A gente instalar
+Aquele package
+Que ele vai facilitar
+Todo o nosso processo
+Então aqui a gente pode
+Tirar o
+Map aqui
+Porque ele
+Ele não é núcle
+Então a gente
+É importante
+Todo mundo baixar
+O dart
+Generator
+Aqui para fazer
+Ou se não
+Pode pausar
+Pode acessar
+Também fazer
+Na mão
+Que
+E aí se quiser estudar
+Criar os factors
+Na mão
+Mas eu
+Falo para vocês
+Eu utilizo
+Esse package
+Já em muitos projetos
+Ele é muito bom
+Então eu recomendo
+Vocês baixarem
+Para facilitar o processo
+De criar os modelos
+Então vocês não precisam
+Ficar preocupando
+Então ele já criou os modelos
+Aqui para mim
+Já criou tudo no jeito
+Beleza
+Agora a gente vai vir aqui
+Para o quiz model
+O quiz model
+A gente vai ter o question
+Aqui
+Vai ter o question
+Só que o level
+A gente tem um problema
+O level aqui
+Ele é
+Um enum
+Então ele não tem
+O processo de to map
+Então a gente não tem
+O to map ali
+Para fazer
+A questão do enum
+Então a gente pode utilizar
+Um
+A gente pode utilizar
+Um recurso
+Do dart
+Que é criar uma extension
+Então a gente vai criar
+Uma extension
+Do level extension
+On level
+Então a gente vai fazer
+Uma extensão
+No nosso enum
+Para ele fazer o parse
+Então é o seguinte
+A gente vai devolver
+O level
+Então a gente vai fazer
+Um parse
+Aonde ele recebe
+Uma string
+É
+Key
+Né
+Baseada nessa string
+A gente pode fazer
+A gente pode fazer
+Um switch case
+Né
+Ou simplesmente
+A gente pode criar
+A gente pode criar
+Um map
+A gente pode criar
+Um map
+Para devolver
+Qual level
+Então a gente pode
+Vim aqui
+E criar um map
+Baseado
+Se vier fácil
+Devolva
+Level
+Ponto fácil
+Se vier
+Médio
+Devolva
+Level
+Ponto médio
+Se vier
+Difícil
+Devolva
+Devolva
+Level
+Ponto
+Difícil
+Se vier
+Perito
+Devolva
+Level
+Ponto
+Perito
+Aí beleza
+Aí beleza
+Criamos um map
+Aqui né
+Como é que a gente faz
+Agora Gabo
+Para devolver
+Os dados
+A gente pode
+Acessar o map
+Aqui e vir aqui
+Então aqui
+A gente criou
+O map
+E acessou
+O map
+Então a gente
+Vai devolver
+O dado
+Esse map
+Ele
+Da forma
+Que ele está
+Aqui a gente
+Vai garantir
+Que ele não é
+Nú
+Então
+Porque aqui
+Ela vai estar
+Dentro do fácil
+Médio
+Difícil
+Perito
+Que a gente
+Vai estar
+Criando
+Lá
+Mas a gente
+Poderia
+Fazer
+Alguma exceção
+Aqui
+Então a gente
+Criou
+Essa extension
+Aqui
+Para fazer
+O passe
+Do enum
+Então aqui
+Agora
+Ou a gente
+Pode fazer
+O passe
+Dessa forma
+Então aqui
+Ele vai
+Criar o from
+Map
+Ou a gente
+Pode criar
+A mesma
+Função
+Chamar
+From
+Map
+E a gente
+Pode passar
+O level
+Aqui
+Level
+Ponto
+From
+Map
+A gente
+Tem que
+Criar
+Do tipo
+Estático
+Aqui
+A gente
+Vai ter
+Acesso
+Ali
+Ao
+Level
+Ponto
+From
+Map
+Peraí
+Extension
+Do tipo
+Level
+Ah não
+Eu tenho
+Que fazer
+Extension
+Na
+Eu teria
+Que fazer
+Extension
+Na string
+Seria mais
+Simples
+Level
+String
+Extension
+Olha que
+Legal
+E aí
+Eu vou
+Devolver
+Aí
+Vou fazer
+O
+Level
+Level
+Parse
+E aí
+Ele nem
+Precisa
+Pegar
+A string
+A gente
+Pode fazer
+Que ele
+Devolve
+Um
+Get
+Que ele
+Vai
+Devolver
+Um
+Get
+Porque
+Quando
+A gente
+Não recebe
+Uma
+Uma
+String
+Né
+Do
+Map
+Então
+A gente
+Vai
+Fazer
+A
+Extension
+Na
+String
+Deixa eu
+Ver
+Aqui
+Não vai
+Ser
+Estático
+Não
+Então
+Aqui
+O
+This
+Representa
+A
+String
+Que
+Level
+Ponto
+To
+String
+Ponto
+Parse
+Level
+Parse
+Pronto
+E aí
+O map
+A gente
+Pode
+Criar
+Dessa
+Mesma
+Forma
+Só que
+Aí
+Você
+Vai
+Criar
+Uma
+Extension
+O que
+A gente
+Tinha
+Feito
+Antes
+No
+Level
+E aí
+A gente
+Faz
+Dessa
+Forma
+Aqui
+E a
+A gente
+Pode
+Criar
+Um
+Parse
+Ou seja
+A
+Ideia
+Do
+Parse
+É
+Devolver
+Uma
+String
+Então
+A gente
+Simplesmente
+Pega
+Isso
+A gente
+Pode
+Apagar
+Todos
+Aqui
+Colocar
+Pegar
+Aqui
+Ó
+Dá
+O
+Command
+D
+A gente
+Pode
+Dar
+O
+Command
+D
+Aqui
+Colocar
+Colocar
+Aqui
+E aí
+A gente
+Pode
+Apagar
+Todos
+Aqui
+Não
+Vai
+Dar
+Aqui
+Pode
+Apagar
+Todos
+Esses
+E
+Colocar
+Level
+Ponto
+Fácil
+E a gente
+Pega
+Aqui
+Os
+Do
+Meio
+E aí
+Tira
+Pronto
+A gente
+Vai
+Fazer
+O
+Parse
+Da
+Mesma
+Forma
+Só
+Que
+O
+Contrário
+Quando
+Ele
+Tá
+Em
+Level
+Então
+A gente
+Pode
+Criar
+Ou
+Pode
+Fazer
+Do
+Tipo
+Passe
+Pode
+Fazer
+Do
+Tipo
+Passe
+Você
+Pode
+Fazer
+Do
+Tipo
+Passe
+Também
+Level
+Ponto
+Passe
+Pode
+Vim
+No
+Level
+Ponto
+Passe
+Então
+Aqui
+A gente
+Fez
+O
+Passe
+Tanto
+Para os
+Levels
+Então
+Pronto
+Aqui
+A gente
+Resolveu
+Então
+Agora
+Se a gente
+Vier
+Lá
+Na
+Nosso
+Home
+Repository
+A gente
+Vai
+Ter
+O
+Response
+E
+A gente
+Vai
+Ter
+Agora
+Os
+Quizzes
+Final
+Quizzes
+Só
+Que
+Esse
+Response
+A gente
+Sabe
+Que
+Ele
+Vai
+Devolver
+Uma
+Lista
+Então
+O
+Que
+A gente
+Pode
+Fazer
+Criar
+A
+Lista
+Aqui
+List
+E
+A gente
+Vai
+Fazer
+Jason
+Ponto
+Decode
+A gente
+Vai
+Fazer
+Um
+Decode
+Para
+A gente
+Ele
+Está
+Recebendo
+O
+Jason
+Decode
+Response
+S
+List
+Então
+A gente
+Está
+Dizendo
+Que
+É
+Uma
+Lista
+E
+Baseado
+Que
+É
+A
+Lista
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+Fez
+O
+Decode
+Ele
+Vai
+Vem
+Como
+From
+App
+Então
+From
+App
+To
+List
+Dessa
+Forma
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A gente pode fazer aqui o user, ele faz um await, ele espera o repository, repository.getUser.
+A gente pode tirar esse await aqui, porque ele vai ter o tempo de carregar o JSON.
+E aqui embaixo, a mesma ideia.
+A gente pode tirar os quizzes, a gente pode tirar os quizzes e chamar agora do meu repository.
+await.repository.getQuizzes.
+Então, a gente pode tirar aqui.
+E pronto.
+Então, agora a gente tem o getUser e o getQuizzes.
+Então, na teoria, se a gente rodar agora o nosso código, tem a probabilidade de estar tudo funcionando.
+Então, vamos só esperar o processo do build aqui.
+E aí, a gente vai perceber que dessa forma, a gente vai conseguir pegar os nossos dados.
+Isso é bem legal, porque a gente está criando todas as camadas.
+A camada do database.
+A gente está criando a camada do repository.
+Só que o nosso database ainda não consome o meio externo.
+Mas a gente está consumindo um JSON local.
+E que é esse JSON.
+Vocês podem criar, colocar várias perguntas.
+Colocar o nome ali.
+Colocar a foto.
+Pode ser personalizar.
+E aí, vai perceber a questão lá do processo desse JSON acontecendo.
+Uma coisa interessante também de comentar, que normalmente, quando a gente está criando outras aplicações, né?
+O home control, normalmente, a gente iria injetar ele, né?
+A gente iria passar ele pelo construtor do home control e o home repository seria pelo construtor para a gente ter algumas habilidades.
+Mas, olha, ele falou o seguinte.
+Ele tentou carregar o asset aqui do database, o user.json, e não encontrou.
+Então, vamos ver se tem algum problema dentro dessa aqui.
+Normalmente, ele tenta fazer flutter.assets e tenta fazer o database, barra database, vamos ver se está certo aqui, barra database, barra user.
+Vamos trocar a nossa URL, ao invés dela puxar barra database, vamos colocar para puxar, vamos colocar aqui para puxar o sol database.
+Talvez isso resolva.
+Vamos lá, vamos colocar aqui, ó, database, database.
+Vamos rodar aqui para ver só que com esse database ele consiga encontrar.
+Vamos ver se ele vai conseguir.
+Não, ele deu problema porque ele tentou renderizar, né?
+Ele tentou fazer o processo, só que deu algum erro, né?
+Por causa que a gente não, a gente está só tentando pegar a informação.
+A gente não está fazendo o processo de load, tá?
+Beleza, então vamos lá.
+Dessa forma aqui, a gente não conseguiu.
+A gente não conseguiu.
+Vamos tentar fazer uma modificação aqui, né?
+Para ver se a gente consegue pegar essa informação.
+Vamos lá.
+Ó, aqui a gente está, a gente está tentando pegar a informação, só que a gente está tendo um problema, né?
+Que a gente não está achando o nosso arquivo.
+É, isso às vezes acontece, né?
+Porque a gente está tentando acessar um dado, a gente não está conseguindo encontrar onde que está esse dado,
+onde que a gente pode conseguir essa informação.
+Beleza.
+Então, uma coisa que a gente pode fazer, para a gente tentar fazer isso,
+é mover o nosso database lá para o assets, né?
+Porque, normalmente, o assets, a gente já consegue ter essas informações, já tranquilamente.
+Então, vamos mover o nosso database lá para os assets.
+Vamos vir aqui no assets.
+Assets.
+Vamos colocar para pegar aqui o database.
+Vamos tirar o build aqui.
+Vamos reexecutar o build da nossa aplicação, para a gente ver agora se a gente vai conseguir acessar.
+Porque, normalmente, a gente faz asset.
+Asset barra database.
+Asset barra database.
+Então, vamos mandar agora endelizar a nossa aplicação.
+Depois de ter trocado essa questão do load.
+E aí, vamos ver agora como que a gente consegue pegar essa informação.
+Então, agora, vamos só esperar o nosso loading aí, acontecer da nossa aplicação,
+para a gente ver se a gente conseguiu chegar no resultado esperado.
+É legal, né?
+Que aqui a gente está fazendo muitos recursos, né?
+E bem interessantes.
+Porque aqui a gente está utilizando um recurso de acessar um JSON dentro da nossa aplicação.
+Isso é uma utilidade muito grande, né?
+Porque, às vezes, a gente não tem API, não tem esses dados a mais.
+A gente pode utilizar a questão do JSON ali para facilitar o nosso processo.
+Vou mandar ele fazer um outro build aqui, porque provavelmente ele deu algum problema nesse processo de build.
+Isso é comum, né?
+Porque o iOS, às vezes, ele dá algum probleminha quando a gente está fazendo um build.
+Então, normalmente, eu gosto de utilizar o Android, mas eu utilizo o iOS aqui só por causa da interface lá do Figma lá que estava em iOS.
+Mas o processo, né?
+Que a gente...
+Vamos...
+Vamos...
+Eita, eu estou achando que ele não está...
+Ele não está em contrário.
+Ah, ele está errado aqui, ó.
+Ah, faltou o barrinho no final.
+Então, não era a questão de...
+Então, o build não era a questão só de olhar o debug.
+E se a gente colocar a barra no final para ele pegar todos os arquivos do nosso database.
+Vamos rodar aqui agora.
+Vamos fazer o build da nossa aplicação.
+É, galerinha.
+Nossa aplicação está tomando forma, né?
+A gente está batendo no JSON.
+A gente já tem um repositório.
+A gente está com um loadzinho ali acontecendo para colocar na nossa tela.
+Então, tipo...
+Por mais que as outras aulas, né?
+A gente viu muito layout.
+Nessa aula aqui, a gente está com muita mão na massa, né?
+Vendo muito conteúdo mão na massa aqui.
+Vendo uma interação muito grande, né?
+Então, tipo assim, isso está sendo bem legal, né?
+Eu acho que...
+A gente vê o layout no início e depois ir para a aplicação, né?
+E ver o comportamento do layout, a interação.
+É algo, tipo assim, muito legal.
+E é algo que quando eu estava brincando aí com o Flutter lá nos inícios,
+quando eu fiz o meu primeiro set-state, nossa senhora, meus olhos brilharam.
+Fiquei muito animado quando eu li.
+Ó, ele está falando que o asset database quizzes,
+ele não está conseguindo acessar o asset.
+É porque a gente colocou o endereço errado, né?
+Vamos lá.
+Vamos lá no nosso repositório, a gente colocou o asset.
+No nosso repositório teria que estar assets.
+Então, provavelmente agora tem a probabilidade
+de a gente conseguir encontrar o nosso JSON.
+Então, aí a gente vai colocar aqui o nosso loadingzinho aqui
+para pegar o nosso JSON.
+E aí a gente vai ter essa informação na nossa tela.
+Então, vamos ver se ele conseguiu pegar o JSON aqui.
+Ó, ele conseguiu pegar o JSON,
+só que ele deu erro no tipo do write aqui.
+É porque o write a gente tem que colocar ele como default.
+Vamos colocar ele como default falso.
+É porque só algumas perguntas que tem a questão aqui.
+Deixa eu colocar a minha tela aqui.
+Deixa eu colocar a minha tela.
+A gente vai colocar esse write aqui,
+porque só algumas perguntas que tem o write, né?
+O resto vem falso.
+Para a gente não ficar colocando toda hora falso,
+vamos usar as duas interrobações aqui
+para fazer o tratamento do falso e já colocar direto na fragente.
+Então, vamos lá na nossa aplicação.
+Ó, a gente vai fazer a renderização.
+Vamos esperar o load aqui acontecer.
+Ó, apareceu aqui na nossa tela, hein?
+Olha isso.
+A gente está carregando o JSON que está lá no nosso aplicativo.
+Só que aí tem uma ressalva que é o seguinte.
+Quando a gente faz a alteração do JSON, né?
+A gente tem que fazer o build total do aplicativo para ele recarregar o JSON.
+Mas, por exemplo, vamos trocar aqui.
+A gente colocou 75.
+Vamos colocar aqui.
+Vamos colocar aqui, ó.
+100%
+e vamos renderizar.
+Creio que ele não vai alterar o JSON, tá?
+Eu acho que tem que rolar a aplicação do zero ali
+para a gente fazer a alteração do JSON.
+Mas, beleza.
+Aqui a gente já conseguiu chegar no ponto
+de ter a nossa aplicação funcionando
+tudo aqui
+com a questão do repositório,
+de tudo acontecendo.
+E eu achei isso muito legal.
+Espero que vocês tenham curtido,
+porque essa questão de interagir com o JSON,
+fazer essas conexões tudo,
+e ver tudo acontecendo no resultado final,
+é muito legal.
+Só que aí uma coisa
+é que quando altera aquele JSON, né?
+A gente tem que rodar o build do zero
+para ele acontecer.
+Porque quando ele roda o build
+que ele pega o JSON e coloca lá.
+Então, uma desvantagem de utilizar o JSON dessa forma
+é que a gente não tenha o build em runtime, né?
+A mudança do runtime.
+Mas, beleza.
+Vamos olhar aqui para o nosso Notion.
+Olha aqui para o nosso Notion.
+A gente criou o nosso repositório,
+criamos o getUsers aqui,
+criamos o home repository
+e a gente finalizou a nossa aula de número 3.
+A gente conseguiu fazer lá a interação, né?
+Com...
+Vamos recapitular a aula de hoje.
+Olha, a gente criou as estruturas de dados.
+Então, é uma aula totalmente mais focada
+na estrutura de dados.
+A gente fez algumas alterações ali nos componentes,
+mas é mais para consumir
+as nossas estruturas de dados.
+E a gente criou modelos,
+criamos aqui também a questão do controle.
+Aprendemos a utilizar uma gerência de estado
+que é o velho Notifier.
+É uma gerência de estado
+que tem dentro do próprio Flutter
+que a gente não precisou utilizar nenhum package.
+A gente viu simplesmente
+a gente usou a DDList
+e deu o setState.
+Ele fez todo o comportamento para a gente.
+A gente aprendeu a criar um estado
+para a nossa tela, né?
+Para colocar o estado de load,
+colocar o estado de controle.
+E aí fica também um desafio
+para você se colocar o estado de erro.
+Porque vocês viram que a gente
+deu erro,
+mas continuou...
+Apareceu aquela tela vermelha.
+Então, se tivesse dado erro,
+deveria ter aparecido
+alguma tela de erro.
+E fica um desafio aí
+para vocês tentarem também
+colocar o erro, né?
+Beleza?
+Vamos lá.
+Vamos recapitular
+a aula aqui de hoje.
+E o que veremos amanhã?
+Amanhã a gente vai ver
+um pouquinho do conjunto
+de layout, né?
+E também a gente vai ver
+a questão de criar o nosso quiz, né?
+De fazer aquela interação lá com o quiz.
+A gente tem que responder o quiz.
+Então, a gente vai ter que criar
+um outro controle,
+uma outra gerência de estado.
+Então, tipo, vai ser muito legal
+a aula no dia número 4 também.
+Então, dê um spoilerzinho aí
+do que a gente vai ter amanhã.
+Então, o que veremos amanhã.
+E aqui tem o tão esperado, né?
+Código para participar do desafio.
+Então, a gente tem que liberar
+o código aqui
+para liberar o desafio
+da aula de número 3.
+O código para liberar o desafio
+é o código de astronautas.
+Uai!
+Então, vamos lá.
+Vamos ler o trechinho aqui
+para a gente.
+Estamos juntos aqui
+e abraçando os desafios.
+É conjunto com vocês
+que estamos construindo tudo isso.
+E é por isso que não abrimos mão
+da nossa comunidade.
+Durante cada NW,
+o nosso time inteiro
+para para colocar toda a energia
+em ajudar cada dev
+que está com a gente nessa missão.
+Não existe limites.
+E se a gente estiver junto,
+um ajudando o outro,
+um contribuindo com o outro,
+juntos para o próximo nível.
+Então, isso é muito interessante,
+esse contexto aqui.
+Além do nosso time inteiro
+está focado na NLW,
+a gente foca também
+e eu vejo vocês interagindo
+lá no grupo do disco
+de aquela interação,
+todo mundo se ajudando.
+Vocês estão percebendo
+que quando a gente está se ajudando,
+a gente consegue chegar
+no próximo nível.
+Então, galerinha,
+vamos lá.
+Com o desafio liberado,
+participar da combinação da...
+Eu vi que vocês estão participando muito.
+Eu fiquei muito empolgado
+na hora que abriu o disco
+de um monte de gente conversando,
+um monte de gente me chamando
+no privado
+para resolver dúvidas.
+Então, tipo assim,
+eu vejo que vocês estão muito animados.
+Eu vejo muita gente se ajudando,
+tipo, galera mandando print,
+galera mandando vídeos
+de como funcionam as coisas.
+Galera, muito obrigado
+pela participação de vocês.
+Está sendo muito legal a NLW.
+Eu estou curtindo demais.
+Estou ficando muito animado.
+Estou curtindo.
+Vocês podem ver o tanto
+que eu sou animado, né?
+Vocês até comentaram lá
+que eu tomei muito café
+e realmente eu tomo muito café
+para fazer as coisas.
+Eu gosto muito de criar conteúdo.
+Estou curtindo muito
+passar esse desafio junto com vocês.
+E não se esqueça
+de deixar feedback.
+Eu vi que vocês deixaram feedback
+lá na primeira aula.
+Eu fiz algumas coisas ali.
+Deixei a tela errada.
+Fiz algumas coisas
+começando o código direto.
+Mas a gente está melhorando
+e cada vez mais
+never stop learning.
+Galerinha, muito obrigado.
+Até a próxima aula.
+Até a próxima aula de número 4.
+Espero vocês lá.
+Até o próximo nível.
+Valeu, galerinha.
+Um abraço.
+Tchau.

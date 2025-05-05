@@ -1,0 +1,4226 @@
+Fala Dev, bora pro segundo dia do NLW.
+Se você ainda não assistiu a primeira aula, corre lá porque você vai precisar dela
+pra dar sequência do desenvolvimento da nossa aplicação.
+Durante essa semana você tá conhecendo na prática o método pra acelerar a sua evolução
+e encarar as melhores oportunidades da sua carreira.
+Mais do que isso, você tá descobrindo o caminho pra dominar a tecnologia de forma eficiente,
+construir aplicações de ponta e se destacar como deve.
+Assim como nossas alunas e alunos.
+Fala aí galera, beleza? Meu nome é José Luiz e hoje eu tô aqui pra fazer um depoimento bem rapidão
+do que a Rocket influenciou, influencia e ainda vai influenciar demais na minha carreira.
+Porque eu não parei de estudar e não pretendo parar de estudar tão cedo junto com o time da Rocket.
+Foi então que em janeiro desse ano eu consegui comprar o curso e achei que seria sim um curso muito bom,
+porém não um impacto que ele teve na minha carreira.
+Após um mês, eu já estava trabalhando como desenvolvedora, fui stack.
+E meses depois eu fui convidada a ser CTO de uma empresa de Belo Horizonte,
+que é a mesma que eu trabalho hoje.
+Antes mesmo de emitir o meu certificado, quando eu publiquei no meu LinkedIn que eu estava fazendo o GoStack,
+já começaram a aparecer oportunidades de emprego com essa stack.
+Eu percebi que os recrutadores conhecem muito o curso e valorizam.
+E eu me candidatei pra uma vaga só e já consegui essa vaga pra trabalhar com o TypeScript.
+Eu começo inclusive amanhã nessa nova empresa.
+E através das dicas dentro do Bootcamp, comecei a fazer meu marketing pessoal através do LinkedIn,
+a utilizar o GitHub como portfólio e comecei a me jogar nos processos seletivos
+que antes eu não me sentia capacitada para me candidatar.
+E resultado disso, Deves, cinco processos seletivos, fui aprovada
+e consegui entrar na maior empresa de tecnologia daqui da capital.
+E foi graças a esse conhecimento que eu adquiri lá na Rocket,
+que foi um curso que foi voltado pro que o mercado pede
+e que estava muito de encontro com o que eu precisava,
+eu consegui que nos últimos dias do meu estágio,
+meu chefe chegou e falou, olha, cara, gostei demais do teu trabalho,
+a gente está precisando demais de um outro developer full stack
+e eu quero te oferecer a job offer, eu quero que você fique aqui no meu time,
+não quero que você saia da minha empresa.
+Como resultado disso, eu acabei vencendo três hackathons
+com o conhecimento que adquire no GoStack,
+simplesmente aplicando o que eu tinha desenvolvido nas aplicações do curso nos hackathons.
+Hoje eu trabalho numa multinacional, com projetos internacionais,
+com um salário três vezes maior do que eu recebia antes de começar o curso.
+E aí já no mês seguinte, eu nesse gasto todo, estudando bastante,
+eu recebi a minha primeira proposta de emprego na área
+pra ser desenvolvedor front-end.
+Então hoje eu trabalho na área, na maior agência daqui da minha cidade,
+de Campinas, trabalho num projeto de uma grande empresa de fast food
+e isso me devolveu a minha vontade, me devolveu,
+me fez encontrar de novo um propósito pra fazer o que eu faço da maneira que eu faço.
+Isso foi muito importante, foi um ponto de virada muito importante que eu tive
+graças ao GoStack.
+Então pra mim foi como descobrir um novo mundo, participar do GoStack
+e é um mundo que eu não quero sair tão cedo,
+eu quero continuar nesse meio por muito, muito tempo.
+Cara, hoje eu tô trabalhando pra uma das maiores empresas de São Paulo, né?
+E eu agradeço demais a vocês por tudo isso,
+porque todo esse carinho do Diego, do Mike e de todos da Rocket City
+fazem com que não só o meu futuro, né?
+Porque eu vim de um lugar muito pequeno
+e quem imaginaria que eu estaria onde eu tô agora, né?
+E é tudo graças a vocês, vocês ajudavam não só a mim,
+mas muitas pessoas ao meu redor que também passaram pela mesma situação.
+Se não fosse o curso, eu não estaria aqui onde eu estou hoje.
+Eu só tenho a agradecer a Rocket City por passar esse conhecimento pra gente
+e por estar ensinando de forma tão clara e tão rápida
+tudo que a gente precisa saber, não só sobre tecnologia,
+não só sobre desenvolvimento, mas também sobre como ser um profissional
+e como agir como tal.
+E além do conhecimento técnico,
+a Rocket City me proporcionou muito conhecimento não técnico
+e empoderamento como negra e mulher dentro da tecnologia.
+Então eu posso dizer, a Rocket City me elevou a um outro nível
+que nem eu sabia que eu poderia estar.
+Mas eu preciso te lembrar que em programação não existe atalho.
+O que existe é justamente o contrário.
+Ficar dando um monte de voltas, pulando de uma tecnologia pra outra
+sem ter um objetivo claro, sem colocar em prática o que você aprendeu
+e pior, acabar estagnado nos estudos e na sua carreira.
+Então chega de falar e bora codar pra você descobrir na prática
+o quanto você é capaz de evoluir durante essa semana.
+Fala Dev, como é que está você?
+Tudo bem?
+Então bora lá pra mais uma aula aqui, a aula de número 2 da nossa NLW.
+Espero que vocês tenham curtido muito porque eu estou super animado
+com esse conteúdo que a gente está criando, o Dev Quiz.
+Então bora lá pra gente começar aqui.
+Então primeiro vamos recapitular algumas coisas.
+O que a gente vai aprender nessa aula de hoje?
+Na aula de hoje a gente vai aprender a componentização de componentes.
+A gente vai fazer a estruturação que a gente tinha feito na aula anterior.
+A gente vai criar vários componentes.
+Vai aprender a utilizar ListView.
+A gente vai aprender a utilizar também o GridView.
+Então eu vou mostrar pra vocês a diferença
+de que a gente pode utilizar entre esses dois componentes.
+E também a gente vai brincar um pouquinho com animação.
+Sei que vocês gostam muito de trabalhar com animação.
+Então a gente vai fazer isso aqui também pra ajudar vocês.
+Então vamos lá.
+Deixa eu colocar aqui a minha tela pra vocês.
+Pra gente dar aquela recapitulada aqui no Notion.
+A gente está no nosso Notion.
+E aí a primeira coisa que a gente já falou
+que a gente já falou que vamos aprender.
+Vamos só fazer um recap da nossa aula anterior.
+Se a gente olhar aqui o nosso código da aula anterior.
+Na aula anterior a gente tinha feito
+a gente tinha estruturado aqui o nosso projeto.
+Então a gente tinha baixado aqueles assets
+fazendo a configuração do nosso projeto.
+E também a gente viu um pouquinho sobre Flutter.
+Como que o Flutter funciona.
+Como que a gente estata ali o aplicativo do Flutter.
+Como que é o scaffold.
+Como que é o container.
+Então a gente deu aquela recapitulada ali.
+A gente deu esse uso desses componentes.
+E agora a gente vai dar prosseguimento ao nosso aplicativo.
+O nosso aplicativo a gente tem aqui o nosso Figma.
+Onde a gente vai dar o procedimento aqui
+de fazer a criação dos nossos componentes.
+Então vamos lá.
+Temos aqui algumas coisas interessantes pra gente fazer.
+Que é o que?
+Depois a gente vai abrir o nosso Figma.
+E a gente vai deixar enquanto o nosso Figma acontece.
+A gente vai deixar aqui o build do nosso aplicativo acontecer.
+Vou deixar o build aqui acontecendo.
+Deixa eu abrir o Figma aqui.
+Que é que eu consigo abrir dessa forma aqui.
+Que eu consigo ter as propriedades do Figma.
+Que a gente já tinha aqui.
+Eu tenho as propriedades.
+Então nesse modo eu consigo pegar o tamanho das coisas.
+Pegar a fonte.
+Pegar tudo pra gente fazer o uso.
+Então na última aula a gente construiu essa tela aqui.
+A tela onde que é?
+A tela que a gente chama tela de Dev Quiz.
+E agora a gente vai construir nessa aula a tela.
+Deixa eu só jogar um pouquinho pro lado aqui.
+A gente vai construir.
+A gente vai finalizar a construção da tela de home.
+Tela de home.
+A gente construiu a questão aqui da app bar.
+Nessa questão do gradiente.
+Colocamos títulos.
+Colocamos também a imagem.
+Eu mostrei pra vocês como que a gente pega a imagem.
+Através de uma URL.
+A gente utilizou a imagem aqui.
+Pegando via GitHub.
+A gente pegou o linkzinho lá do GitHub.
+Pegamos essa imagem.
+E agora também a gente criou o scorecard.
+Que é um card super importante pra gente saber como que tá a evolução no nosso aplicativo.
+Porque o aplicativo do Dev Quiz é a ideia é entregar informações em Flutter pra gente trabalhar.
+Beleza?
+Então vamos lá.
+Ele tá fazendo o build aqui.
+Enquanto ele faz o build vamos passar aqui por duas coisas que a gente vai fazer hoje.
+A gente vai criar esse componente que é onde é um componente que ele tem uma cor, um título.
+E tem as propriedades ali de borda também.
+Então a gente tem basicamente três cores, né?
+A cor de uma borda, a cor do background dele e também a cor aqui da propriedade do nosso componente.
+Deixa eu dar um zoom aqui pra ficar melhor.
+E agora também a gente tem um componente de baixo, né?
+Esse componente aqui é um componente que ele tem um card, né?
+Ele vai ter a propriedade de uma imagem aqui, um ícone.
+Vai ter um título.
+E ele também vai ter esse 3 de 10 aqui.
+Aonde ele vai entregar pra gente aquela relação do seguinte.
+O que eu preciso?
+Eu preciso falar assim, eu já respondi 3 de 10 perguntas e 5 de 10.
+É pra te dar um feedback, né?
+É pra dar um feedback pra gente.
+Que a gente vai utilizar o aplicativo e dar um feedback pro usuário que estiver utilizando o aplicativo.
+De quantas quizzes ele já respondeu.
+Porque você pode ir pulando os quizzes, né?
+E só responder alguns ali.
+Então isso aqui também é interessante que a gente vai precisar de guardar essas informações
+em algum canto do nosso aplicativo.
+Em algum lugar a gente precisa guardar as informações de quais quizzes que foram respondidos.
+Beleza?
+Então vamos aqui agora olhar pro nosso layout.
+Vamos ver o que a gente precisa fazer.
+Ó.
+A gente tem aqui o nosso aplicativo.
+Aqui a gente tem a nossa app bar que a gente já tinha feito anteriormente.
+E aqui a gente tem o nosso scorecard.
+Só que se a gente olhar aqui o nosso scorecard, ele tá com o padding errado, né?
+A gente tem que arrumar esse espaçamento dele pra ficar igual o espaçamento que a gente tem no fio.
+Então primeiro, vamos voltar aqui pro código, né?
+Pra gente conseguir fazer esse tipo de interação.
+Então olhando aqui pro nosso código, vamos voltar aqui pra nossa tela.
+Aqui a gente tem o seguinte.
+Primeira coisa, vamos lá no nosso scorecard.
+Então o nosso scorecard, ele tá dentro da página de home.
+Dentro da página de home, a gente tem o nosso scorecard.
+Então vamos abrir aqui o código do scorecard.
+Vamos jogar o emulador um pouquinho menor aqui, só pra gente ter mais espaçamento de tela.
+Deixa eu ver o terminal aqui.
+Deixa eu fechar esse terminal aqui.
+Então vamos lá.
+Aqui a gente tem o nosso código.
+Dentro aqui do nosso código, a gente vai ter que colocar um espaçamento pra ele não ficar da forma que ele tá aqui hoje.
+Ele tá sem espaçamento.
+Então se a gente dá uma ampliada aqui, a gente percebe que o espaçamento dele tá bem ruim.
+Então vamos arrumar isso.
+O que a gente pode fazer?
+Pra arrumar isso, a gente tem o espaçamento, a gente tem uma row, né?
+E a gente pode fazer, pra ele também criar, ele pode criar um espaçamento entre eles, né?
+Ou a gente simplesmente pode colocar, a gente pode colocar aqui, ó.
+Vamos lá.
+Vamos colocar pra ele ter um alinhamento.
+Então aqui, ó.
+Main axis.
+Axe alignment.
+Colocar pra ele ter um alinhamento no centro.
+Vamos ver se ele vai ter comportamento.
+Ele não vai ter por causa que a gente tá utilizando o expanded aqui.
+Então pra gente conseguir ter o efeito do padding, a gente pode colocar o padding dentro do próprio componente aqui, ó.
+Dentro do chart width, a gente pode ir pra dentro dele.
+Pra navegar diretamente pro componente, você pode apertar command e clicar, ou você aperta ctrl e clica.
+O ctrl é quando você tá no Windows ou Linux, né?
+E o command é quando a gente tá aqui utilizando o macOS.
+Então beleza, a gente tá aqui dentro do nosso componente.
+A gente pode falar que o nosso componente, ele vai ter um padding.
+Então eu posso colocar um padding aqui.
+Posso colocar um padding de 8 aqui, ó.
+Ele vai ter um comportamento na nossa tela.
+Ele não teve nenhum comportamento.
+É esperado.
+Então a gente pode fazer o seguinte.
+Como ele tá no expand, não vai resolver a gente ter um padding aqui.
+Então a gente pode colocar um padding dentro dessa row.
+Então vamos colocar um padding aqui.
+Um padding simétrico.
+Onde ele vai ter simetria aqui horizontal.
+Vamos colocar horizontal aqui de 24 pixels.
+E a gente pode rodar aqui o nosso macOS pra gente ver a questão aqui do alinhamento.
+Então a gente colocou os 24 pixels aqui na horizontal.
+Se a gente olhar o nosso Figma, ele tá com 24 pixels, né?
+Então pronto.
+A gente agora tem o mesmo efeito que a gente tinha criado agora certinho no Figma.
+Então a app bar tá certa, né?
+E também a gente tem aqui certo o nosso vamos começar, a nossa propriedade aqui.
+Beleza.
+Então criamos o nosso componente aqui.
+Tá funcionando certinho.
+Agora vamos lá pros nossos próximos desafios.
+Vamos olhar aqui no nosso Notion, né?
+O que a gente precisa fazer.
+A gente já capitulou.
+E aqui do nosso Notion a gente vai criar agora o level button.
+O que é o level button?
+O level button é essa questão dos níveis aqui, né?
+Se ele vai ser um nível fácil, se ele vai ser um nível médio, se ele vai ser um nível difícil.
+Ou se a gente vai escolher resolver questões do nível perito.
+Então vamos lá.
+Toda vez que a gente vai criar um componente, né?
+A gente vem aqui pro nosso VS Code.
+E aí agora a gente tem uma questão aqui o seguinte.
+O componente que a gente tá criando é o componente da Home.
+Então a gente vai criar esses componentes aqui dentro de widgets.
+Também da mesma forma que a gente tava criando antes.
+Então vamos criar uma pastinha aqui.
+Com o botão direito, né?
+Em cima da pastinha.
+Então clicar aqui em New Folder.
+Essa folder a gente vai chamar Level Button.
+Então dentro do Level Button a gente vai criar aqui um Level Button Widget.
+Que é a terminação que a gente tem antes.
+Ou a gente pode também criar a terminação Underline Button.
+Pra dizer que aquele componente que a gente tá utilizando é o Button.
+Mas eu gosto de mesmo que tá abuto eu colocar o Widget.
+Porque eu gosto de saber que o Widget é...
+Vamos dizer assim.
+O Widget é uma pequena parcela da nossa tela.
+Então eu gosto de utilizar ele.
+Vamos lá.
+Level Button Widget.dart
+Então vamos focar aqui no nosso código.
+Vamos colocar isso aqui no cantinho.
+Não sei se eu consigo diminuir ele.
+Então eu consigo.
+Então aqui a gente vai utilizar um Stateless Widget.
+Desse Stateless Widget a gente vai chamar ele de Level Button Widget.
+Pra manter o nosso padrão que a gente já tinha comentado na aula anterior.
+Então vamos lá.
+Colocar aqui o Flutter Material.
+Aqui a gente coloca a interrogaçãozinha.
+Pra que aquela questão do...
+Nossa aqui ela poder ser nula.
+Porque no primeiro momento a gente não vai estar utilizando ela.
+E também a gente tá na versão do Flutter 2.0+.
+Então isso quer dizer que o NuSafe já tá ativo no nosso projeto.
+O que a gente precisa?
+Vamos lá.
+Vamos pensar aqui o que a gente precisa de colocar no Level Button pra ele funcionar.
+Então vamos lá olhar o nosso Figma.
+Olhando pro nosso componente.
+Ele tem uma questão de borda.
+Vou dar só um zoom aqui pra vocês verem.
+Ele tem uma questão de borda.
+Ele tem uma borda em volta.
+Ele tem um background.
+E tem um texto.
+Então as coisas que a gente precisa aqui primeiramente.
+O que a gente pode utilizar?
+A gente pode utilizar um container.
+Um container é aquele componente que ele tem muitas configurações.
+A gente já utilizou ele algumas vezes.
+Então vamos utilizar ele aqui novamente.
+O container ele é algo muito legal.
+E é algo que vai resolver aqui a nossa questão da nossa aula.
+Então vamos voltar aqui pro nosso código.
+Então vamos lá.
+Quando a gente vai utilizar o container.
+O container ele vai ter um texto.
+Ele vai ter um text aqui.
+Onde esse texto a gente vai chamar de fácil.
+Ele vai ter um texto chamado fácil.
+E ele vai ter os decorations aqui.
+Então a gente pode colocar aqui.
+Decoration.
+Box.
+Box decoration.
+Então aqui a gente vai ter o nosso box decoration.
+Onde ele vai ter um border radius.
+Porque se a gente for olhar.
+Ele é redondinho aqui.
+E o border radius que ele tem aqui.
+É um border radius de 28.
+Então eu vi um pouquinho rápido.
+Mas ele está aqui embaixo.
+E aqui eu não consigo dar zoom.
+Então talvez não dê.
+Deixa eu ver se eu consigo dar um zoom aqui.
+Eu não consigo.
+O zoom não pega nessa questão aqui.
+Mas o border radius.
+Quando você abre o figment.
+É um border radius de 28 pixels.
+Então vamos colocar aqui.
+Border radius.
+Circular 28.
+Aí vocês podem estar se perguntando.
+Mas Gabu.
+Como é que você sabe.
+Que é a mesma unidade.
+Que está lá no Figma.
+Pixel é a mesma unidade de 28.
+Aqui no Flutter.
+O Flutter trabalha sempre com pixel.
+Então você nunca vai trabalhar com porcentagem de tela.
+Então tudo é pixel.
+Então por isso.
+Eu posso pegar os 28 lá.
+E colocar aqui.
+Que ele vai ter o mesmo efeito.
+Então a gente colocou aqui.
+O background na nossa tela.
+Então beleza.
+Estamos aqui com o background.
+A gente precisa também de mais uma coisa.
+A gente precisa de colocar as nossas cores aqui no nosso componente.
+Então vamos olhar aqui para o nosso componente.
+Ele vai precisar de ter um background.
+Então ele precisa de ter aqui uma cor.
+Chamada background color.
+Então se eu colocar aqui.
+App cores ponto.
+Vamos ver aqui.
+Ele já tem.
+Eu separei aqui para a gente.
+Para ficar mais fácil.
+As cores.
+Então ele tem um level button border.
+Ele tem um level button difícil.
+Que é a questão do background.
+E tem um level button text.
+Que é a questão da cor.
+Então vamos criar a cor fácil aqui.
+A cor do fácil.
+Vamos criar a cor da borda também.
+Então para a gente colocar uma borda aqui.
+A gente vai utilizar o border.
+Border.
+From border side.
+Porque a gente vai criar uma borda baseada numa cor só.
+Então border.
+Porque o border ele dá para você fazer várias customizações.
+Mas aqui a gente está utilizando.
+Só essa customização para colocar a cor ali em volta.
+Então border.
+Ponto.
+Borda side.
+Aqui ele vai ter a color.
+Então a color que a gente vai utilizar aqui.
+App colors ponto.
+Level button border fácil.
+Então aqui a gente vai colocar o fácil.
+Então a gente vai ter.
+A cor.
+Do background.
+Ela já está aqui.
+A gente vai ter a cor da borda.
+E a gente vai ter o border rights.
+Vamos agora adicionar esse componente na nossa tela de home.
+Para a gente ver se a renderização dele vai estar compatível com o que a gente deseja.
+Vamos abrir o arquivo aqui da home.
+Vamos colocar aqui dentro do body.
+Dentro do body a gente vai colocar aqui.
+Level.
+Button.
+Widget.
+Vamos colocar aqui o level button widget.
+E aí a gente vai colocar aqui o import.
+Vamos colocar o import do nosso level button aqui.
+Para ele fazer a nossa renderização.
+Vamos colocar aqui.
+Vamos dar o comando de S.
+Ah lá.
+Apareceu o fácil na nossa tela.
+Vamos puxar aqui.
+Apareceu um fácil pequenininho aqui na nossa tela.
+Mas ele está com a cor de fundo e está com a borda.
+Só que o texto não está configurado certo.
+Então a gente tem que configurar a cor do texto também.
+Então vamos lá configurar a cor do texto do nosso componente.
+Então vamos lá em level button widget.
+Vamos aqui.
+E vamos lá no nosso estilo.
+Então style aqui a gente vai configurar.
+Como a gente tem algumas configurações já de estilo.
+Então a gente pode ver aqui.
+PPP.
+Text.
+Styles.
+A gente tem aqui várias configurações de cores que a gente colocou.
+Só que se a gente for utilizar isso.
+Às vezes a gente vai ter mais trabalho para fazer as configurações.
+Então ao invés de a gente pegar umas configurações de estilo globais.
+Como as cores aqui já ficam mudando muito.
+Baseada no texto que a gente está escrevendo.
+Então vamos colocar aqui.
+Style.
+Né.
+E vamos colocar aqui a cor desse texto.
+Então vamos olhar lá no.
+Vamos olhar aqui a cor.
+A gente tem a cor do Figma.
+Vamos colocar aqui colors ponto.
+Vamos pegar aqui level button fácil.
+A gente vai ter a cor.
+A gente precisa também do font size.
+E do tipo de fonte.
+Só que se a gente colocar text style aqui.
+A gente não vai pegar a fonte.
+Que é a fonte certa.
+Que é a fonte do nona sans.
+Como eu tinha falado anteriormente.
+Na aula passada que a gente tinha instalado o google fontes.
+Se a gente vier aqui.
+O nosso pub spec.
+A gente vai perceber que a gente tem o google fontes.
+O google fontes nas nossas dependências.
+Então com isso eu consigo chamar a fonte.
+NotoSans.
+Diretamente aqui.
+Então eu posso chamar.
+Google fontes.
+Então aqui ele vai me dar todas as fontes.
+Que tem dentro do google.
+Porque o google tem um site.
+Google fontes.
+Que tem milhares de fontes.
+Já para a gente utilizar.
+Então eu vou dar aqui.
+Vou apertar google fontes ponto.
+E aí a gente vai colocar a cor aqui.
+Nono.
+NotoSans.
+Google fontes ponto.
+NotoSans.
+Vamos chamar a notoSans aqui.
+E dentro do notoSans.
+Ele vai ter a propriedade de color.
+Vamos chamar aqui a propriedade de color.
+Que já tinha a configuração do text style.
+O legal desse package do google fontes.
+É que ele já devolve para a gente.
+Já várias configurações.
+Que a gente pode utilizar.
+Para fazer o uso.
+Da nossa tela.
+Então a gente pode utilizar o text style aqui.
+Para a gente fazer a nossa renderização da melhor forma possível.
+Então vamos.
+Deixa eu só conferir o estilo da fonte aqui.
+Só para eu não me perder.
+Eu peguei a fonte aqui.
+NonoSans.
+E aí a gente vai pegar a cor dessa fonte.
+Ele está reclamando aqui.
+Deixa eu ver se falta mais um.
+Vamos lá.
+Esperar o identificador.
+Ah, está faltando aqui.
+NonoSans.
+Vai faltar o do text.
+Vai faltar o de cima.
+Vamos parar aqui.
+O text está aqui certinho.
+Espera aí.
+Que eu fiz alguma coisa.
+Tira o estilo aqui.
+Vamos ver se está tudo certo.
+Beleza.
+Colocar o estilo.
+A gente vai chamar o google fontes.
+E vamos chamar o noto.
+NotoSans.
+Beleza.
+E aqui dentro do notoSans.
+A gente vai ter a cor.
+Vamos colocar a cor aqui.
+AppColors.
+Level.
+Text fácil.
+Então se a gente colocar aqui.
+O text fácil.
+Ah, a cor agora.
+Se a gente olhar aqui.
+Ele teve uma cor melhor.
+A cor agora melhor não.
+A cor está igual.
+E agora a gente precisa colocar a font size.
+Vamos ver qual é o tamanho que está lá.
+Font size.
+Vamos olhar o tamanho que está no figo.
+Ele está com font size de 13.
+Então font size de 13 aqui.
+A gente colocou font size de 13.
+Só que a gente percebe que ele tem um 6 para baixo.
+6 para cima.
+26 para um lado.
+26 para o outro.
+Então a gente pode colocar esse texto agora dentro de um padding.
+Para ele fazer o espaçamento.
+Então a gente pode colocar aqui no espaçamento simétrico.
+Onde na horizontal ele vai ter 26.
+26.
+E na vertical ele vai ter 6.
+Deixa eu ver aqui.
+Isso.
+Então agora a gente vai ver que o nosso componente.
+O nosso fácil.
+O nosso level.
+Level boot.
+Ele agora está bem.
+Está igual ao nosso figma.
+Então o nosso figma fácil.
+Está igual.
+Só que agora a gente tem que pensar em algumas coisas aqui.
+Bem interessantes.
+Que é o seguinte.
+O texto.
+Ele está dentro do meu componente.
+Então eu preciso externalizar esse texto.
+Eu tenho que exportar esse texto.
+Criar uma propriedade.
+A qual quem estiver utilizando consegue passar.
+O texto.
+Então a gente vai vir aqui.
+E vai criar uma variável para a nossa classe.
+Variável do tipo string.
+Que chama label.
+Então a gente vai ter um label.
+E a gente vai criar o construtor aqui.
+Essa variável vai ser do tipo required.
+Você é obrigado a passar essa variável de label.
+Para o label ser renderizado.
+Então aqui agora.
+A gente vai vir.
+E vai passar aqui o label.
+Então se a gente colocar o label aqui.
+Colocamos o label.
+Ele está aqui na nossa tela.
+Ele vai estar reclamando agora.
+Lá na nossa home page.
+Que a gente precisa passar.
+Para o nosso.
+Level.
+Boto.
+O widget.
+A gente precisa passar.
+Qual o label que eu quero.
+Eu quero renderizar o label fácil.
+Então eu vou vir aqui.
+Vou colocar fácil.
+Só que.
+Aí agora a gente tem alguns critérios aqui.
+Interessante.
+Quando eu coloquei o fácil.
+Beleza.
+Ele vai renderizar ali na nossa tela.
+Da forma que a gente está esperando.
+Beleza.
+Só que se eu colocar médio.
+Ó.
+Deixa eu colocar médio.
+Vamos ver o que acontece.
+Coloquei médio.
+Ele continuou médio.
+A nossa tela.
+Só que.
+Ele colocou só o médio.
+Mas a cor.
+Ela não mudou.
+As configurações de cores.
+Então agora a gente vai precisar pensar.
+Em alguma estrutura.
+A gente precisa pensar aqui.
+Em alguma estrutura.
+Que a gente possa fazer.
+Para a gente conseguir resolver.
+Esse problema.
+Então.
+Isso é um problema.
+É muito comum.
+Quando a gente está desenvolvendo.
+A gente se deparar no processo aqui.
+Ah beleza.
+Agora eu tenho um problema.
+Tipo.
+Ó.
+Se eu colocar médio.
+Ele deveria ficar verde.
+Ele tem que renderizar verde.
+Se eu.
+Se eu quiser renderizar o difícil.
+Ele teria que ficar laranja.
+Se eu quiser renderizar o perito.
+Ele teria que ficar vermelho.
+As configurações de vermelho.
+E agora a gente pode fazer.
+Algumas coisas.
+Que é o que?
+A gente poderia exportar as cores.
+Para o level.
+O level button widget.
+E quem estiver utilizando.
+O level button widget.
+Passa qual cor.
+Que ele quer que renderiza.
+Isso seria um caminho.
+Né.
+Se a gente for pensar.
+Sim.
+É um caminho bem.
+Plausível.
+Um caminho bem interessante.
+Só que aí.
+A gente tem um problema.
+É.
+Do seguinte.
+É.
+A gente só tem.
+Essas cores aqui no design.
+E se alguém.
+Simplesmente pegar.
+E passar.
+Uma outra cor.
+Que está fora do design.
+Então a gente começa a ter um problema aí.
+Dessa questão de cor.
+De liberar.
+Para a cor ser setada.
+Na camada de cima.
+Na camada de quem utiliza.
+Então a gente pode.
+A gente vai abordar.
+Uma estratégia.
+De criar um arquivo de estilo.
+A gente vai criar um arquivo de estilo.
+Aonde.
+A gente vai criar.
+As configurações de estilos possíveis.
+Para esse componente.
+Level button widget.
+E aí você vai poder utilizar.
+Aquelas configurações.
+Só.
+Então você.
+O bom que a gente pode criar.
+Configurações novas.
+Né.
+Então sim.
+Isso é bem interessante.
+Então vamos lá.
+Agora a gente tem um problema.
+Que é o que eu tenho que colocar médio.
+Ele tem que ficar verde.
+Ou eu tenho que colocar médio.
+E passar mais um atributo.
+Para ele ficar verde.
+Só que eu não posso passar o atributo de cor.
+Porque a cor a gente deixa aberto.
+Até alterações fora do nosso padrão.
+Do nosso figma.
+Então vamos lá.
+Eu coloquei o médio.
+E aí a gente não tem.
+Essa possibilidade.
+Primeira estratégia.
+A gente poderia fazer o seguinte.
+Uma estratégia simples.
+Qual que é a estratégia simples?
+A gente pode vir aqui para o nosso código.
+Ó.
+Vamos deixar o emulador aqui de lado.
+Para a gente focar no código.
+A gente poderia vir aqui para o nosso código.
+E criar alguma estrutura.
+Configuração.
+Então a gente poderia criar uma estrutura aqui ó.
+Final config.
+Né.
+Aonde.
+Ela poderia funcionar da seguinte forma.
+Ela.
+Só que aí ó.
+A gente colocaria aqui.
+Ó.
+Se for médio.
+Você vai renderizar.
+Algumas coisas para mim.
+Ó.
+Eu quero.
+Que a cor.
+Seja.
+É.
+App.
+Colors.
+Ó.
+App.
+Colors.
+Ponto.
+Level.
+Button.
+Level.
+Button.
+Médio.
+Eu quero que.
+A borda.
+Né.
+A borda.
+Colors.
+A borda.
+Colors.
+Ou a borda.
+Inteira.
+Pode ficar aqui.
+Ou a borda.
+Né.
+A borda.
+Do meu componente.
+Como só mudar a cor.
+Vamos colocar só.
+Então.
+Borda.
+Colors.
+Seja.
+App.
+Colors.
+Ponto.
+Level.
+Borda.
+Médio.
+Tá.
+E a gente queria também.
+Que a cor da fonte.
+Né.
+É.
+Ponte.
+Color.
+A ponte.
+Colors.
+Seja.
+App.
+Colors.
+Ponto.
+Level.
+Text.
+Médio.
+Level.
+Button.
+Level.
+Button.
+Text.
+Médio.
+Então.
+A primeira coisa que a gente poderia fazer.
+É esse tipo de configuração.
+De que.
+A gente poderia utilizar o map.
+Né.
+Que quando vem a palavra médio.
+Ele iria renderizar a cor aqui já.
+Então.
+Por exemplo.
+Eu poderia fazer aqui.
+Médio.
+A gente poderia criar para o médio.
+Vamos criar para o médio.
+Fácil.
+Então.
+Médio.
+Fácil.
+Então.
+Fácil.
+Então.
+Onde está médio aqui.
+Eu coloco fácil.
+É.
+O que eu fiz aqui.
+É interessante.
+Né.
+Eu utilizei um atalho.
+Que se chama o seguinte.
+Esse é um atalho de.
+Comand D.
+Se eu utilizo o comand D.
+Para ir selecionando palavras iguais.
+Então.
+Eu utilizei o comand D.
+Para selecionar fácil.
+E aí.
+Eu troquei.
+O médio está certo.
+Eu poderia pegar aqui.
+O difícil.
+Difícil.
+E aí.
+Eu colocaria dentro do que.
+Eu pegaria aqui.
+E colocaria.
+Que todo mundo vai ter.
+Vai escrever com final difícil.
+Pronto.
+E aqui também.
+Eu teria.
+A probabilidade.
+De a gente colocar.
+O perito.
+Perito.
+É.
+Perito.
+E aí.
+Ó.
+Vamos colocar o comand D.
+Ou o ctrl D.
+Né.
+E aí.
+A gente coloca aqui.
+Perito.
+Pronto.
+Então.
+Aqui a gente teria as configurações.
+Baseada.
+É.
+No texto que vem.
+Só que para isso.
+A gente teria que fazer um assert.
+Um assert aqui.
+Ó.
+Para.
+Para.
+Para o seguinte.
+Para travar.
+O código.
+Da seguinte forma.
+Você vai ter que fazer o seguinte.
+A gente vai criar uma lista aqui.
+Ó.
+É.
+Fácil.
+Médio.
+Difícil.
+Difícil.
+E aqui a gente teria.
+A.
+Fácil.
+Médio.
+Difícil.
+E teria também.
+O perito.
+Ponto.
+Contents.
+Label.
+Então.
+O label.
+Ele só pode ser.
+Um desses quatro.
+Então.
+Se o label.
+For diferente desse.
+O asset.
+Já vai.
+Já vai.
+Já vai.
+Quebrar para a gente.
+Então.
+Dessa forma.
+A gente poderia utilizar.
+Olha que legal.
+A gente poderia criar agora.
+Uns getzinhos aqui.
+Ó.
+Para ficar mais fácil.
+Então.
+A gente vai criar um get aqui.
+Ó.
+Get.
+Ó.
+Um get.
+Ó.
+Uma cor aqui.
+Get.
+Né.
+Que chama color.
+Aonde.
+Ele vai pegar.
+A config.
+Baseada no label.
+E vai pegar.
+Aqui também.
+A.
+Color.
+Para a gente.
+Então.
+Ele vai pegar.
+Config.
+Label.
+E vai pegar.
+A cola para a gente.
+Só que.
+Provavelmente.
+A gente vai ter que.
+Dizer aqui.
+Que ele não é nulo.
+Tá.
+Então.
+Pronto.
+Por causa do.
+Nusafety.
+Então.
+Vou dizer que.
+Vou pegar a cor.
+Vou pegar.
+A border color.
+Border color.
+E aqui.
+Você vai colocar.
+Border.
+Color.
+É.
+Legal de usar o getzinho.
+Né.
+Que você simplifica.
+Né.
+A gente utilizou.
+Esse arquivozinho.
+De configuração.
+E a gente utilizou.
+Também.
+Aqui.
+A questão.
+Do getzinho.
+Né.
+Para facilitar.
+O nosso.
+Ai.
+Tudo é cor.
+Né.
+Então.
+Aqui.
+A gente vai ter.
+O font color.
+Aqui.
+A gente vai ter.
+O.
+Font color.
+Então.
+Aqui.
+A gente vai ter.
+A cor.
+Né.
+O getzinho.
+Aqui.
+Para pegar.
+A gente vai ter.
+A gente vai ter.
+A gente vai ter.
+A gente vai ter.
+Um getzinho aqui.
+Para pegar.
+A border color.
+E a gente vai ter.
+O outro get.
+Para pegar.
+A fonte.
+A fonte color.
+Fonte.
+Color.
+Então.
+Se a gente rodar aqui.
+Na hora que.
+O momento que a gente rodar.
+O médio.
+Ele já vai ficar.
+De outra cor.
+Então.
+O médio.
+Ele já trocou de cor.
+Então.
+A gente pode vir aqui.
+Na nossa home page.
+E vamos colocar.
+Aqui agora.
+Os outros.
+Ó.
+Vamos colocar.
+O difícil.
+Então.
+O difícil.
+Ele tem.
+Qual cor?
+Ele tem a cor laranja.
+E também.
+A gente pode colocar.
+Perito.
+Que aí.
+Vai ter.
+A cor vermelha.
+Então.
+Dessa forma.
+A gente simplificou.
+O nosso processo.
+De configuração.
+E deixou essa regra.
+Dentro do componente.
+E aí.
+Se eu quiser utilizar.
+Por exemplo.
+O gabu.
+Ele vai.
+Ele vai quebrar no aço.
+A gente vai falar.
+É.
+Essa configuração.
+Que você tentou.
+Ela não existe.
+Então.
+Você não pode.
+Utilizar ela.
+Tá.
+Então.
+Você tá.
+Ó.
+Não pode fazer isso.
+Que você tá tentando fazer.
+Se você tá tentando fazer.
+Não vai dar certo.
+Então.
+Beleza.
+Né.
+Então.
+Dessa forma.
+A gente.
+Fez a nossa configuração.
+Aqui.
+E.
+Só que isso.
+Não atrapalha.
+E isso também ajuda.
+Né.
+Porque se a gente quiser.
+Configurar outras coisas.
+Depois a gente.
+Simplesmente.
+Vem nesse arquivo.
+De config aqui.
+E cria outras coisas.
+Então.
+Vamos deixar assim.
+Que ficou bem simples.
+Né.
+Ficou bem legal.
+Porque fica.
+Agora.
+Olha.
+Botões aqui.
+Né.
+A gente poderia colocar aqui.
+O fácil.
+Por exemplo.
+É.
+A gente vai.
+Ver que o nosso componente.
+Agora.
+Ele vai se comportar com.
+Com a configuração de fácil.
+Então.
+Isso aqui.
+Isso aqui é muito legal.
+Isso aqui facilita muito.
+O.
+O nosso desenvolvimento.
+Agora.
+Vamos lá.
+A gente criou aqui.
+O nosso layoutzinho.
+Né.
+A nossa tela.
+E agora.
+Eu preciso fazer o seguinte.
+Eu preciso criar agora.
+Ó.
+Todos os botões.
+A nossa tela.
+A gente precisa deixar todos os botões aqui.
+Se a gente olhar aqui.
+No Figma.
+Deixa eu tirar o zoom aqui um pouco.
+Deixa eu olhar aqui no Figma.
+Né.
+Ele.
+Ele tem todos os botões aqui.
+Na.
+Na tela.
+Os quatro botões.
+Então.
+Vamos colocar os quatro botões aqui na tela.
+Aqui.
+A gente vai criar agora.
+Uma row.
+Tá.
+Para colocar todos esses botões.
+Então.
+Vamos criar uma row aqui.
+Criar uma row.
+Uma row.
+É quando a gente coloca todos os componentes.
+Numa linha.
+Tá.
+Então.
+É muito legal.
+A row.
+Por causa disso.
+Então.
+A gente vai utilizar.
+Vamos colocar o level.
+Button fácil.
+Vamos colocar aqui.
+O level.
+Button.
+Médio.
+Vamos colocar aqui.
+O level.
+Button.
+Difícil.
+Vamos colocar aqui.
+O level.
+Button.
+É.
+Perito.
+Vamos colocar aqui.
+Então.
+Agora a gente tem um fácil.
+Médio.
+Difícil.
+Perito.
+Só que aí.
+Se a gente for olhar lá.
+Ele tem uns espaçamentos.
+Né.
+Então.
+Vamos colocar aqui uns espaçamentos.
+Então.
+Main.
+Alignment.
+Ponto.
+Space.
+Space.
+Between.
+Então.
+Ele vai colocar um espaço entre eles.
+Então.
+Agora a gente já conseguiu.
+Ter esse espaçamento.
+Só que.
+Quando a gente faz esse espaçamento.
+Ele está pegando na borda.
+Né.
+Então.
+A gente vai ter que colocar um padding aqui.
+Na nossa row.
+Para evitar que isso aconteça.
+Que isso aconteça.
+Então.
+Only.
+Only não.
+Vamos colocar aqui.
+Simétrico.
+É melhor.
+E vamos colocar aqui.
+Na horizontal.
+A gente vai ter a questão de colocar.
+Vamos olhar aqui no Figma.
+Para a gente conferir.
+Aqui.
+Aqui.
+Da bordinha.
+Aqui para cá.
+É 20 pixels.
+Normalmente.
+É em torno de 16.
+20 pixels.
+O padrão do mobile.
+Então.
+Por isso que eu estava falando isso.
+Agora.
+A gente colocou o nosso botão fácil.
+Médio e difícil.
+Perito aqui na nossa tela.
+Beleza.
+Então.
+Se a gente for olhar.
+É o nosso notion.
+A gente já finalizou aqui.
+A questão do level button.
+Então.
+A gente já tem o nosso level button.
+Funcionando aqui.
+Só que tem uma coisa.
+Se a gente for olhar.
+A gente não colocou.
+Né.
+O on tap.
+Mas a gente vai deixar para colocar isso.
+Quando a gente for utilizar.
+Tá.
+Eu tinha deixado a propriedade aqui.
+Mas na hora que a gente for utilizar.
+Essa questão de pegar os cliques dos botões.
+A gente coloca o on tap.
+Que aí vai fazer mais sentido.
+A questão é.
+A gente criar todo o layout.
+Vamos estruturar todo o layout.
+Que a gente vai ver toda a UI ali.
+De como que está funcionando.
+E aí no meio.
+Tendo o layout.
+A gente começa também.
+Implementar a parte lógica.
+De como as coisas vão funcionar.
+Então beleza.
+A gente colocou o nosso botão aqui.
+E agora a gente.
+Se a gente for olhar.
+A gente teria que ir para o nosso quiz card.
+Né.
+O nosso quiz card aqui.
+Ele.
+É responsável por fazer.
+A estruturação.
+Né.
+Dos nossos arquivos.
+Então vamos lá.
+A gente tem um título.
+É.
+A gente tem o nosso título.
+Aí a gente vai para o nosso quiz.
+Se a gente olhar aqui o nosso quiz.
+Dentro aqui do nosso.
+Nosso figment.
+A gente.
+A gente tem um card.
+Né.
+Ele vai ter uma borda.
+E esse card.
+Ele vai ter esses títulos.
+E ele vai ter essas propriedades.
+E vai ter um progress indicator aqui embaixo.
+Né.
+Esse progress indicator.
+É muito interessante.
+Né.
+Para a gente fazer.
+O nosso processo.
+Olhando aqui para o nosso.
+Para o nosso notion.
+A gente vai precisar de ter um ícone.
+Ou uma imagem.
+A gente vai precisar de ter um título.
+Né.
+Um score ali.
+E a gente vai precisar de ter o nosso progress bar.
+Então beleza.
+Então vamos lá.
+Tudo aqui.
+Toda vez que a gente vai criar um componente.
+A gente vai utilizar o container.
+Então.
+A gente vai criar aqui o nosso quiz card.
+Então vamos olhar aqui para a nossa estruturinha de pastas.
+Vamos lá na lib.
+Deixa eu fechar aqui.
+Vamos lá na lib.
+Vamos na nossa home.
+Vamos aqui em widgets.
+E vamos criar aqui um novo id.
+Chamada quiz card.
+Vamos criar o nosso arquivo.
+Que a gente está acostumado.
+Quiz card widget.
+Para a gente manter o padrão.
+E aí vamos criar aqui.
+Um stateless widget também.
+Porque normalmente esse card.
+Ele vai vir de alguma informação pronta para a gente.
+Então a gente não vai precisar.
+De fazer.
+O processo ali.
+De.
+De algum estado.
+Né.
+Ele já vai vir com esse estado pronto.
+A gente simplesmente.
+Vai passar a informação para ele.
+Vamos criar aqui.
+O nosso material.
+Vamos colocar aqui também.
+O null.
+Eu não coloquei o nome do nosso componente.
+Né.
+Vamos escrever aqui novamente.
+Stateless widget.
+E a gente vai colocar aqui.
+Quiz card.
+O widget.
+Terminação padrão.
+Aqui a gente vai ter o nosso key.
+Vamos colocar aqui o import.
+Né.
+Vamos fazer o import lá do material.
+Então beleza.
+Aqui a gente tem o import do material.
+A gente agora.
+Precisa fazer o seguinte.
+A gente tem um container.
+Igual a gente tinha antes.
+Só que.
+Se a gente for olhar.
+As primeiras estruturações aqui do Figma.
+A gente vai ter um container.
+E vai ter.
+Um.
+Um.
+Decoration.
+Então.
+A gente tem utilizado muito o decoration.
+Box decoration.
+Dentro desse decoration.
+Ele vai ter.
+A.
+Ele vai ter uma border.
+Né.
+Então ele vai ter o border.
+Borders.
+É.
+Borderside.
+Borderside.
+Borderside.
+Borderside.
+Borders from Borderside.
+Aonde a gente vai colocar aqui o nosso Borderside.
+E dentro desse Borderside.
+A gente vai colocar a cor.
+É.
+Isso aqui é.
+É.
+É.
+É bem padrão.
+A gente está utilizando muito.
+Essa questão aqui do.
+Do.
+Do Borderside.
+Porque ele é muito útil.
+Né.
+Ele está fazendo.
+Toda a questão do nosso design aqui.
+Que ele é muito baseado nessa questão dessas bordas.
+É.
+Então vamos lá.
+Pegar aqui.
+App.
+Colors.
+Borders.
+A gente vai pegar a cor da border.
+É.
+Vamos também colocar aqui.
+É.
+Vamos colocar a vírgulinha no final aqui.
+Só para ele.
+Dar a quebra aqui.
+É.
+A gente precisa do.
+A gente colocou.
+O.
+From Borderside.
+Não.
+A gente precisa de colocar a vírgula aqui.
+Ó.
+Para a gente ter.
+Dentro do.
+A gente ter a cor aqui.
+Ó.
+A cor aqui vai ser.
+AppColors.white.
+Então.
+O background dele.
+É.
+É.
+White.
+Então vamos colocar aqui.
+White.
+E aí a gente pode olhar aqui.
+Para o.
+Para o.
+Para o nosso componente.
+Vamos ver.
+É white.
+Né.
+Então ele tem a cor white aqui.
+É.
+Ele tem um border radius aqui de 10.
+Então a gente vai ter que colocar também.
+O border radius aqui.
+Então.
+Border radius.
+Ponto.
+É.
+Circular.
+Ponto 10.
+Então a gente vai ter o border radius de 10 aqui.
+E agora a gente vai ter a estruturação.
+Do.
+Do nosso componente em si.
+Então o nosso componente em si.
+A gente vai colocar uma coluna.
+Então.
+Uma column.
+Dentro dessa column.
+Colocar a column aqui.
+Beleza.
+Dentro dessa cola a gente vai ter.
+Que renderizar.
+Esse componente aqui.
+Vamos ver qual que é o tamanho dele aqui.
+Ó.
+Deixa eu ver se eu consigo pegar o tamanho dele.
+Também.
+Bairro.
+Então vamos criar um container aqui.
+Para representar.
+Container.
+Com altura de 40.
+A largura.
+De 40.
+Beleza.
+Então já colocamos aquele primeiro componente lá.
+Ele vai estar aqui.
+É.
+Vamos colocar uma cor nele.
+É.
+Só para a gente ver.
+Como que ele vai ficar o comportamento na tela.
+Então aqui a gente vai ter o comportamento na tela.
+A gente agora tem um título também.
+A gente vai precisar de colocar um text aqui.
+Esse título.
+Ele está como.
+Gerenciamento.
+Gerenciamento.
+De.
+Estado.
+Vamos ver qual fonte que ele utiliza.
+Ele utiliza a fonte heading.
+Então vamos pegar aqui.
+Via style.
+E vamos pegar aqui.
+App.
+Text.
+Styles.
+Ponto.
+Redding.
+Vamos ver se ele tem uma rede de tamanho diferente.
+É uma rede de tamanho 15.
+Uma rede 15.
+Que a gente configurou.
+No nosso arquivo lá.
+É.
+Esse arquivo é aquele.
+É aquele zipzinho.
+Né.
+Que a gente comentou.
+Que tem todas as fontes.
+Que tem todas as cores.
+Que eu já deixei no jeito.
+Para a gente utilizar aqui.
+E facilitar o nosso desenvolvimento.
+Eu já coloquei o estilo.
+É.
+Beleza.
+O estilo está ali.
+Agora a gente precisa colocar.
+Esse 3 de 10.
+E colocar esse progress aqui.
+Então vamos lá.
+Vamos criar aqui.
+Uma row.
+Porque como eles estão alinhados.
+É mais fácil a gente utilizar uma row aqui.
+E vamos criar uma row.
+Onde vai ter um texto.
+Escrito.
+3 de 10.
+Onde ele vai ter um style.
+Vamos validar qual style que ele tem aqui no Figma.
+Ele tem o estilo de body.
+Com tamanho 11.
+Então.
+App.
+Text.
+Styles.
+Ponto.
+Body.
+11.
+Então a gente vai colocar o body 11 aqui.
+3 de 10.
+E agora a gente vai precisar utilizar.
+O.
+O linear.
+Né.
+Chama.
+Linear.
+Progress.
+Indicator.
+A gente pode.
+É.
+Vamos abrir o linear aqui.
+Vamos colocar no linear aqui.
+Pra gente.
+E aí.
+A gente vai utilizar um componente do próprio flutter.
+Tá.
+Linear.
+Progress.
+Indicator.
+Ele vai ter um valor.
+Vamos colocar o valor aqui.
+De 0.
+3.
+Por enquanto.
+Ele vai ter um valor.
+Ele vai ter um background color.
+Vamos olhar a cor aqui.
+Ó.
+A cor do background.
+É a cor.
+É 1.
+É 6.
+É 3.
+Eu já coloquei essa cor.
+Que é as cores dos gráficos.
+Que é a mesma cor do gráfico.
+Que a gente tinha feito anteriormente.
+Então.
+Vamos pegar aqui.
+App.
+Colors.
+Chart.
+Secundário.
+É a cor secundária do chart.
+E aqui a gente vai utilizar o value color.
+A mesma ideia.
+A gente vai utilizar aqui.
+O.
+Always.
+Stopped animation.
+Porque como ele é uma animação.
+A gente tem que utilizar.
+Esse.
+Always.
+Stopped animation.
+Porque aqui.
+Ele é um animation.
+Né.
+Então.
+A gente usa.
+Always.
+Stopped animation.
+Para substituir a cor.
+Padrão do Flutter.
+Pela cor que a gente quer.
+A gente coloca.
+Coloca.
+Qual cor aqui.
+A gente coloca.
+Coloca.
+App.colors.
+Secundário.
+Chart.
+Primário.
+Na real.
+Chart.
+Primário.
+Então.
+Aqui a gente colocou.
+A cor de chart.
+Primário.
+E.
+E a cor de chart.
+Primário.
+A gente tem o seguinte.
+Colocamos aqui.
+Beleza.
+Então.
+A gente tem o linear.
+Progress.
+Indicate.
+O text.
+E o.
+Então.
+A gente criou toda a nossa estrutura.
+Faltou só o íconezinho aqui.
+O íconezinho que a gente utiliza.
+Dentro do container.
+E a gente pode até tirar a cor aqui.
+A gente utiliza um shield aqui.
+Onde a gente utiliza aquele.
+App.
+Images.
+Que a gente fez.
+E a gente pode colocar aqui.
+Os blocos.
+Por exemplo.
+Para representar.
+Só que os app.
+Images.
+Ele só retorna a string.
+Então.
+A gente precisa fazer.
+O image.
+Asset.
+Que aqui a gente quer carregar.
+Uma imagem.
+Do asset.
+Do nosso aplicativo.
+E agora.
+A gente tem que ir lá.
+Na nossa home.
+Page.
+E colocar.
+Lá para renderizar.
+Esse componente.
+A gente criou o componente.
+Só que aqui.
+Como a gente tem uma row.
+Vai ficar tudo.
+Numa linha.
+Eu preciso colocar.
+Ele embaixo dessa linha.
+Então.
+A gente vai substituir.
+Essa row.
+E vamos fazer.
+Um wrap aqui.
+A gente apertou.
+Command.
+E ponto.
+A gente vai fazer um wrap aqui.
+Para ele colocar.
+Uma coluna.
+Então.
+O comportamento da tela.
+Não vai mudar.
+Vai continuar o mesmo.
+Só que.
+Quando eu colocar aqui agora.
+O nosso componente.
+Que é o quiz.
+Quiz card.
+O widget.
+A gente vai ter a renderização.
+Dele aqui na nossa tela.
+Então.
+Vamos fazer um import.
+Do nosso componente.
+Vamos fazer um import dele aqui.
+Fiz um import.
+Vamos fazer a renderização.
+Para ver como é que ele vai ficar.
+Na nossa tela.
+Vamos ver.
+Como é que fica.
+O nosso card.
+Quiz card widget.
+Renderizamos ele aqui na tela.
+Vamos ver.
+Se deu algum problema.
+Aqui no debug.
+Provavelmente.
+Se ele não apareceu na tela.
+Porque deu algum problema.
+Então.
+Ele fez aqui.
+Ele deu um problema.
+Do seguinte.
+Ele está falando.
+Que.
+Não.
+Vamos dar um clear aqui.
+Clear console.
+Vamos rodar de novo.
+Para ele dar o erro especificamente.
+Ele estava alguns erros antigos.
+Ele está falando o seguinte.
+O box context.
+Forçou.
+Uma largura infinita.
+Só que isso não pode acontecer.
+Aí se a gente clicar aqui.
+No command.
+Ou control.
+Ele vai falar aqui.
+Onde que deu o erro.
+Ele está falando o seguinte.
+O.
+O linear.
+Indicator.
+Ele está com uma largura infinita.
+Ele não pode ter uma largura infinita.
+Senão ele vai quebrar.
+Então.
+Para a gente tirar.
+Essa questão dessa largura infinita.
+A gente pode fazer o seguinte.
+Deixa eu vir aqui no terminal.
+Deixa eu fechar aqui o terminal para a gente.
+A gente pode vir aqui e utilizar.
+A propriedade que a gente fez ontem.
+Que é o expanded.
+A gente vai dizer o quanto que ele vai expandir aqui.
+Para a gente limitar.
+A largura dele na tela.
+Para a gente não colocar tamanhos.
+Coloca ele dentro de um container.
+Limitar.
+A gente usa o expanded aqui.
+Para utilizar o expanded aqui.
+Para limitar.
+O tamanho da nossa tela.
+Então a gente pode utilizar o expanded.
+Para limitar o tamanho da nossa tela.
+E aí a gente vai colocar o expanded aqui.
+Como o texto aqui.
+Como.
+Se a gente olhar no Figma.
+Aqui é maior do que esse.
+Se a gente olhar a proporção.
+Provavelmente esse aqui é uma proporção de flex 2.
+Uma proporção aqui em cima.
+E uma proporção de flex 1.
+Se a gente rodar aqui agora.
+A gente vai ter o nosso componente na tela.
+Então a gente tem o nosso íconezinho.
+Então a gente conseguiu colocar o íconezinho aqui na tela.
+Então se a gente for olhar aqui.
+Vamos dar só uma analisada no nosso layout.
+O que a gente fez.
+E o que a gente tem de layout aqui.
+Para ver como é que ele está aqui na nossa tela.
+Aqui a gente colocou.
+Deixa eu puxar aqui a tela para ficar maior.
+Para vocês.
+Aqui a gente tem o nosso íconezinho.
+Aquele ícone lá em cima.
+A gente colocou também o título.
+A gente colocou o 3 de 10.
+E colocou o linear.
+Progressed Key.
+Beleza.
+Então se a gente for olhar o design aqui do Figma.
+Deixa eu trocar aqui as telas.
+Se a gente for olhar aqui o design do Figma.
+A gente vai perceber o seguinte.
+A gente tem o títulozinho.
+Tem a imagem.
+Tem o título.
+Tem o 3 de 10.
+Tem o linear.
+Só que o tamanho está diferente.
+Então o tamanho dele aqui.
+Ele é 160.
+Ele tem 160 por 177.
+A gente pode limitar.
+A gente pode limitar isso aqui.
+E eu posso deixar ele se comportar baseado na tela.
+É melhor a gente fazer isso para evitar o overflow.
+Então como que a gente vai fazer para o comportamento ficar próximo daquele lá.
+Ou ficar igual àquele.
+Primeira coisa.
+A gente tem que colocar os espaçamentos.
+Se a gente for olhar.
+Desse título aqui.
+Desse componente.
+Até o título.
+Tem 24 de espaçamento.
+Então a gente vai vir aqui.
+E vai colocar um size box.
+Size box.
+Com o tamanho aqui.
+De 24.
+Só para ele fazer o espaçamento.
+Então quando a gente fizer isso.
+A gente vai perceber que ele vai dar uma espaçada ali a mais.
+O gerenciamento de estado.
+Ele também tem um espaçamento de 24 até embaixo.
+Então a gente vai pegar aqui.
+Vamos colocar o espaçamento dele.
+Até o componente de baixo.
+Então a gente rodou.
+Então agora a gente tem o espaçamento do título aqui.
+Espaçamento do gerenciamento de estado.
+E agora.
+A gente tem que melhorar também o padding.
+Só que a gente pode colocar o padding.
+Envolvendo todo o nosso container aqui.
+A gente já fez isso.
+Add insets.all.
+A gente pode colocar aqui um 16.
+Para ele pegar em todas as partes.
+E a gente tem o comportamento.
+Mas vamos ver se é 16 mesmo.
+Todos os espaçamentos aqui.
+Está 22.
+E aqui em cima.
+Deixa eu só ver aqui.
+Sim, está 16.
+Então está 16.
+Vamos colocar 16.
+Então agora a gente tem o comportamento.
+Só que a gente está vendo que as posições.
+Não estão nas posições que a gente está habitualmente acostumado.
+Então para isso acontecer.
+A gente pode vir aqui na nossa coluna.
+E colocar o alinhamento do cross aqui.
+Cross alinhamento.
+Que é o alinhamento entre os itens em uma coluna.
+Para ele começar do start.
+Então cross.
+Alinhamento.
+Ponto.
+Ponto start.
+Então aqui.
+A gente vai ter a nossa tela já no cantinho.
+Bem próximo com o comportamento que a gente tem aqui.
+Então a gente tem.
+O nosso componente.
+Com o íconezinho em cima.
+E a gente tem a gerência de estado.
+E tem o texto aqui embaixo.
+O texto.
+Ele pode estar.
+Ele é 21.
+Só que aqui a gente está vendo que ele está com espaçamento a mais.
+O que a gente pode fazer.
+Às vezes é aumentar o espaçamento que o linear ocupa.
+Para ele ficar mais perto do nosso texto.
+Então agora ele já ficou mais perto.
+A gente colocou 4 pixels ali.
+Então ele já ficou mais perto.
+E agora a gente tem o comportamento.
+Praticamente igual.
+Só que ele só não está na mesma proporção.
+No mesmo tamanho.
+Então para fazer isso.
+A gente pode colocar outros componentes lá.
+Para a gente ter esse comportamento.
+De mais itens.
+Então vamos lá.
+A gente vai olhar aqui.
+A gente criou o nosso quiz card.
+Então a gente criou aqui.
+O ícone.
+O título.
+O score.
+O progress bar.
+E o on tap.
+É igual eu falei.
+A gente vai deixar o on tap.
+No momento que a gente for precisar dele.
+Que a gente vai adicionar o on tap.
+Vamos deixar isso.
+Na hora que a gente for utilizar o on tap.
+Então vamos ver aqui.
+O level button.
+O quiz card.
+A gente já finalizou ele.
+Agora a gente vai aprender.
+O que?
+A utilizar o list view.
+Ou o sliver app bar.
+Isso aqui são dois conceitos interessantes.
+Porque o list view e o sliver app bar.
+Eles andam juntos.
+Mas no primeiro momento.
+Vamos aprender a utilizar o list view.
+E vamos ver se faz sentido utilizar o list view.
+Se faz sentido utilizar algum outro estilo de visualização.
+Analisando aqui a nossa tela.
+A gente tem o seguinte.
+Vamos lá.
+A gente vai lá para a nossa tela de home.
+Então vamos lá para a nossa home.
+A gente tem a nossa home page.
+Na nossa home a gente tem um quiz aqui.
+A gente tem uma coluna aqui em cima.
+A gente tem um quiz.
+Se a gente pegar e colocar outro quiz.
+Se a gente pegar e colocar outro quiz.
+Ele vai ficar um embaixo do outro.
+Se você colocar outros quiz.
+Ele vai ficar um embaixo do outro.
+Só que a gente não quer isso.
+A gente quer colocar um quiz.
+Um depois do outro.
+Então a gente pode utilizar.
+A gente queria colocar um quiz depois do outro.
+Aí a gente poderia fazer o quê?
+A gente poderia utilizar uma row.
+Que a gente já tinha utilizado.
+Para colocar um componente.
+um depois do outro. Então, vamos pegar esses dois quiz aqui
+e colocar ele dentro da seu row aqui.
+Vamos lá.
+Coloca ele dentro da seu row para ver como é que vai ser
+o comportamento. Não apareceu
+nada na tela. Vamos ver.
+E provavelmente
+quando não aparece nada na tela
+é porque
+quebrou a nossa tela.
+Então, vamos lá.
+Ele quebrou falando o seguinte.
+Vamos dar um clear aqui.
+Vamos repetir o erro aqui.
+Vamos lá. Vamos estudar.
+Isso aqui é muito legal que a gente está fazendo
+porque quando a gente está desenvolvendo no Plata e Layout
+sempre dá alguns erros. Então, é interessante
+a gente também entender como
+que a gente pode ler esses erros para resolver.
+Vamos lá.
+Aqui ele está falando que o render flex
+é have no flex
+não contém um balde. Ele está com
+problema de expande por causa que a gente
+usa expande dentro do quiz.
+E como ele não está tendo limitação, não está sempre sabendo
+para onde que ele pode expandir.
+Então, vamos lá. Provavelmente, para isso ser resolvido
+a gente vai precisar
+colocar um tamanho.
+Então, se a gente colocasse um tamanho
+aqui, uma largura em cada um deles
+já iria resolver.
+Só que isso não é tão legal
+para a gente porque
+a gente ficar definindo tamanho
+as telas de telefone
+tem muitas variações.
+Então, o row a gente percebeu
+que não é a solução.
+Se a gente utilizar um list view
+a gente
+vai perceber que ele vai ficar
+ele vai ser uma lista.
+Ele vai ter o scroll.
+Então, vamos lá. Vamos colocar o list view aqui.
+Deixa eu só trocar.
+Mais fácil. A gente pode só trocar
+aqui para um list view.
+Vamos ver se vai renderizar na nossa tela.
+Coloquei o list view e ele não renderizou.
+Ele deu algum problema
+por causa da questão do expande.
+Porque a lista vai tentar expandir ao máximo.
+Então, para o list view funcionar
+dentro de uma coluna
+a gente precisa falar para ele
+assumir propriedade aqui de expanded.
+A gente coloca o expanded aqui
+na teoria vai aparecer os componentes
+da nossa tela.
+Então, apareceu os componentes
+e o scroll está acontecendo.
+Está vendo que ele acontece aqui.
+Tem o scroll.
+Porque o iOS tem esse efeito
+da gente puxar.
+Então, a gente conseguiu colocar o scroll aqui
+dentro do iOS.
+Então, o scroll está funcionando
+e está fazendo o efeito conhecido do iOS
+que é o efeito de balcim.
+Vou puxar a tela aqui
+para dar um zoom para vocês.
+para ficar às vezes mais fácil.
+O que a gente está fazendo
+o efeito de balcim
+aqui na nossa tela.
+Beleza.
+Então, tudo bem.
+Está funcionando bem legal isso aqui.
+Show.
+Só que lá no Figma
+se a gente for olhar
+eles estão um depois do outro.
+Eles não estão dessa forma.
+Então, por isso
+a gente pode trocar
+o nosso list view
+para um grid view.
+Só que se a gente trocar direto
+para um grid view
+ele vai precisar de alguma
+ele vai precisar de uma propriedade
+que ele está reclamando aqui.
+De grid delegate.
+Ou seja, a gente tem que delegar
+para o grid
+como ele vai se comportar.
+Mas para facilitar
+a gente pode utilizar
+aqui um grid view count
+e dizer que a gente quer
+que sempre ocupe
+dois itens na nossa tela.
+Então, a gente vai colocar aqui
+dois itens
+e vamos ver
+como ele vai se comportar.
+olha, agora a gente já está tendo
+um resultado muito legal
+que é um resultado bem próximo
+do que a gente tem lá no Figma.
+A gente já tem aqui
+o gerenciamento de estado
+funcionando
+com um item depois do outro.
+Só que eles estão muito pertos.
+Aí a gente tem algumas coisas.
+A gente pode colocar
+o espaçamento
+para o grid view fazer
+ou a gente pode ir lá
+dentro do nosso componente
+e colocar ele em cima de tudo.
+Aqui a gente colocar um padding
+colocar um padding ali
+oito por oito
+por todos os lados
+e aí a gente já vai conseguir
+ter o efeito.
+Só que quando a gente coloca
+esse padding
+a gente começa
+a ter um erro.
+A gente começa a ter
+erro aqui de espaçamento
+porque ele está usando
+o padding também
+para limitar.
+Então, a gente começa a ter
+alguns probleminhas
+aqui de tamanho.
+Para a gente resolver
+esses problemas de tamanho
+a gente pode
+ou diminuir um pouco
+algumas coisas.
+Por exemplo, ele está falando
+que ele deu um erro aqui
+de 14 pixels.
+Então, a gente pode diminuir
+um pouco o nosso comportamento
+ou a gente pode também
+utilizar alguma...
+A gente pode, às vezes,
+mudar um pouco o layout, né?
+Porque o que acontece?
+O mobile acontece
+da gente ter muitas
+variações de telas.
+Então, às vezes,
+esse layout que a gente
+está vendo aqui
+ele funciona muito bem
+em uma tela grande.
+Então, às vezes,
+se a gente buildar
+um emulador muito pequeno
+esses comportamentos aqui
+eles podem quebrar, né?
+Que é o que está acontecendo.
+A gente pode, às vezes,
+mudar aqui o flex
+para ver se resolve.
+não vai resolver
+porque ele está jogando
+o item para baixo, né?
+Ele está jogando
+o item para baixo.
+Então, como a gente limitou
+o padding ali
+de todos os lados
+ele vai fazer essa quebra.
+Então, a gente pode também
+tentar fazer o seguinte.
+A gente pode remover
+o padding aqui
+que estava, né?
+Porque é aquela coisa, né?
+Antes, vamos dizer assim,
+antes estava funcionando
+agora não está.
+Se a gente tirar o padding
+a gente vai ver
+que ele vai voltar
+a ter o efeito.
+Deixa eu colocar aqui, ó.
+Para ele fazer o efeito.
+ele vai fazer o efeito
+só que o espaçamento
+fica bem ruim, né?
+E aí, para a gente ganhar
+mais espaçamento também
+a gente pode lembrar
+que a gente tinha colocado
+um padding aqui em cima
+por causa da row, né?
+Então, a gente pode
+colocar esse padding na row
+e tirar o padding do grid.
+A gente pode colocar
+um padding aqui na row.
+Vamos colocar o padding aqui
+e vamos tirar esse padding
+aqui de cima.
+Porque a gente tirando
+esse padding
+a gente vai ganhar
+um pouquinho mais de espaço
+na nossa tela
+e a gente consegue
+aproveitar melhor.
+Então, vamos tirar aqui, ó.
+Remove deswidget.
+Então, a gente removeu
+esse widget.
+Ó, a gente expandiu mais.
+Só que a gente tem
+essa questão desses espaçamentos
+que a gente tem que tomar cuidado.
+Vamos ver se a gente consegue ter, ó.
+A gente tem um...
+Se a gente tem algum espaçamento
+aqui que a gente possa utilizar.
+Se a gente dá um control espaço
+ele te dá todas as propriedades
+que a gente pode utilizar.
+Então, vamos lá.
+Cross spacing.
+Então, vamos colocar aqui, ó.
+Então, tem espaço
+entre os componentes.
+Espaço de 8
+ou um espaço de 16.
+Né?
+A gente pode aumentar
+aqui o espaço.
+E ele também teria aqui
+um...
+Um spacing
+é...
+Entre o...
+main axis space.
+Vamos lá.
+Tem outro tipo de espaço
+aqui também.
+Vamos ver se ele vai
+mudar alguma coisa
+pra gente.
+Ó, esse aqui não mudou
+muita coisa, não.
+Beleza.
+Vamos colocar mais um item
+aqui pra gente ver
+como é que ficaria
+o comportamento com 3, né?
+Como é que ele...
+Ele iria se comportar.
+Então, 3
+ele vai se comportar
+da forma que a gente
+tava esperando.
+A gente precisa agora
+de colocar um espaçamento
+entre o item, né?
+Entre o item aqui.
+Então, vamos ver
+se a gente colocar
+esse main aqui.
+Ele vai se passar
+pra baixo.
+Vamos ver.
+Ah, espaçou.
+Então, a gente conseguiu
+o espaçamento
+entre os itens
+e a parte de baixo.
+Só que o espaçamento
+na lateral aqui
+a gente não conseguiu.
+Só que por quê?
+Esse espaçamento
+a gente tinha deixado
+ele aqui antes.
+Então, às vezes
+a gente voltar
+esse espaçamento
+ele vai fazer sentido, né?
+Então, é...
+Isso também que é legal
+do desenvolvimento, né?
+Às vezes a gente tira,
+às vezes a gente coloca,
+a gente vai sempre
+tentando moldar
+pra conseguir chegar
+no melhor cenário
+pra resolver o nosso problema.
+Ou um dos melhores cenários, né?
+Ou o cenário
+que resolve o nosso problema.
+Então, beleza.
+Esse aqui é o cenário
+que funciona,
+então a gente
+não tem muito o que fazer.
+Então, beleza.
+Então, esse aqui é o cenário
+que a gente vai ficar atualmente.
+Então, a gente vai colocar
+aqui um size ad box.
+Vamos colocar um espaçamento
+aqui de cima
+de 16.
+Vamos ver se é 16
+ou se é mais.
+Vamos colocar um espaçamento
+que é 24.
+A gente vai colocar
+o espaçamento aqui
+de 24 itens.
+Então, vai jogar
+nosso item aqui
+mais pra baixo.
+Beleza.
+Show.
+Só que ele ainda
+tá quebrando na nossa tela.
+E aí,
+aqui a gente também
+tem que ter um espaçamento
+em cima aqui
+em relação ao que tá
+lá no nosso componente.
+Beleza.
+Coloca um espaçamento
+dos itens aqui.
+Show.
+Só que aí agora
+a gente tá quebrando
+a nossa tela.
+Uma solução simples, né?
+que a gente pode fazer
+é o quê?
+A gente
+poderia tirar...
+Por exemplo,
+se eu tirar esse texto aqui,
+vamos ver o que acontece.
+Tirar esse texto aqui.
+Beleza.
+Tiramos o texto,
+resolveu.
+Só que aí
+não fica bom, né?
+Porque a gente
+tava precisando
+do texto aqui
+pra fazer a renderização.
+Ele tá falando
+que ele tá renderizando
+em 6 pixels.
+Então, vamos tirar aqui
+20
+e vamos colocar aqui
+também 20.
+No total,
+a gente vai tirar
+8 pixels.
+provavelmente a gente já resolveu.
+O que acontece?
+O nosso
+3 de 10
+ele fica pulando a linha.
+Às vezes a gente pode mudar
+a escrita e colocar
+3 barra 10, né?
+E aí a gente teria
+essa opção.
+E aí ficaria mais simples.
+Então, também é interessante
+que no meio do processo
+de desenvolvimento,
+às vezes a gente tem que fazer
+alguma modificação
+em relação ao que tá no Figma
+pra gente integrar,
+colocar a melhor experiência
+pro usuário.
+É porque
+por mais que o 3 de 10
+fique legal, né?
+A gente tem esse problema
+dele pular a linha.
+Na hora que ele pula,
+ele joga uns pixels a mais
+pra baixo
+e a gente começa
+a quebrar o layout.
+Então, a gente faz
+esse tipo de abordagem
+pra evitar essa quebra
+desse layout.
+Então, beleza.
+Se a gente for olhar,
+a gente conseguiu construir
+a app bar.
+Conseguiu construir
+aqui
+o
+o
+nosso
+card.
+Então,
+se a gente
+for olhar aqui,
+a gente conseguiu
+construir o nosso card.
+Então,
+o nosso card
+tá funcionando
+perfeitamente.
+Vamos olhar aqui
+pro nosso Figma
+pra gente ver
+se
+tá fazendo sentido
+o que a gente fez,
+se a gente tá condizente
+com o que
+o design aqui
+tem utilizado.
+Beleza.
+Então,
+se a gente for olhar aqui
+pro nosso Notion,
+vamos olhar aqui
+pro nosso Notion
+pra ver
+o que tem no nosso Notion
+aqui
+pra ver se a gente
+tá nos processos
+certos.
+A gente tem
+o quiz aqui,
+a gente utilizou
+o ListView,
+só que aqui a gente fez
+uma alteração, né?
+A gente não utilizou
+a questão ainda
+da Sleeve App Bar,
+a gente só utilizou
+aqui a questão
+do ListView.
+E aqui agora
+tem
+as outras
+as outras
+challenges aqui
+pra gente
+pra gente
+resolver.
+Então,
+aqui a gente vai criar
+o restuzinho aqui
+das outras coisas
+que tem no Figma.
+Então,
+aqui a gente finalizou
+a nossa Home.
+O layout
+da nossa Home
+ele tá finalizado.
+Então,
+se a gente for olhar aqui,
+a gente olhar a Home
+e olhar
+o nosso Figma aqui,
+ele tá finalizado.
+Na próxima aula,
+a gente vai precisar
+de pegar essas informações
+de algum lugar
+e colocar esses dados
+aqui pra eles serem
+mais dinâmicos.
+Mas aí,
+vamos
+analisar
+e criar mais uma tela aqui.
+A gente vai criar
+mais uma tela
+que é bem legal.
+vamos olhar aqui
+pra nossa tela
+que a gente vai criar
+que é o seguinte.
+É a tela aqui
+da nossa question,
+né?
+A tela do...
+A gente chama...
+A tela que a gente
+vai responder o quiz.
+Provavelmente,
+a gente não tava falando dela
+porque a gente tava
+olhando a Home
+e a gente tava olhando
+o que a gente ia fazer
+aqui dentro da Home.
+E agora a gente vai olhar
+pra nossa tela aqui
+que é a nossa tela
+de quiz.
+A tela que vai responder
+o quiz
+e que a gente chamou
+essa tela de
+challenge.
+Então,
+o challenge
+ele vai ser importante
+pra gente utilizar.
+Essa é a tela
+onde a gente vai resolver
+os desafios.
+Então,
+a gente vai montar
+essa estrutura aqui
+de tela
+da mesma forma.
+Então,
+a gente vai criar
+essa tela aqui agora.
+Então,
+vamos lá.
+A gente vai criar aqui
+o nosso challenge page.
+Então,
+vamos lá
+pra nossa tela aqui.
+Isso aí agora
+a gente vai criar
+a...
+Como é página,
+ele vai criar
+dentro da pasta
+lib.
+Então,
+a gente vai criar
+o challenge aqui.
+Challenge.
+a gente vai criar
+uma pastinha aqui
+chamada
+challenge...
+challenge...
+challenge page.dart.
+Então,
+vamos...
+Vamos olhar aqui
+pro nosso challenge page.
+Aqui a gente está
+no nosso challenge page.
+E agora a gente vai ver
+o que a gente precisa utilizar.
+Então,
+o challenge page,
+como a gente viu
+aqui no Figma,
+é uma estrutura, né,
+que fica aqui em cima,
+que vai ter aquele
+linear progress indicator
+que a gente utilizou.
+Então,
+ele é o mesmo componente,
+né,
+então é a mesma coisa
+que a gente fez.
+E a gente tem a questão
+aqui dos textos.
+Então,
+vamos lá.
+Primeira coisa,
+vamos criar a nossa página aqui.
+Vamos criar essa página.
+Como é página,
+normalmente a gente já cria
+as páginas como stateful
+que provavelmente
+elas vão ter alteração
+de estado
+no decorrer do desenvolvimento.
+Então,
+a gente já vai criar ela assim
+pra já ficar no jeito.
+Então,
+o que a gente vai ter?
+O stateful widget,
+onde a gente vai colocar aqui
+a nossa
+challenge page,
+tá?
+E aqui a gente vai colocar
+o nosso
+import aqui do material.
+Vamos colocar aqui
+a interrogaçãozinha.
+Beleza.
+E a gente vai utilizar
+aquele componente
+que a gente utilizou anteriormente,
+né,
+que é o scaffold
+pra fazer o esqueleto
+aqui da nossa aplicação.
+Vamos utilizar
+o scaffold aqui
+pra nossa tela.
+Então,
+pra gente renderizar
+a nossa challenge page,
+vamos lá dentro do core.
+Vamos fechar aqui
+os outros arquivos.
+A gente não tá utilizando,
+vamos fechar todos aqui.
+Vamos dentro da nossa
+app widget
+e agora a gente vai colocar
+pra renderizar
+a challenge page.
+Challenge page.
+Beleza.
+Vamos renderizar aqui
+a nossa challenge page.
+A gente dá o comando de S,
+ela vai ficar toda branca
+e a gente tá renderizando
+a challenge page.
+Então,
+a primeira coisinha
+da challenge page
+é a gente vai criar aqui,
+né,
+uma partinha chamada
+widget,
+porque a gente precisa criar
+a...
+o
+question indicator widget.
+A gente tem que criar
+esse componente ali em cima.
+Então,
+vamos criar aqui
+question indicator
+e vamos criar aqui
+o nosso arquivo,
+né,
+dentro,
+que é o question indicator
+indicator widget.dart.
+O nome aqui tá errado.
+Indicator.
+Isso.
+Vamos dar o replace key.
+Show.
+E aí,
+a gente vai criar ele aqui
+como stateless widget.
+Então,
+ele vai criar o question indicator
+widget.
+O question indicator widget,
+a gente vai olhar aqui
+pro nosso código,
+ele vai ter o import,
+a gente vai colocar aqui
+o import do material app.
+Vamos colocar aí
+a interrogaçãozinha.
+E aqui a gente vai utilizar
+o container,
+a gente utiliza sempre
+o container pra tudo,
+né,
+a gente pode utilizar
+um container,
+só que se a gente for
+olhar a estrutura,
+é uma estrutura de componentes
+um em cima do outro,
+né.
+Então,
+quando é estrutura de componentes
+um em cima do outro,
+o que a gente utiliza?
+A gente é acostumado
+a utilizar aqui
+a questão da column.
+Então,
+a gente vai utilizar
+uma column aqui.
+Vamos lá,
+colocar uma column.
+É que a gente tem
+dois textos,
+né,
+a gente tem um texto aqui,
+ó,
+que representa text,
+que representa a questão,
+ó,
+a gente vai representar aqui
+a questão 04,
+aonde,
+e aí a gente vai representar
+também um text aqui
+que representa a de 10.
+Então,
+é 04 de 10.
+só que se a gente
+colocar ele
+dessa forma,
+ele,
+vamos colocar aqui
+a app bar,
+né,
+e para a gente utilizar
+a app bar aqui,
+a gente vai utilizar
+a app bar agora
+diferente.
+Antes a gente tinha feito
+aquele preferent size,
+né,
+utilizar o preferent size
+do widget aqui,
+aonde ele tem
+o tamanho da nossa app bar,
+então a gente pode colocar
+os, ó,
+preferent size,
+né,
+ele tem o tamanho aqui
+da nossa app bar,
+então a gente vai colocar aqui,
+o preferent size,
+aonde a gente vai tirar
+o size from widget,
+vamos só pegar o tamanho
+aqui no Figma,
+é,
+é que ele não vai pegar
+o tamanho, né,
+vamos pegar,
+o tamanho aqui
+provavelmente,
+olhando aqui para a tela,
+a gente teria um tamanho
+de uns 80 pixels,
+alguma coisa assim,
+deixa eu pegar aqui,
+a gente vai ter um tamanho
+de 60,
+60,
+80,
+a gente vai ter um tamanho
+de 60 pixels aqui,
+aonde ele vai renderizar
+o nosso shield,
+é o nosso shield
+que ele vai renderizar,
+é o,
+nosso shield que ele vai
+renderizar o question,
+question indicator widget,
+question indicator widget,
+é,
+vamos colocar ele
+para renderizar aqui,
+ó,
+eu coloquei aqui,
+ele deveria ter renderizado
+alguma coisa na minha tela,
+vamos ver se deu algum erro,
+né,
+provavelmente quando não renderiza
+é porque deu algum erro
+na nossa tela,
+olha,
+não deu nenhum erro,
+está tudo funcionando,
+mas provavelmente,
+é,
+ele deve estar
+com o espaço dele,
+com o espaçamento aqui errado,
+então vamos lá dentro do
+question indicator,
+vamos colocar uma cor aqui
+para ver se ele está sendo renderizado,
+colors.red,
+vamos ver,
+ó,
+está sendo renderizado sim,
+beleza,
+está funcionando,
+é,
+o texto,
+ele deve estar muito pequeno,
+ou ele está em cima,
+né,
+ele deve estar pegando em cima
+da app bar,
+então para isso a gente pode
+colocar um padding,
+lá no nosso,
+a gente pode colocar um padding
+aqui, ó,
+a gente pode colocar um padding
+para ele,
+para ele tirar,
+ou a gente pode colocar um componente
+que a gente chama de safe area,
+que aí ele vai colocar uma área segura
+no topo, né,
+que é a área onde tem
+a questão do,
+do,
+da app bar,
+então colocando o safe area aqui,
+a gente vai fazer
+com que a questão,
+né,
+4,
+0,
+4 e 10,
+ela já fique aqui embaixo,
+e aí com isso,
+é,
+a gente vai vir,
+a gente vai vir aqui,
+no nosso,
+no nosso componente,
+a gente vai colocar ele dentro
+de uma row,
+porque a gente quer que fique um,
+depois do outro,
+a gente não vai utilizar
+a,
+o efeito da cola aqui
+não vai dar certo,
+mas quando a gente fizer isso,
+vai dar,
+e a gente pode colocar
+main axis alignment,
+e a gente pode colocar
+um espaço entre eles,
+a gente vai fazer
+que eles ficam afastados,
+e aí a gente pega
+e coloca um padding
+aqui,
+é,
+de 20,
+é,
+simétrico,
+horizontal,
+a gente vai colocar
+um padding aqui
+de 24 pixels,
+então vamos ver aqui,
+se é 24,
+se não for,
+a gente vai tirar,
+é 20,
+então a gente vai colocar
+um padding aqui de 20,
+então a gente vai ter
+questão 04,
+questão 10,
+e a gente tem que pegar
+o estilo do texto,
+o estilo do texto
+que ela utiliza aqui
+é o text body
+com uma fonte de 15,
+então a gente vai colocar
+o style aqui,
+ó,
+style,
+é,
+app text,
+styles.body15,
+não,
+então o body já é 15,
+então a gente não precisa
+trocar,
+e aí a gente vai colocar
+aqui embaixo também,
+então aqui a gente tem
+a questão 04,
+então deixa eu puxar aqui
+para vocês verem mais perto,
+a gente tem a questão 04
+e a questão 04 de 10,
+né,
+agora se a gente olhar o figma,
+a gente vai precisar
+de colocar esse indicator aqui,
+a gente já utilizou
+esse indicator
+em algum lugar,
+em algum lugar não,
+a gente utilizou
+na tela anterior,
+né,
+então a gente pode
+vir aqui
+e simplesmente colocar
+linear
+progress
+indicator,
+só que se a gente
+fizer o mesmo
+linear progress indicator
+aqui,
+ele vai ficar repetido
+no nosso código,
+né,
+então o que a gente
+pode fazer,
+né,
+a gente pode pegar
+aquela estruturação
+que a gente fez
+e utilizar ela
+em vários,
+e reaproveitar o código,
+tá,
+então para a gente
+não criar a mesma coisa,
+a gente vai criar
+uma faixinha nova aqui
+chamada shard,
+que é onde a gente
+vai deixar as coisas
+compartilhadas
+entre todas as páginas,
+e a gente vai criar
+uma faixinha aqui
+chamada widgets,
+e dentro dessa faixinha
+widgets,
+a gente vai criar
+um linear,
+é,
+pode ser um progress,
+né,
+a gente vai chamar ele
+de progress indicator,
+e aqui dentro
+a gente vai criar
+o arquivo,
+né,
+progress indicator,
+indicator,
+é,
+widget.dart,
+então beleza,
+vamos criar aqui,
+e vamos lá
+no lugar que a gente
+já criou ele antes,
+já utilizou ele,
+que é dentro
+do quiz card,
+dentro do quiz card
+a gente já fez
+aqui, ó,
+o uso do linear
+progress indicator,
+então a gente pode
+pegar esse linear
+progress indicator
+que a gente
+utilizou aqui,
+e trazer ele
+para,
+a gente vai trazer
+ele aqui, ó,
+a gente vai colocar
+ele dentro do
+progress indicator
+widget,
+então a gente vai
+colocar aqui
+state full,
+ó,
+state less
+widget, né,
+porque ele não
+vai ter mudança,
+e a gente vai
+colocar aqui
+o progress indicator,
+indicator,
+widget,
+que faz também
+mais de usar o nome,
+né,
+e a gente vai
+colocar o linear
+aqui,
+e aqui a gente
+vai dar um import
+para pegar o material,
+e vamos colocar
+a nossa
+interregaçãozinha aqui,
+colocar aqui,
+e vamos dar os imports
+aqui para ele pegar
+as cores,
+só que aí,
+para todo mundo
+utilizar,
+né,
+a gente precisa
+exportar esse valor,
+então,
+final double value,
+para todo mundo
+poder utilizar,
+a gente vai ter
+o value aqui,
+aonde a gente vai
+ter o construtor,
+do tipo required,
+né,
+que você é obrigado
+a passar o valor
+do progress indicator,
+então aqui a gente
+já tem o progress indicator
+no jeito, né,
+com o valor aqui
+e tudo,
+e agora a gente pode ir lá
+na nossa quiz card
+widget e reaproveitar,
+isso é muito legal
+a gente fazer,
+porque reaproveitamento
+de código,
+né,
+é algo muito útil,
+do que a gente
+ficar replicando
+o mesmo código,
+então,
+quando a gente
+pode fazer isso,
+a gente vai utilizar,
+então,
+progress indicator,
+indicator widget,
+então aqui a gente
+vai ter o progress indicator
+widget,
+aonde a gente vai ter
+que passar um valor
+dentro dele,
+para a gente fazer
+a utilização,
+deixa ele pegar
+aqui o import,
+né,
+e a gente vai passar
+o valor aqui,
+é um valor de 0.7,
+que a gente estava
+utilizando o 0.3,
+na real,
+beleza,
+e agora,
+a gente vai lá
+no nosso,
+e agora fica mais fácil,
+né,
+que aquele arquivo
+que a gente estava
+utilizando,
+o quiz card
+question indicator,
+a gente simplesmente
+pode chamar,
+ao invés de chamar
+o linear,
+a gente pega aqui,
+a gente chama o
+progress indicator,
+o widget,
+e a gente vai passar
+o valor dele
+de 0.7,
+e a gente vai dar
+um import nele aqui,
+então agora a gente
+vai dar um import,
+que vai perceber
+que ele já vai ficar,
+dar cor certo,
+o tamanho certo,
+tudo certinho,
+então a gente não vai
+precisar de ficar mexendo,
+pronto,
+agora,
+a gente já tem
+o progress,
+só que o progress aqui,
+ele tem um padding
+também de 20,
+então a gente pode
+vir aqui,
+e adicionar um padding
+nesse componente
+para a gente,
+ou a gente pode
+pegar esse padding,
+e colocar ele dentro
+do container,
+então a gente pode
+colocar esse padding
+aqui para todo mundo
+utilizar,
+para não ficar
+padding,
+padding,
+padding,
+a gente coloca o padding
+aqui dentro
+e remove o padding
+da row,
+a gente pode remover
+o deswidget aqui
+e a gente deixa
+o padding só dentro,
+e agora a gente vai
+colocar um size edge box
+entre um e outro
+para fazer o espaçamento
+aqui,
+ele está com 16,
+size edge box,
+edge,
+16,
+então a gente vai
+colocar o espaçamento
+aqui de 16
+na nossa componente,
+então agora a gente
+tem a questão
+lá em cima,
+0 a 10,
+beleza,
+então a gente já
+tem a indicação,
+agora a gente
+precisa criar
+essa estrutura aqui
+que vai ter
+o título
+e vai ter essa estrutura
+aqui também
+de a gente colocar
+o kit
+de desenvolvimento
+de interfaces
+aqui de usuários,
+o cardzinho,
+então a gente precisa
+fazer essas duas coisas
+e a gente finaliza
+essa questão
+do layout
+também dessa página,
+então vamos lá,
+vamos criar esse layout,
+olhando aqui
+para o nosso Notion,
+se a gente olhar aqui
+a gente criou o
+cache indicator,
+a gente vai criar também,
+agora a gente tem
+que criar,
+a gente tem algumas
+coisas para criar,
+o button widget,
+que é um botãozinho
+que está lá embaixo
+que eu não mostrei
+para vocês,
+se a gente for olhar aqui
+é o botãozinho
+de pular e confirmar,
+mas a gente só vai
+pular a ordem,
+a gente fazer
+a tela aqui
+e criar essa ordem
+aqui embaixo,
+aí depois a gente olha
+e se pular
+e confirmar.
+Então,
+vamos lá,
+vamos criar o quiz widget
+e o quiz widget
+ele precisa do
+answer widget,
+então vamos lá,
+vamos criar aqui
+o quiz widget,
+para isso a gente vai
+vir aqui dentro
+do challenge,
+tem os widgets,
+a gente vai criar
+um widget chamado aqui
+quiz,
+quiz,
+e dentro do quiz
+a gente vai criar aqui
+o quiz widget,
+o arquivo quiz widget
+.dart.
+Se a gente for olhar
+o quiz,
+ele também vai ser,
+ele pode ser um
+component state,
+ele pode ser
+um component state,
+mas vamos deixar ele
+como state,
+ver se a gente precisar
+deixar ele state
+depois a gente troca.
+Então,
+aqui a gente vai ter
+o quiz widget,
+então vamos lá,
+a gente vai ter o quiz widget,
+a gente vai colocar aqui
+também um importzinho,
+então vamos colocar aqui
+um import,
+vamos colocar aqui
+a interrogação,
+agora,
+a gente tem aqui
+a interrogação,
+vamos utilizar,
+tem que olhar aqui,
+a gente pode utilizar
+um container,
+mas a gente não precisa,
+mas a gente vai utilizar
+um container,
+só que a primeira coisa
+a gente vai precisar
+de uma coluna,
+a gente vai precisar
+de uma coluna aqui,
+e dentro dessa coluna
+a gente vai ter que colocar
+o nosso texto,
+que é o título,
+só que aqui a gente já sabe
+que a gente não faz sentido
+colocar o texto aqui direto,
+a gente vai precisar
+de passar uma propriedade,
+então a gente vai passar
+uma propriedade final,
+string título,
+por que?
+A gente já vai fazer isso
+porque vai ser vários quizzes,
+então qual é a hora
+das quizzes que tem título,
+a gente vai precisar
+ficar alterando,
+então por isso a gente
+já vai criar uma variável aqui
+e vamos deixá-la
+como required,
+então aqui a gente vai ter
+já o título
+vindo de fora,
+vamos pegar qual fonte
+que ele utiliza,
+que esse componente utiliza,
+vamos lá,
+esse componente utiliza
+a fonte heading
+com tamanho 20,
+então vamos chamar aqui
+os styles,
+app text styles
+.heading,
+isso,
+pronto,
+aí o espaçamento
+do aqui até embaixo
+é 24,
+então a gente vai ter
+um size headbox
+aqui,
+com um tamanho aqui
+de 24,
+então beleza,
+então a gente vai ter
+o text aqui,
+o size headbox
+e agora a gente vai precisar
+do answer widget,
+então para isso,
+para a gente continuar,
+a gente vai ter que
+agora criar o nosso
+answer widget,
+então vamos vir aqui,
+em challenge widgets,
+vamos criar a nossa pastinha
+aqui também chamada
+de answer,
+e aí a gente vai ter
+o nosso answer,
+answer,
+answer widget,
+então a gente vai ter
+um answer,
+a gente vai ter
+um answer widget aqui,
+então vamos lá,
+answer widget
+.dart,
+beleza,
+ele também vai ser
+um stateless,
+então ele vai ser
+um stateless widget,
+onde ele vai ter
+um answer widget aqui,
+ele vai ter
+a interrogaçãozinha
+que a gente colocou,
+vai ter aqui
+a propriedade,
+vamos fazer o import
+do material,
+com isso,
+a gente vai ter agora
+o seguinte,
+a gente colocou
+o cardzinho,
+então ele vai ter
+um card que vai ter
+uma borda,
+então ele vai ter
+um container
+que vai ter
+um decoration,
+vai ser um box,
+decoration,
+decoration,
+ele vai ter
+uma color aqui,
+app colors
+.white,
+vamos fazer
+um import aqui,
+vamos fazer
+um import aqui,
+beleza,
+ele vai ter também
+o border radius,
+que é super importante,
+ele tem o border radius
+.circular,
+o border radius
+que ele utiliza aqui
+é um border radius
+de 10,
+10,
+ele também tem
+uma borda,
+então ele vai ter
+o border aqui,
+então a gente vai ser
+border.fromborderside,
+border side,
+isso aqui a gente
+poderia componentizar,
+de uma forma
+que toda hora
+a gente está utilizando,
+a gente está repetindo
+muito o código,
+então talvez a gente
+poderia fazer alguma coisa
+para componentizar
+essa borda,
+então a gente vai ter
+a borda,
+e aqui agora
+a gente simplesmente
+pode ter,
+o que?
+A gente pode ter
+uma row,
+a gente vai ter
+uma row aqui,
+aonde essa row
+ela vai ter
+final string
+título,
+ela vai ter
+uma string título,
+então vamos lá,
+text title,
+esse título
+ele vai ser,
+ele tem que ser
+required,
+required
+this.title,
+esse título
+vai ser required,
+a gente também tem aqui
+uma outra coisa,
+vamos lá,
+vamos pegar,
+esse título,
+ele é um border
+de tamanho 13,
+então vamos colocar
+o estilo dele aqui,
+style,
+text style,
+vamos colocar,
+ó,
+app,
+né,
+app,
+text style,
+ponto,
+text styles,
+né,
+ponto body,
+se não me engano
+é body,
+então exatamente,
+a gente vai ter o body,
+e agora a gente
+também precisa de fazer
+o esquema aqui
+de selecionar,
+a gente precisa
+colocar o
+seletorzinho ali
+para pegar
+se ele vai estar
+selecionado ou não,
+e aí para isso
+a gente pode utilizar,
+né,
+a gente pode utilizar
+um container,
+a gente pode utilizar
+um container,
+aonde a gente vai pegar
+o tamanho desse container,
+vai ser 24 por 24,
+então a gente vai colocar
+aqui, ó,
+24 por 24,
+vamos colocar aqui
+24 por 24,
+vamos também
+fazer o seguinte,
+quando,
+ele vai ter que ter
+uma propriedade,
+ele vai ter que ter
+dois atributos aqui,
+se ele,
+a resposta correta,
+né,
+então ele vai ter,
+ele vai ter que ser
+um booleano,
+is right,
+e se ele,
+é,
+está selecionado,
+is selecionado,
+então a gente vai precisar
+de tratar com esses
+dois booleanos,
+o que é a cor,
+né,
+por exemplo,
+se ele tiver selecionado,
+se ele for a resposta
+certa,
+é,
+se ele for a resposta
+certa,
+ele tem que ficar verde,
+se ele for a resposta
+errada,
+ele tem que ficar vermelho,
+e se ele tiver sido
+selecionado,
+a cor,
+né,
+vai mudar baseado,
+se a resposta certa
+ou errada,
+então por isso que a gente
+está criando dois
+booleanos,
+se ele está selecionado
+igual a falso,
+então o que a gente vai
+fazer aqui é o seguinte,
+se ele tiver sido
+selecionado,
+né,
+o,
+o answer aqui,
+ó,
+se ele tiver sido
+selecionado,
+a gente vai criar,
+ah,
+alguns gets,
+né,
+a gente vai criar aqui
+um,
+um esquema de gets
+para a gente fazer a seleção,
+a primeira coisa aqui,
+é,
+é importante o seguinte,
+a gente criar,
+esse componente de answer,
+a gente vai ter,
+o,
+o shield aqui,
+ó,
+ele seria o ícone,
+né,
+ele teria um ícone,
+e seria icons.check,
+ou seja,
+se ele tiver certo,
+ele seria o icons.check,
+e aí,
+a gente vai ter o seguinte,
+vamos lá,
+a gente vai ter essa questão
+do check,
+e,
+vamos,
+vamos começar a renderizar
+para ver como é que está ficando,
+é,
+esse answer aqui,
+a gente colocou o row,
+vamos colocar para ele ter um espaçamento,
+aqui, ó,
+main,
+main,
+x,
+alignment,
+space,
+between,
+só que provavelmente ele vai precisar
+de um padding também,
+a gente pode colocar um padding aqui
+no nosso container,
+então,
+edge,
+insets,
+ponto,
+symmetric,
+é,
+horizontal,
+no horizontal,
+vamos pegar quantos que ele está aqui,
+ó,
+ele vai estar 16,
+então ele vai ter um padding de 16,
+na vertical,
+ele tem um padding de 16,
+então a gente pode colocar all aqui
+para ele colocar um padding de 16 em tudo,
+então se a gente renderizar a nossa answer
+dentro do nosso quiz,
+dentro do nosso quiz a gente pode chamar aqui a
+answer widget,
+a gente pode pegar o título aqui,
+qual que é o título?
+vamos copiar aqui, ó,
+é,
+copy as text,
+a gente pode vir aqui e colocar o texto,
+compilados nativamente,
+ó,
+vamos colocar aqui,
+vamos mandar renderizar,
+a gente não mandou renderizar a nossa change page,
+né,
+então vamos lá no body,
+vamos lá no body,
+e vamos colocar para ele renderizar o nosso quiz,
+quiz widget aqui para a gente,
+então vamos ver aqui,
+vamos colocar,
+beleza,
+vamos colocar aqui para renderizar agora,
+deixa ele só dar um import aqui,
+deu um import,
+vamos mandar renderizar,
+só que ele está esperando o quê?
+Ele está esperando o título, né,
+então qual que é o título que está aqui?
+O que o Flutter faz em sua tonalidade,
+totalidade,
+então vamos colocar aqui,
+vamos ver o que o Flutter faz em sua totalidade,
+então,
+o que o Flutter faz em sua totalidade,
+a gente conseguiu já colocar o título,
+e já criamos também a interface aqui, né,
+do nosso,
+do nosso componente aqui, ó,
+do nosso,
+do nosso card,
+só que esse card,
+ele também tem um espaçamento fora,
+então a gente pode vir aqui dentro do Ansel,
+e colocar um pad,
+aqui,
+total,
+né,
+para ele pegar por fora,
+então a gente poderia colocar um pad aqui,
+ao,
+16,
+ele pegar por fora,
+só que ele vai ficar reclamando,
+ele vai dar esse,
+ele vai estar aqui reclamando,
+da questão do,
+do espaçamento,
+então para a gente resolver,
+do,
+do overflow,
+para a gente resolver,
+isso a gente simplesmente coloca aqui o texto,
+ele pode ser expandido,
+ou seja,
+ele pode quebrar a linha,
+então se a gente colocar aqui o texto,
+aqui ele pode,
+ter a opção de expanded,
+olha o que vai acontecer,
+ó,
+vou colocar aqui,
+porque o texto é expanded,
+ele vai pegar,
+e vai pular a linha,
+então agora a gente tem a,
+a possibilidade da criação,
+de,
+de aplicativos compilados,
+e aí,
+o que que a gente tem,
+a gente também tem aqui dentro,
+o,
+o decoration,
+por quê?
+O box decoration aqui,
+ele também tem uma margem,
+e a mesma margem que a gente tem aqui,
+ó,
+aqui a gente tem duas coisas,
+a gente vai ter uma margem de um círculo,
+né,
+ele vai ser todo,
+todo oval,
+se eu colocar aqui,
+ó,
+ele vai ficar quadradinho,
+então a gente tem que colocar aqui uns 500,
+para ele ficar totalmente oval,
+né,
+e aqui a gente diminui também,
+o tamanho do,
+do nosso ícone,
+para ele ficar do tamanho,
+que deveria ser,
+do tamanho menorzinho ali,
+para ele caber,
+né,
+dentro do,
+do círculo,
+e ficar o efeito que a gente está esperando,
+então a gente pode colocar aqui o tamanho,
+de 16,
+então fazendo isso,
+ele vai ficar,
+é,
+dessa forma,
+o,
+e a cor,
+desse,
+é,
+esse,
+esse widget,
+ele fica branco,
+então quando ele está sendo acionado,
+color,
+colors.white,
+ele,
+ele vai ficar branco,
+e quando o ícone,
+a cor,
+aqui do background,
+né,
+color aqui,
+é,
+app colors.darkgreen,
+é a cor escura,
+então quando ele está,
+é,
+selecionado,
+ele poderia ficar assim,
+só que ele troca as outras cores também,
+ele troca a cor do componente atrás,
+e ele também troca a cor do,
+do nosso aplicativo,
+para facilitar isso,
+é,
+para a gente facilitar essa seleção,
+eu fiz já um appzinho aqui,
+para a gente fazer a seleção,
+ah,
+se a cor é tal,
+se a cor é isso,
+se a cor é aquilo,
+eu já criei isso para a gente,
+só para dar uma facilitada,
+e,
+e aí,
+eu explico,
+né,
+o que a gente,
+é,
+utilizou em cada um,
+então eu criei vários gets aqui já,
+para fazer a seleção,
+a seleção das cores,
+para a gente fazer a utilização aqui dentro do nosso container,
+para ficar mais fácil da utilização,
+então,
+por exemplo,
+o,
+a nossa cor,
+né,
+a gente,
+por exemplo,
+a nossa cor do container,
+a cor do container aqui,
+ó,
+ela teria,
+a gente utilizaria o seguinte,
+se ela for selecionada,
+a gente vai selecionar a cor do card right,
+ou white,
+por causa,
+a gente tem que selecionar a cor baseada,
+se ela está certa,
+se ela está certa,
+ela fica verde,
+se ela está errada,
+ela fica vermelha,
+então,
+eu já fiz esses gets aqui,
+para facilitar,
+e vou deixar,
+é,
+esses gets também,
+na,
+no link aqui,
+da,
+do vídeo,
+para a gente utilizar,
+só para facilitar,
+a,
+esse wrapperzinho aqui,
+mas basicamente,
+o que esses gets fazem,
+né,
+ele verifica,
+ah,
+se ele está,
+se ele está,
+é,
+sei lá,
+é certo,
+eu vou colocar a dark green,
+se não,
+eu vou colocar a dark red,
+quando for a cor selecionada do container,
+se for a cor selecionada da borda,
+eu vou colocar o light green,
+e o light red,
+que é a cor,
+aquela cor mais clarinha,
+e aí,
+o outro aqui também,
+do card,
+então,
+eu já fiz esses wrappers,
+isso aqui,
+só para facilitar,
+é,
+nossa,
+a questão aqui,
+da nossa aula,
+eu fiz isso,
+para o border side também,
+deixa eu pegar aqui,
+o do border side,
+deixa eu colocar aqui,
+o do border side,
+para a gente,
+fiz o do border side,
+também,
+é,
+fiz também aqui,
+para a gente,
+o,
+o texto,
+tá,
+o estilo do texto,
+ele também muda,
+baseado,
+se ele está selecionado,
+então,
+se a gente pegar aqui,
+o estilo do texto,
+que a gente colocou,
+a gente também teria,
+a variação,
+é,
+se ele está selecionado ou não,
+e também,
+aqui,
+a gente tem,
+o selecionado do,
+o border side,
+do,
+do íconezinho aqui,
+ó,
+a gente pode vir aqui,
+copiar o border side,
+desse íconezinho,
+e,
+e aqui também,
+a gente tem,
+o border side,
+da cor,
+do,
+do background aqui,
+do nosso container,
+e também,
+aqui,
+a gente tem,
+o seguinte,
+a gente tem uma validação,
+né,
+que ele só vai aparecer,
+o ícone,
+a questão do íconezinho aqui,
+ó,
+no shield,
+quando,
+ele tivesse,
+deselecionado,
+então,
+assim,
+é,
+eu vou deixar,
+isso,
+é,
+esses wrappers,
+ou seja,
+esse código,
+ele vai estar,
+no,
+no cardzinho dessa aula,
+esse código aqui,
+com esses wrappers,
+mas esse aqui foi só pra,
+pra facilitar pra gente,
+por causa que aqui é basicamente,
+só validações,
+né,
+então a gente pegou,
+e,
+e criou as validações aqui,
+por exemplo,
+ah,
+se a cor tivesse selecionado,
+coloca essa cor,
+se for tal cor,
+coloca essa cor,
+se for tal cor,
+coloca essa cor,
+só pra gente facilitar,
+então agora,
+se a gente testar,
+se a gente for lá no nosso quiz,
+ó,
+a gente vai colocar o seguinte,
+a gente vai colocar,
+e,
+ah,
+essa answer question,
+vamos colocar outras answer questions aqui,
+ó,
+coloca 4 em seu quest,
+a gente vai colocar aqui,
+a,
+só que a gente vai colocar aqui,
+a vertical,
+aqui do padding,
+é,
+a gente vai colocar o seguinte,
+a gente vai colocar simétrico,
+vai colocar a horizontal 16,
+horizontal 16,
+só que a gente vai colocar a vertical com 4,
+porque 4 mais 4 fica 8,
+aí o espaçamento,
+ele fica bem mais próximo do below fig,
+e assim fica melhor,
+então aqui,
+se a gente for no nosso quiz,
+o,
+nosso widget aqui,
+ó,
+a gente vai ver o seguinte,
+se a gente colocar,
+é,
+se tiver selecionado,
+deixa eu ver aqui,
+ó,
+vou colocar aqui,
+tá,
+is right,
+se ela tá correta,
+e se ela tiver selecionada,
+olha como é que vai ficar,
+ó,
+ele vai ficar todo verde,
+se ela tá selecionada,
+ela for falsa,
+ela vai ficar,
+ela vai ficar vermelho,
+o componente,
+então vamos lá,
+vamos colocar pronto,
+então show,
+aqui a gente já fez toda a estruturação,
+então assim galera,
+a gente já tem toda a estruturação do nosso componente,
+a forma que ele vai se comportar,
+né,
+e baseado no true e falso ali,
+a gente só deu um pulinho do gato ali,
+que eu facilitei com vocês,
+com as questões ali,
+das validações,
+então se eu deixei o código ali,
+já,
+já estruturado,
+porque foram as validações que levam um pouquinho de tempo,
+a gente pode acelerar isso aí,
+que é só para configurações de temas ali,
+né,
+então aqui a gente já tem toda essa estruturação,
+que a gente já pode utilizar,
+então aqui é o seguinte,
+a gente,
+vamos lá no nosso Notion,
+para ver o que a gente validou,
+a gente validou aqui,
+o Quiz Widget,
+o Answer Widget,
+e a gente validou esses dois,
+a gente não criou o Criar Button,
+o Feedback,
+e o Result Page,
+então esses três aqui,
+a gente vai deixar para a próxima aula,
+ele vai ficar,
+então já ficou um spoiler,
+do que a gente vai ter na próxima aula,
+só que tem umas coisas agora,
+que na próxima aula vai entrar,
+que vai ser a questão da gerência de estado,
+então agora a gente não vai ficar,
+a gente vai ficar só ali,
+a questão de colocar os True e False,
+então assim,
+vai ter alguns,
+já tem alguns spoilers aqui,
+e tem uma questão que a gente vai fazer,
+que a gente,
+eu falei que a gente ia fazer nessa aula,
+mas eu deixei,
+para a gente fazer na próxima aula,
+porque como vai entrar a questão da gerência de estado,
+a gente pode entrar com um pouco também,
+de animações,
+beleza?
+então vamos fazer o recap da aula de hoje,
+para a gente finalizar,
+então a aula de hoje,
+o que a gente fez,
+a gente criou muitas coisas,
+a gente criou o Level Butter,
+criamos aqui o Quiz Card,
+fizemos a utilização aqui do List View,
+criamos aqui o Challenge Page,
+e criamos também aqui o Quiz Widget,
+e aí foi legal que a gente viu,
+a questão das listas,
+o que a gente pode fazer,
+a gente viu problemas no meio do Code,
+como que a gente pode resolver alguns problemas,
+problemas de overflow,
+que é muito comum no desenvolvimento,
+aqui no Flutter,
+a gente tem,
+é muito comum,
+a gente tem problemas com o overflow,
+agora,
+outra coisa também,
+aqui muito interessante,
+da gente avaliar,
+foi todo esse contexto,
+porque a gente também passou pelo momento,
+do desenvolvimento comum,
+de dar problemas,
+então a gente teve problemas,
+que a gente teve que resolver,
+no meio do processo de desenvolvimento,
+então,
+o que veremos amanhã,
+vai ser a questão de finalizar,
+essas telas,
+mas,
+vai entrar junto com a gerência de estado,
+então a gente vai começar já,
+a se comportar com essas telas,
+e também a gente vai ver,
+também de onde,
+a gente vai buscar essas informações,
+então a gente tem que entender,
+de onde que vai ver essas informações,
+ali da Home,
+então a gente criou essas telas aqui,
+que elas vão ser muito importantes,
+para a gente dar o prosseguimento,
+a gente viu várias coisas aqui,
+de layout,
+que é interessante,
+para a gente fazer,
+o nosso processo aqui,
+de utilização,
+então,
+é o seguinte,
+isso,
+ah,
+falta uma coisa muito interessante,
+que eu não posso esquecer,
+de falar para vocês,
+que é,
+é o que veremos amanhã,
+da questão da aula,
+e aqui,
+a gente tem um código,
+para participar do desafio,
+que é muito importante,
+que é o processo,
+para vocês conseguirem,
+adquirir os bins,
+que foi o que a gente comentou,
+na aula passada,
+então,
+independente da missão,
+o objetivo é o mesmo,
+a gente avançar,
+para o próximo nível,
+buscando,
+buscamos evoluir sempre,
+então,
+dessa forma,
+não existe limite,
+para o que podemos construir,
+transformar,
+através das nossas linhas de código,
+então,
+fica aí,
+o pensamento para a gente,
+que as linhas de código,
+é algo que a gente pode criar,
+e fazer,
+impactar muito as vidas das pessoas,
+então,
+e é isso que a gente está fazendo aqui,
+nessa NLW,
+impactando a vida,
+de pessoas,
+que é a gente,
+que está aqui,
+nós dois,
+nós dois aqui,
+que estão se interagindo,
+você que está do lado,
+do lado da câmera aí,
+que está aprendendo o Flutter,
+que está criando aqui,
+junto comigo,
+esse desafio,
+eu estou curtindo muito,
+fazer esse processo,
+está sendo muito legal,
+criar esse desafio aqui,
+para vocês,
+outra coisa também,
+é a questão lá do Discord,
+tem a sala própria lá,
+que a gente separou,
+para vocês se interagirem,
+com a gente,
+então,
+vai ter a sala lá,
+bem legal,
+para vocês interagirem,
+com a gente,
+a sala de número,
+número 1,
+aula 1,
+aula 2,
+para vocês interagirem,
+tirarem as suas dúvidas,
+e,
+muito importante também,
+galerinha,
+deixar lá,
+os seus feedbacks,
+lá nessa,
+nesse chat,
+lá da,
+aqui da Rocket,
+para a gente,
+ir sempre melhorando,
+as nossas aulas,
+a gente sempre evoluindo,
+sempre evoluindo,
+a gente,
+está em constante aprendizado,
+né,
+então,
+muito obrigado,
+e até amanhã,
+na aula de número 3,
+valeu galerinha,
+a gente,
+que está aqui,
+nós dois,
+nós dois aqui,
+que estão se interagindo,
+você que está do lado,
+do lado da câmera aí,
+que está aprendendo o Flutter,
+que está criando aqui,
+junto comigo,
+esse desafio,
+eu estou curtindo muito,
+fazer esse processo,
+está sendo muito legal,
+criar esse desafio aqui,
+para vocês,
+outra coisa também,
+é a questão lá do Discord,
+tem a sala própria lá,
+que a gente separou,
+para vocês se interagirem,
+com a gente,
+então,
+vai ter a sala lá,
+bem legal,
+para vocês interagirem,
+com a gente,
+a sala de número 1,
+aula 1,
+aula 2,
+para vocês interagirem,
+tirarem as suas dúvidas,
+e,
+muito importante também,
+galerinha,
+deixar lá,
+os seus feedbacks,
+lá,
+nesse chat,
+lá,
+aqui da Rocket,
+para a gente,
+ir sempre melhorando,
+nas nossas aulas,
+a gente sempre evoluindo,
+sempre evoluindo,
+a gente,
+está em constante aprendizado,
+então,
+muito obrigado,
+e até amanhã,
+na aula de número 3,
+valeu galerinha!
